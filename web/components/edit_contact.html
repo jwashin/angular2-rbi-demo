@@ -31,32 +31,42 @@
                for="phone">Phone</label>
       </div>
       <div>
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect radio-space"
-               for="family">
-          <input value="family" name="contactType" id="family"
-                 [checked]="contact.contactType=='family'"
-                 (click)="contact.contactType='family'"
-                 type="radio" class="mdl-radio__button">
-          <span class="mdl-radio__label">Family</span>
-        </label>
+        <button id="family"
+                (click)="contact.contactType = 'family'"
+                [ngClass]="{'button-selected':contact.contactType == 'family'}"
+                class="mdl-button mdl-js-button mdl-button--raised contact-type-button">
+          <i *ngIf="contact.contactType == 'family'"
+             class="material-icons align-left">check</i>
+          <i *ngIf="contact.contactType != 'family'"
+             class="material-icons align-left">clear</i>
+          Family
+        </button>
         <br>
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect radio-space"
-               for="friend">
-          <input value="family" name="contactType" id="friend"
-                 [checked]="contact.contactType=='friend'"
-                 (click)="contact.contactType='friend'"
-                 type="radio" class="mdl-radio__button">
-          <span class="mdl-radio__label">Friend</span>
-        </label>
+
+        <button id="friend"
+                (click)="contact.contactType = 'friend'"
+                [ngClass]="{'button-selected':contact.contactType == 'friend'}"
+                class="mdl-button mdl-js-button mdl-button--raised contact-type-button">
+          <i *ngIf="contact.contactType == 'friend'"
+             class="material-icons align-left">check</i>
+          <i *ngIf="contact.contactType != 'friend'"
+             class="material-icons align-left">clear</i>
+          Friend
+        </button>
+
+
         <br>
-        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect radio-space"
-               for="work">
-          <input value="work" name="contactType" id="work"
-                 [checked]="contact.contactType=='work'"
-                 (click)="contact.contactType='work'"
-                 type="radio" class="mdl-radio__button">
-          <span class="mdl-radio__label">Work</span>
-        </label>
+        <button id="work"
+                class="mdl-button mdl-js-button mdl-button--raised contact-type-button"
+                [ngClass]="{'button-selected':contact.contactType == 'work'}"
+                (click)="contact.contactType = 'work'">
+          <i *ngIf="contact.contactType == 'work'"
+             class="material-icons align-left">check</i>
+          <i *ngIf="contact.contactType != 'work'"
+             class="material-icons align-left">clear</i>
+          Work
+        </button>
+
       </div>
     </div>
   </form>

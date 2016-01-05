@@ -13,7 +13,7 @@ const String IS_DIRTY = 'is-dirty';
       CORE_DIRECTIVES,
       FORM_DIRECTIVES,
       MaterialTextfield,
-      MaterialRadio
+      MaterialButton
     ])
 class EditContact implements AfterContentChecked {
   Contacts contacts;
@@ -24,7 +24,9 @@ class EditContact implements AfterContentChecked {
   EditContact(this.contacts, this.params, this.router) {
     if (params.get('uuid') != '') {
       uuid = params.get('uuid');
-      contact = contacts.contactFromUuid(uuid);
+      Contact oldContact = contacts.contactFromUuid(uuid);
+      contact = new Contact(oldContact.last, oldContact.first, oldContact.phone,
+          oldContact.contactType, oldContact.uuid);
     } else {
       contact = new Contact('', '', '', '', '');
     }
@@ -36,9 +38,9 @@ class EditContact implements AfterContentChecked {
     // don't appear to know their values.
 
     if (uuid != '') {
-      String selector = '#${contact.contactType}';
-      InputElement radio1 = querySelector(selector);
-      radio1.click();
+//      String selector = '#${contact.contactType}';
+//      InputElement radio1 = querySelector(selector);
+//      radio1.click();
       List<Element> textfields = querySelectorAll('.mdl-js-textfield');
       for (DivElement k in textfields) {
         if (k.firstChild.text != null && k.firstChild.text.length > 0) {

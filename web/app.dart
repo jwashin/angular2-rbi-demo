@@ -8,7 +8,6 @@ import 'components/delete_confirm.dart';
 import 'components/edit_contact.dart';
 import 'package:angular2_rbi/directives.dart';
 import 'dart:html';
-import 'dart:math';
 import 'dart:convert';
 import 'dart:async';
 
@@ -17,17 +16,6 @@ import 'dart:async';
 const String IS_DRAWER_OPEN = 'is-visible';
 const String OBFUSCATOR = 'mdl-layout__obfuscator';
 const String DRAWER = 'mdl-layout__drawer';
-
-// just for the example data
-Random rnd = new Random();
-
-randomPhoneNumber() {
-  List s = [];
-  while (s.length < 10) {
-    s.add(rnd.nextInt(9).toString());
-  }
-  return s.join('');
-}
 
 @Component(selector: 'app')
 @RouteConfig(const [
@@ -105,6 +93,7 @@ class App {
   App(this.router, this.contacts) {}
 
   toggleDrawer() {
+    // make the drawer go away when a link is clicked.
     // These elements are dynamically generated for MDL. The constants are
     // found in in angular2_rbi/src/material_layout.dart.
     Element drawer = querySelector('.$DRAWER');
@@ -131,7 +120,6 @@ class App {
             item['contactType'], item['uuid']);
       }
       //refresh page with the new data
-
       router.navigate([
         'Default',
         {'filter': ''}

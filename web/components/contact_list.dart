@@ -14,14 +14,16 @@ class ContactList {
   String filter = '';
   RouteParams params;
   List contacts;
+  Router router;
 
 // icons: home face work
 
-  ContactList(this.data, this.params) {
+  ContactList(this.data, this.params, this.router) {
     if (params.get('filter') != null) {
       filter = params.get('filter');
     }
     contacts = data.filteredContacts(filter);
+    data.currentFilter = filter;
   }
 
   phoneDisplay(String aString) {
@@ -36,6 +38,10 @@ class ContactList {
 
   addContact(last, first, String phone) {
     data.addContact(last, first, phone);
+  }
+
+  deleteItem(uuid){
+    router.navigate(['Delete',{'uuid':uuid}]);
   }
 
 //  removeContact(contact) => contacts.removeContact(contact);

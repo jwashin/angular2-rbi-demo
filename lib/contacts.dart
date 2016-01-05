@@ -10,6 +10,8 @@ class Contacts {
   List<Contact> contacts = [];
   List types = ['family', 'friend', 'work'];
   get length => contacts.length;
+  String currentFilter;
+  bool loading = false;
 
   addContact(String last, String first, String phone, [String contactType, String uuid]) {
     if (uuid == null) {

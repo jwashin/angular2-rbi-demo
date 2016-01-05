@@ -22,15 +22,10 @@ const String DRAWER = 'mdl-layout__drawer';
   const Route(path: '/:filter', component: ContactList, name: 'Default'),
   const Route(path: '/json', component: JsonExport, name: 'Json'),
   const Route(path: '/delete:uuid', component: DeleteConfirm, name: 'Delete'),
-  const Route(path: '/edit:uuid', component: EditContact, name: 'Edit'),
-
-//  const Route(path: '/edit:uuid', component: EditContact, name: 'Edit'),
-//  const Route(path: '/family:filter', component: ContactList, name: 'Family'),
-//  const Route(path: '/friends:filter', component: ContactList, name: 'Friends'),
-//  const Route(path: '/work:filter', component: ContactList, name: 'Work')
+  const Route(path: '/edit:uuid', component: EditContact, name: 'Edit')
 ])
 @View(
-    template: '''<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    template: '''<div class="mdl-layout mdl-js-layout">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
@@ -122,7 +117,7 @@ class App {
       //refresh page with the new data
       router.navigate([
         'Default',
-        {'filter': ''}
+        {'filter': contacts.currentFilter}
       ]);
       loading = false;
     });

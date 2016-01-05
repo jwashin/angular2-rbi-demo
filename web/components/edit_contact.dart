@@ -28,7 +28,7 @@ class EditContact implements AfterContentChecked {
       contact = new Contact(oldContact.last, oldContact.first, oldContact.phone,
           oldContact.contactType, oldContact.uuid);
     } else {
-      contact = new Contact('', '', '', '', '');
+      contact = new Contact('', '', '', 'friend', '');
     }
   }
 
@@ -38,11 +38,8 @@ class EditContact implements AfterContentChecked {
     // don't appear to know their values.
 
     if (uuid != '') {
-//      String selector = '#${contact.contactType}';
-//      InputElement radio1 = querySelector(selector);
-//      radio1.click();
       List<Element> textfields = querySelectorAll('.mdl-js-textfield');
-      for (DivElement k in textfields) {
+      for (Element k in textfields) {
         if (k.firstChild.text != null && k.firstChild.text.length > 0) {
           k.classes.add(IS_DIRTY);
         }

@@ -34,7 +34,7 @@
         <button id="family"
                 (click)="contact.contactType = 'family'"
                 [ngClass]="{'button-selected':contact.contactType == 'family'}"
-                class="mdl-button mdl-js-button mdl-button--raised contact-type-button">
+                class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect">
           <i *ngIf="contact.contactType == 'family'"
              class="material-icons align-left">check</i>
           <i *ngIf="contact.contactType != 'family'"
@@ -46,7 +46,7 @@
         <button id="friend"
                 (click)="contact.contactType = 'friend'"
                 [ngClass]="{'button-selected':contact.contactType == 'friend'}"
-                class="mdl-button mdl-js-button mdl-button--raised contact-type-button">
+                class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect">
           <i *ngIf="contact.contactType == 'friend'"
              class="material-icons align-left">check</i>
           <i *ngIf="contact.contactType != 'friend'"
@@ -57,7 +57,7 @@
 
         <br>
         <button id="work"
-                class="mdl-button mdl-js-button mdl-button--raised contact-type-button"
+                class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect"
                 [ngClass]="{'button-selected':contact.contactType == 'work'}"
                 (click)="contact.contactType = 'work'">
           <i *ngIf="contact.contactType == 'work'"

@@ -1,0 +1,30 @@
+.edit-button{
+    position:fixed;
+    bottom: 45px;
+    right: 24px;
+    z-index: 3;
+}
+.wide-card{
+    width:95%;
+    margin:1em;
+}
+
+.menu-text{
+    color: black;
+    /*font-weight: bold;*/
+}
+
+.disabled-text{
+    color:grey;
+    font-style: italic;
+}
+
+.phone{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.phone-number{
+    font-weight: bold;
+    font-size: larger;
+}

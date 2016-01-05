@@ -1,1 +1,3 @@
+I started this with an Angular2 and Dart Contacts App, though there's not much left of it.
+
 Copyright (c) 2015 ng2-dart-samples

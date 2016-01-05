@@ -1,0 +1,90 @@
+<div class=" mdl-card mdl-shadow--2dp wide-card">
+  <div class="mdl-card__title">
+    <p *ngIf="uuid != ''" class="mdl-card__title-text">Editing</p>
+    <p *ngIf="uuid == ''" class="mdl-card__title-text">New contact</p>
+  </div>
+  <form>
+    <div class="mdl-card__supporting-text">
+      <div
+          class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" id="first"
+               [(ngModel)]="contact.first"
+               type="text">
+        <label class="mdl-textfield__label" for="first">First
+          name</label>
+      </div>
+      <br>
+      <div
+          class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" id="last" [(ngModel)]="contact.last"
+               type="text">
+        <label class="mdl-textfield__label form-control" for="last">Last
+          name</label>
+      </div>
+      <br>
+      <div
+          class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" pattern="[0-9]*"
+               id="phone" [(ngModel)]="contact.phone"
+               type="text" maxlength="10">
+        <label class="mdl-textfield__label form-control"
+               for="phone">Phone</label>
+      </div>
+      <div>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect radio-space"
+               for="family">
+          <input value="family" name="contactType" id="family"
+                 [checked]="contact.contactType=='family'"
+                 (click)="contact.contactType='family'"
+                 type="radio" class="mdl-radio__button">
+          <span class="mdl-radio__label">Family</span>
+        </label>
+        <br>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect radio-space"
+               for="friend">
+          <input value="family" name="contactType" id="friend"
+                 [checked]="contact.contactType=='friend'"
+                 (click)="contact.contactType='friend'"
+                 type="radio" class="mdl-radio__button">
+          <span class="mdl-radio__label">Friend</span>
+        </label>
+        <br>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect radio-space"
+               for="work">
+          <input value="work" name="contactType" id="work"
+                 [checked]="contact.contactType=='work'"
+                 (click)="contact.contactType='work'"
+                 type="radio" class="mdl-radio__button">
+          <span class="mdl-radio__label">Work</span>
+        </label>
+      </div>
+    </div>
+  </form>
+  <div class="mdl-card__actions mdl-card--border">
+    <button (click)="saveItem()"
+            class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Save
+    </button>
+    <button (click)="cancel()"
+            class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Cancel
+    </button>
+  </div>
+</div>
+<div class="wide-card mdl-card mdl-shadow--4dp"
+     [ngClass]="{'mdl-color--red-100':contact.contactType=='friend',
+                   'mdl-color--blue-100':contact.contactType=='family',
+                   'mdl-color--yellow-100':contact.contactType=='work'}">
+  preview
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">
+      <i *ngIf="contact.contactType=='friend'" class="material-icons">face</i>
+      <i *ngIf="contact.contactType=='family'" class="material-icons">home</i>
+      <i *ngIf="contact.contactType=='work'" class="material-icons">work</i>
+
+      {{contact.first}} {{contact.last}}</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <span class="phone">Phone: </span> <span class="phone-number">{{phoneDisplay(contact.phone)}}</span>
+  </div>
+</div>

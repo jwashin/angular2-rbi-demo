@@ -22,7 +22,7 @@
         Delete
       </button>
 
-      <button (click)="editItem(contact.uuid)" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <button (click)="editContact(contact.uuid)" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
         edit
       </button>
 
@@ -31,6 +31,6 @@
 </div>
 <button
     class="edit-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--fab mdl-button--colored"
-    (click)="removeContact(contact)">
+    (click)="editContact('')">
   <i class="material-icons">person_add</i>
 </button>

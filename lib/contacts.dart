@@ -14,16 +14,22 @@ class Contacts {
   bool loading = false;
 
   addContact(String last, String first, String phone, [String contactType, String uuid]) {
-    if (uuid == null) {
+    if (uuid == null || uuid == '') {
       uuid = uuidGenerator.v4();
     }
-    if (contactType == null){
+    if (contactType == null || contactType == ''){
       contactType = 'friend';
     }
     contacts.add(new Contact(last, first, phone, contactType, uuid));
     contacts.sort((a, b) {
       return (a.last + a.first).compareTo(b.last + b.first);
     });
+  }
+
+  updateContact(aContact){
+    Contact oldContact = contactFromUuid(aContact.uuid);
+    int idx = contacts.indexOf(oldContact);
+    contacts[idx] = aContact;
   }
 
   removeContact(contact) => contacts.remove(contact);
@@ -54,7 +60,7 @@ class Contact {
 
   String get descr => ' ' + phone;
 
-  Contact(this.last, this.first, this.phone, [this.contactType, this.uuid]);
+  Contact(this.last, this.first, this.phone, this.contactType, this.uuid);
 
   toJson() => {
         'uuid': uuid,

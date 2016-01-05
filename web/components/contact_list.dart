@@ -36,6 +36,10 @@ class ContactList {
     return '($a) $b-$c';
   }
 
+  editContact(uuid){
+    router.navigate(['Edit', {'uuid':uuid}]);
+  }
+
   addContact(last, first, String phone) {
     data.addContact(last, first, phone);
   }

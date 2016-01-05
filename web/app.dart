@@ -5,6 +5,7 @@ import 'package:contact-list/contacts.dart';
 import 'components/contact_list.dart';
 import 'components/json_export.dart';
 import 'components/delete_confirm.dart';
+import 'components/edit_contact.dart';
 import 'package:angular2_rbi/directives.dart';
 import 'dart:html';
 import 'dart:math';
@@ -33,6 +34,8 @@ randomPhoneNumber() {
   const Route(path: '/:filter', component: ContactList, name: 'Default'),
   const Route(path: '/json', component: JsonExport, name: 'Json'),
   const Route(path: '/delete:uuid', component: DeleteConfirm, name: 'Delete'),
+  const Route(path: '/edit:uuid', component: EditContact, name: 'Edit'),
+
 //  const Route(path: '/edit:uuid', component: EditContact, name: 'Edit'),
 //  const Route(path: '/family:filter', component: ContactList, name: 'Family'),
 //  const Route(path: '/friends:filter', component: ContactList, name: 'Friends'),

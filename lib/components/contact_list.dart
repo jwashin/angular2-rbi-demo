@@ -10,11 +10,11 @@ import 'package:angular2_rbi/directives.dart';
     templateUrl: 'contact_list.html',
     directives: const [CORE_DIRECTIVES, MaterialButton])
 class ContactList {
-  Contacts data;
+  final Contacts data;
+  final RouteParams params;
+  final Router router;
   String filter = '';
-  RouteParams params;
   List contacts;
-  Router router;
 
   ContactList(this.data, this.params, this.router) {
     if (params.get('filter') != null) {
@@ -24,7 +24,7 @@ class ContactList {
     data.currentFilter = filter;
   }
 
-  phoneDisplay(String aString) {
+  String phoneDisplay(String aString) {
     if (aString.length != 10) {
       return aString;
     }
@@ -34,18 +34,18 @@ class ContactList {
     return '($a) $b-$c';
   }
 
-  editContact(uuid) {
+  void editContact(String uuid) {
     router.navigate([
       'Edit',
       {'uuid': uuid}
     ]);
   }
 
-  addContact(last, first, String phone) {
+  void addContact(String last, String first, String phone) {
     data.addContact(last, first, phone);
   }
 
-  deleteItem(uuid) {
+  void deleteItem(String uuid) {
     router.navigate([
       'Delete',
       {'uuid': uuid}

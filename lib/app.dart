@@ -84,9 +84,11 @@ class App {
   Contacts contacts;
   bool examplesLoaded = false;
   bool loading = false;
-  App(this.router, this.contacts) {}
+  App(this.router, this.contacts) {
+    loadExampleData();
+  }
 
-  toggleDrawer() {
+  void toggleDrawer() {
     // make the drawer go away when a link is clicked.
     // These elements are dynamically generated for MDL. The constants are
     // found in in angular2_rbi/src/material_layout.dart.
@@ -96,11 +98,11 @@ class App {
     obfuscator.classes.toggle(IS_DRAWER_OPEN);
   }
 
-  exportJson() {
+  void exportJson() {
     router.navigate(['Json']);
   }
 
-  loadExampleData() async {
+  Future loadExampleData() async {
     loading = true;
     String data = await HttpRequest.getString('contacts.json');
 

@@ -2,7 +2,7 @@ library contact_list.components.delete_confirm;
 
 import 'package:angular2/angular2.dart';
 import 'package:angular2/router.dart';
-import 'package:contact-list/contacts.dart';
+import 'package:contact_list/contacts.dart';
 
 @Component(selector: 'delete-confirm')
 @View(templateUrl: 'delete_confirm.html', directives: const [CORE_DIRECTIVES])

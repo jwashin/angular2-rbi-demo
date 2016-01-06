@@ -14,17 +14,17 @@ const String IS_DIRTY = 'is-dirty';
   MaterialButton
 ])
 class EditContact implements AfterContentChecked {
-  final Contacts contacts;
-  final RouteParams params;
-  final Router router;
-
   Contact contact;
   String uuid = '';
 
-  EditContact(this.contacts, this.params, this.router) {
-    if (params.get('uuid') != '') {
-      uuid = params.get('uuid');
-      Contact oldContact = contacts.contactFromUuid(uuid);
+  final Contacts _contacts;
+  final RouteParams _params;
+  final Router _router;
+
+  EditContact(this._contacts, this._params, this._router) {
+    if (_params.get('uuid').isNotEmpty) {
+      uuid = _params.get('uuid');
+      Contact oldContact = _contacts.contactFromUuid(uuid);
       contact = new Contact(oldContact.last, oldContact.first, oldContact.phone,
           oldContact.contactType, oldContact.uuid);
     } else {
@@ -38,8 +38,8 @@ class EditContact implements AfterContentChecked {
     // don't appear to know their values.
 
     if (uuid != '') {
-      List<Element> textfields = querySelectorAll('.mdl-js-textfield');
-      for (Element k in textfields) {
+      List<Element> textFields = querySelectorAll('.mdl-js-textfield');
+      for (Element k in textFields) {
         if (k.firstChild.text != null && k.firstChild.text.length > 0) {
           k.classes.add(IS_DIRTY);
         }
@@ -59,18 +59,18 @@ class EditContact implements AfterContentChecked {
 
   void saveItem() {
     if (uuid == '') {
-      contacts.addContact(
+      _contacts.addContact(
           contact.last, contact.first, contact.phone, contact.contactType);
     } else {
-      contacts.updateContact(contact);
+      _contacts.updateContact(contact);
     }
     navigateOut();
   }
 
   void navigateOut() {
-    router.navigate([
+    _router.navigate([
       'Default',
-      {'filter': contacts.currentFilter}
+      {'filter': _contacts.currentFilter}
     ]);
   }
 

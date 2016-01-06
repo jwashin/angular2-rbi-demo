@@ -7,10 +7,12 @@ final Uuid uuidGenerator = new Uuid();
 
 @Injectable()
 class Contacts {
+
   List<Contact> contacts = [];
-  List<String> types = ['family', 'friend', 'work'];
   int get length => contacts.length;
   String currentFilter;
+
+  final List<String> _types = ['family', 'friend', 'work'];
 
   void addContact(String last, String first, String phone,
       [String contactType, String uuid]) {
@@ -49,7 +51,7 @@ class Contacts {
   }
 
   List<Contact> filteredContacts(String aFilter) {
-    if (!types.contains(aFilter)) return contacts;
+    if (!_types.contains(aFilter)) return contacts;
     return contacts.where((c) {
       return c.contactType == aFilter;
     }).toList();

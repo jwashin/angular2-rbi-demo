@@ -80,11 +80,13 @@ const String DRAWER = 'mdl-layout__drawer';
       NgIf
     ])
 class App {
-  Router router;
-  Contacts contacts;
   bool examplesLoaded = false;
   bool loading = false;
-  App(this.router, this.contacts) {
+
+  final Router _router;
+  final Contacts _contacts;
+
+  App(this._router, this._contacts) {
     loadExampleData();
   }
 
@@ -99,7 +101,7 @@ class App {
   }
 
   void exportJson() {
-    router.navigate(['Json']);
+    _router.navigate(['Json']);
   }
 
   Future loadExampleData() async {
@@ -112,13 +114,13 @@ class App {
       examplesLoaded = true;
 
       for (Map item in exampleData) {
-        contacts.addContact(item['last'], item['first'], item['phone'],
+        _contacts.addContact(item['last'], item['first'], item['phone'],
             item['contactType'], item['uuid']);
       }
       //refresh page with the new data
-      router.navigate([
+      _router.navigate([
         'Default',
-        {'filter': contacts.currentFilter}
+        {'filter': _contacts.currentFilter}
       ]);
       loading = false;
     });

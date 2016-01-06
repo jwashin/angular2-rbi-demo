@@ -47,7 +47,7 @@ class EditContact implements AfterContentChecked {
     if (uuid.isNotEmpty) {
       List<Element> textFields = querySelectorAll('.mdl-js-textfield');
       for (Element k in textFields) {
-        if (k.firstChild.text.isNotEmpty && k.firstChild.text.length > 0) {
+        if (k.firstChild.text.isNotEmpty) {
           k.classes.add(IS_DIRTY);
         }
       }

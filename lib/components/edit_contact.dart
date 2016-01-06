@@ -32,7 +32,7 @@ class EditContact implements AfterContentChecked {
     }
   }
 
-  ngAfterContentChecked() {
+  void ngAfterContentChecked() {
     // hacky stuff to make form elements look right
     // looks like MDL widgets get values after they are initialized, so they
     // don't appear to know their values.
@@ -47,7 +47,7 @@ class EditContact implements AfterContentChecked {
     }
   }
 
-  phoneDisplay(String aString) {
+  String phoneDisplay(String aString) {
     if (aString.length != 10) {
       aString = aString.padRight(10);
     }
@@ -57,7 +57,7 @@ class EditContact implements AfterContentChecked {
     return '($a) $b-$c';
   }
 
-  saveItem() {
+  void saveItem() {
     if (uuid == '') {
       contacts.addContact(
           contact.last, contact.first, contact.phone, contact.contactType);
@@ -67,14 +67,14 @@ class EditContact implements AfterContentChecked {
     navigateOut();
   }
 
-  navigateOut() {
+  void navigateOut() {
     router.navigate([
       'Default',
       {'filter': contacts.currentFilter}
     ]);
   }
 
-  cancel() {
+  void cancel() {
     navigateOut();
   }
 }

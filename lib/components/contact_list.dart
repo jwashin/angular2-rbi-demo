@@ -24,7 +24,7 @@ class ContactList {
     data.currentFilter = filter;
   }
 
-  phoneDisplay(String aString) {
+  String phoneDisplay(String aString) {
     if (aString.length != 10) {
       return aString;
     }
@@ -34,18 +34,18 @@ class ContactList {
     return '($a) $b-$c';
   }
 
-  editContact(uuid) {
+  void editContact(String uuid) {
     router.navigate([
       'Edit',
       {'uuid': uuid}
     ]);
   }
 
-  addContact(last, first, String phone) {
+  void addContact(String last, String first, String phone) {
     data.addContact(last, first, phone);
   }
 
-  deleteItem(uuid) {
+  void deleteItem(String uuid) {
     router.navigate([
       'Delete',
       {'uuid': uuid}

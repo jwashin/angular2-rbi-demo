@@ -8,11 +8,11 @@ Uuid uuidGenerator = new Uuid();
 @Injectable()
 class Contacts {
   List<Contact> contacts = [];
-  List types = ['family', 'friend', 'work'];
-  get length => contacts.length;
+  List<String> types = ['family', 'friend', 'work'];
+  int get length => contacts.length;
   String currentFilter;
 
-  addContact(String last, String first, String phone,
+  void addContact(String last, String first, String phone,
       [String contactType, String uuid]) {
     if (uuid == null || uuid == '') {
       uuid = uuidGenerator.v4();
@@ -24,22 +24,22 @@ class Contacts {
     sortContacts();
   }
 
-  sortContacts() {
+  void sortContacts() {
     contacts.sort((a, b) {
       return (a.last + a.first).compareTo(b.last + b.first);
     });
   }
 
-  updateContact(aContact) {
+  void updateContact(Contact aContact) {
     Contact oldContact = contactFromUuid(aContact.uuid);
     int idx = contacts.indexOf(oldContact);
     contacts[idx] = aContact;
     sortContacts();
   }
 
-  removeContact(contact) => contacts.remove(contact);
+  bool removeContact(Contact contact) => contacts.remove(contact);
 
-  contactFromUuid(uuid) {
+  Contact contactFromUuid(String uuid) {
     for (Contact item in contacts) {
       if (item.uuid == uuid) {
         return item;
@@ -48,14 +48,14 @@ class Contacts {
     return null;
   }
 
-  filteredContacts(aFilter) {
+  List<Contact> filteredContacts(String aFilter) {
     if (!types.contains(aFilter)) return contacts;
     return contacts.where((c) {
       return c.contactType == aFilter;
     }).toList();
   }
 
-  toJson() {
+  List<Contact> toJson() {
     return contacts;
   }
 }
@@ -65,7 +65,7 @@ class Contact {
 
   Contact(this.last, this.first, this.phone, this.contactType, this.uuid);
 
-  toJson() => {
+  Map<String, String> toJson() => {
         'uuid': uuid,
         'last': last,
         'first': first,

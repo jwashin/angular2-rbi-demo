@@ -14,8 +14,7 @@ import 'dart:convert';
 class JsonExport {
   Contacts data;
 
-  JsonExport(this.data){
-  }
+  JsonExport(this.data);
 
-  asJson(){return JSON.encode(data);}
+  String asJson() => JSON.encode(data);
 }

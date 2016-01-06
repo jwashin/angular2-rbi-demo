@@ -16,13 +16,13 @@ class DeleteConfirm {
       contact = contacts.contactFromUuid(params.get('uuid'));
     }
   }
-  deleteItem(uuid){
-    if (contact !=null)
+  void deleteItem(String uuid){
+    if (contact != null)
     contacts.removeContact(contact);
     router.navigate(['Default',{'filter':contacts.currentFilter}]);
   }
 
-  cancel(){
+  void cancel(){
     router.navigate(['Default',{'filter':contacts.currentFilter}]);
   }
 

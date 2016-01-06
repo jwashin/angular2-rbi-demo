@@ -41,12 +41,7 @@ class Contacts {
   bool removeContact(Contact contact) => contacts.remove(contact);
 
   Contact contactFromUuid(String uuid) {
-    for (Contact item in contacts) {
-      if (item.uuid == uuid) {
-        return item;
-      }
-    }
-    return null;
+    return contacts.firstWhere((c) => c.uuid == uuid, orElse: () => null);
   }
 
   List<Contact> filteredContacts(String aFilter) {
@@ -56,9 +51,7 @@ class Contacts {
     }).toList();
   }
 
-  List<Contact> toJson() {
-    return contacts;
-  }
+  List<Contact> toJson() => contacts;
 }
 
 class Contact {

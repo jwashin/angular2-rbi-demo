@@ -1,12 +1,10 @@
 <div *ngFor="#contact of contacts">
 
   <div class="wide-card mdl-card mdl-shadow--4dp"
-       [ngClass]="{'mdl-color--red-100':contact.contactType=='friend',
-                   'mdl-color--blue-100':contact.contactType=='family',
-                   'mdl-color--yellow-100':contact.contactType=='work'}">
+       [class.mdl-color--red-100]="contact.contactType=='friend'"
+       [class.mdl-color--blue-100]="contact.contactType=='family'"
+       [class.mdl-color--yellow-100]="contact.contactType=='work'">
     <div class="mdl-card__title">
-
-
       <h2 class="mdl-card__title-text">
         <i *ngIf="contact.contactType=='friend'" class="material-icons">face</i>
         <i *ngIf="contact.contactType=='family'" class="material-icons">home</i>
@@ -18,11 +16,13 @@
     </div>
     <div class="mdl-card__actions mdl-card--border">
 
-      <button (click)="deleteItem(contact.uuid)" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <button (click)="deleteItem(contact.uuid)"
+              class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
         Delete
       </button>
 
-      <button (click)="editContact(contact.uuid)" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      <button (click)="editContact(contact.uuid)"
+              class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
         edit
       </button>
 

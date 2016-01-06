@@ -33,7 +33,7 @@
       <div>
         <button id="family"
                 (click)="contact.contactType = 'family'"
-                [ngClass]="{'button-selected':contact.contactType == 'family'}"
+                [class.button-selected]="contact.contactType == 'family'"
                 class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect">
           <i *ngIf="contact.contactType == 'family'"
              class="material-icons align-left">check</i>
@@ -45,7 +45,7 @@
 
         <button id="friend"
                 (click)="contact.contactType = 'friend'"
-                [ngClass]="{'button-selected':contact.contactType == 'friend'}"
+                [class.button-selected]="contact.contactType == 'friend'"
                 class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect">
           <i *ngIf="contact.contactType == 'friend'"
              class="material-icons align-left">check</i>
@@ -58,7 +58,7 @@
         <br>
         <button id="work"
                 class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect"
-                [ngClass]="{'button-selected':contact.contactType == 'work'}"
+                [class.button-selected]="contact.contactType == 'work'"
                 (click)="contact.contactType = 'work'">
           <i *ngIf="contact.contactType == 'work'"
              class="material-icons align-left">check</i>
@@ -82,9 +82,10 @@
   </div>
 </div>
 <div class="wide-card mdl-card mdl-shadow--4dp"
-     [ngClass]="{'mdl-color--red-100':contact.contactType=='friend',
-                   'mdl-color--blue-100':contact.contactType=='family',
-                   'mdl-color--yellow-100':contact.contactType=='work'}">
+     [class.mdl-color--red-100]="contact.contactType=='friend'"
+     [class.mdl-color--blue-100]="contact.contactType=='family'"
+     [class.mdl-color--yellow-100]="contact.contactType=='work'"
+>
   preview
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">

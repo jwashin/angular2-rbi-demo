@@ -7,29 +7,30 @@ import 'package:contact_list/services/contacts.dart';
 @Component(selector: 'delete-confirm')
 @View(templateUrl: 'delete_confirm.html', directives: const [CORE_DIRECTIVES])
 class DeleteConfirm {
-  final Contacts contacts;
-  final Router router;
-  final RouteParams params;
   Contact contact;
 
-  DeleteConfirm(this.contacts, this.params, this.router) {
-    if (params.get('uuid') != null) {
-      contact = contacts.contactFromUuid(params.get('uuid'));
+  final Contacts _contacts;
+  final Router _router;
+  final RouteParams _params;
+
+  DeleteConfirm(this._contacts, this._params, this._router) {
+    if (_params.get('uuid') != null) {
+      contact = _contacts.contactFromUuid(_params.get('uuid'));
     }
   }
 
   void deleteItem(String uuid) {
-    if (contact != null) contacts.removeContact(contact);
-    router.navigate([
+    if (contact != null) _contacts.removeContact(contact);
+    _router.navigate([
       'Default',
-      {'filter': contacts.currentFilter}
+      {'filter': _contacts.currentFilter}
     ]);
   }
 
   void cancel() {
-    router.navigate([
+    _router.navigate([
       'Default',
-      {'filter': contacts.currentFilter}
+      {'filter': _contacts.currentFilter}
     ]);
   }
 }

@@ -14,17 +14,17 @@ const String IS_DIRTY = 'is-dirty';
   MaterialButton
 ])
 class EditContact implements AfterContentChecked {
-  final Contacts contacts;
-  final RouteParams params;
-  final Router router;
-
   Contact contact;
   String uuid = '';
 
-  EditContact(this.contacts, this.params, this.router) {
-    if (params.get('uuid').isNotEmpty) {
-      uuid = params.get('uuid');
-      Contact oldContact = contacts.contactFromUuid(uuid);
+  final Contacts _contacts;
+  final RouteParams _params;
+  final Router _router;
+
+  EditContact(this._contacts, this._params, this._router) {
+    if (_params.get('uuid').isNotEmpty) {
+      uuid = _params.get('uuid');
+      Contact oldContact = _contacts.contactFromUuid(uuid);
       contact = new Contact(oldContact.last, oldContact.first, oldContact.phone,
           oldContact.contactType, oldContact.uuid);
     } else {
@@ -59,18 +59,18 @@ class EditContact implements AfterContentChecked {
 
   void saveItem() {
     if (uuid == '') {
-      contacts.addContact(
+      _contacts.addContact(
           contact.last, contact.first, contact.phone, contact.contactType);
     } else {
-      contacts.updateContact(contact);
+      _contacts.updateContact(contact);
     }
     navigateOut();
   }
 
   void navigateOut() {
-    router.navigate([
+    _router.navigate([
       'Default',
-      {'filter': contacts.currentFilter}
+      {'filter': _contacts.currentFilter}
     ]);
   }
 

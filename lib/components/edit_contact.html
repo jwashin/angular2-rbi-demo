@@ -89,10 +89,7 @@
   preview
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">
-      <i *ngIf="contact.contactType=='friend'" class="material-icons">face</i>
-      <i *ngIf="contact.contactType=='family'" class="material-icons">home</i>
-      <i *ngIf="contact.contactType=='work'" class="material-icons">work</i>
-
+      <i class="material-icons">{{contact.iconGlyph}}</i>
       {{contact.first}} {{contact.last}}</h2>
   </div>
   <div class="mdl-card__supporting-text">

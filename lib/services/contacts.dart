@@ -64,8 +64,20 @@ class Contacts {
 class Contact {
   String last, first, phone, contactType;
   final String uuid;
+  final Map iconRepresentations = {
+    'friend': 'face',
+    'work': 'work',
+    'family': 'home'
+  };
 
   Contact(this.last, this.first, this.phone, this.contactType, this.uuid);
+
+  String get iconGlyph {
+    if (iconRepresentations.containsKey(contactType)) {
+      return iconRepresentations[contactType];
+    }
+    return 'insert_emoticon';
+  }
 
   Map<String, String> toJson() => {
         'uuid': uuid,

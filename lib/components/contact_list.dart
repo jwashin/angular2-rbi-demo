@@ -2,7 +2,7 @@ library contact_list.components.contact_list;
 
 import 'package:angular2/angular2.dart';
 import 'package:angular2/router.dart';
-import 'package:contact_list/contacts.dart';
+import 'package:contact_list/services/contacts.dart';
 import 'package:angular2_rbi/directives.dart';
 
 @Component(selector: 'contact-list', inputs: const ['filter'])

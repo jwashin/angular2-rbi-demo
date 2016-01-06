@@ -1,7 +1,6 @@
-import 'package:angular2/bootstrap.dart';
 import 'package:angular2/angular2.dart';
 import 'package:angular2/router.dart';
-import 'package:contact_list/contacts.dart';
+import 'package:contact_list/services/contacts.dart';
 import 'components/contact_list.dart';
 import 'components/json_export.dart';
 import 'components/delete_confirm.dart';

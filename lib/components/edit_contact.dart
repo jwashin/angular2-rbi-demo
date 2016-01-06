@@ -22,7 +22,7 @@ class EditContact implements AfterContentChecked {
   String uuid = '';
 
   EditContact(this.contacts, this.params, this.router) {
-    if (params.get('uuid') != '') {
+    if (params.get('uuid').isNotEmpty) {
       uuid = params.get('uuid');
       Contact oldContact = contacts.contactFromUuid(uuid);
       contact = new Contact(oldContact.last, oldContact.first, oldContact.phone,

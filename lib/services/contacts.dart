@@ -47,9 +47,7 @@ class Contacts {
 
   List<Contact> filteredContacts(String aFilter) {
     if (!_types.contains(aFilter)) return contacts;
-    return contacts.where((c) {
-      return c.contactType == aFilter;
-    }).toList();
+    return contacts.where((c) => c.contactType == aFilter).toList();
   }
 
   List<Contact> toJson() => contacts;

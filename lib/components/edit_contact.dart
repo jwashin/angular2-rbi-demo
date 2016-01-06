@@ -28,7 +28,6 @@ class EditContact implements AfterContentChecked {
     'family': 'home'
   };
 
-
   EditContact(this._contacts, this._params, this._router) {
     if (_params.get('uuid').isNotEmpty) {
       uuid = _params.get('uuid');
@@ -55,8 +54,8 @@ class EditContact implements AfterContentChecked {
     }
   }
 
-  String get iconGlyph{
-    if (iconRepresentations.containsKey(contact.contactType)){
+  String get iconGlyph {
+    if (iconRepresentations.containsKey(contact.contactType)) {
       return iconRepresentations[contact.contactType];
     }
     return 'insert_emoticon';

@@ -123,9 +123,3 @@ class App {
     });
   }
 }
-
-main() => bootstrap(App, [
-      Contacts,
-      ROUTER_PROVIDERS,
-      provide(LocationStrategy, useClass: HashLocationStrategy)
-    ]);

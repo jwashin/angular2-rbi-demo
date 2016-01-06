@@ -11,4 +11,4 @@ dependencies:
   uuid: any
 transformers:
 - angular2:
-    entry_points: web/app.dart
+    entry_points: web/main.dart

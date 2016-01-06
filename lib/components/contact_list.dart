@@ -10,11 +10,11 @@ import 'package:angular2_rbi/directives.dart';
     templateUrl: 'contact_list.html',
     directives: const [CORE_DIRECTIVES, MaterialButton])
 class ContactList {
-  Contacts data;
+  final Contacts data;
+  final RouteParams params;
+  final Router router;
   String filter = '';
-  RouteParams params;
   List contacts;
-  Router router;
 
   ContactList(this.data, this.params, this.router) {
     if (params.get('filter') != null) {

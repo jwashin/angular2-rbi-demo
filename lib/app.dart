@@ -84,7 +84,9 @@ class App {
   Contacts contacts;
   bool examplesLoaded = false;
   bool loading = false;
-  App(this.router, this.contacts);
+  App(this.router, this.contacts) {
+    loadExampleData();
+  }
 
   void toggleDrawer() {
     // make the drawer go away when a link is clicked.

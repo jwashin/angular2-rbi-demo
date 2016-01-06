@@ -3,7 +3,7 @@ library contacts_service;
 import 'package:angular2/angular2.dart';
 import 'package:uuid/uuid.dart';
 
-Uuid uuidGenerator = new Uuid();
+final Uuid uuidGenerator = new Uuid();
 
 @Injectable()
 class Contacts {
@@ -61,7 +61,7 @@ class Contacts {
 }
 
 class Contact {
-  String uuid, last, first, phone, contactType;
+  final String uuid, last, first, phone, contactType;
 
   Contact(this.last, this.first, this.phone, this.contactType, this.uuid);
 

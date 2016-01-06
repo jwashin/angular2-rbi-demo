@@ -16,11 +16,13 @@ const String IS_DIRTY = 'is-dirty';
       MaterialButton
     ])
 class EditContact implements AfterContentChecked {
-  Contacts contacts;
-  Router router;
+  final Contacts contacts;
+  final RouteParams params;
+  final Router router;
+
   Contact contact;
-  RouteParams params;
   String uuid = '';
+
   EditContact(this.contacts, this.params, this.router) {
     if (params.get('uuid') != '') {
       uuid = params.get('uuid');

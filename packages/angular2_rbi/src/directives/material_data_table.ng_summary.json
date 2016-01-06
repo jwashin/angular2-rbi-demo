@@ -1,0 +1,19 @@
+{
+  "ngDeps": {
+    "1": "material_data_table",
+    "3": [
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "material_checkbox.dart",
+        "2": [
+          "CheckboxBehavior"
+        ],
+        "5": false
+      }
+    ],
+    "6": "material_data_table.dart"
+  }
+}

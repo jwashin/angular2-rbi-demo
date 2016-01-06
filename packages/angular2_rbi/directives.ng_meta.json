@@ -1,0 +1,936 @@
+{
+  "ngDeps": {
+    "1": "angular2_rbi_directives",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "src/directives/material_button.dart",
+        "2": [
+          "ButtonBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_checkbox.dart",
+        "2": [
+          "CheckboxBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_data_table.dart",
+        "2": [
+          "DataTableBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_icon_toggle.dart",
+        "2": [
+          "IconToggleBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_layout.dart",
+        "2": [
+          "LayoutBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_menu.dart",
+        "2": [
+          "MenuBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_progress.dart",
+        "2": [
+          "ProgressBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_radio.dart",
+        "2": [
+          "RadioBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_tabs.dart",
+        "2": [
+          "TabsBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_ripple.dart",
+        "2": [
+          "RippleBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_slider.dart",
+        "2": [
+          "SliderBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_spinner.dart",
+        "2": [
+          "SpinnerBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_switch.dart",
+        "2": [
+          "SwitchBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_textfield.dart",
+        "2": [
+          "TextfieldBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_tooltip.dart",
+        "2": [
+          "TooltipBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "src/directives/material_snackbar.dart",
+        "2": [
+          "SnackbarBehavior"
+        ],
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "MaterialButton",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-button'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialCheckbox",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-checkbox'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialDataTable",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-data-table'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialIconToggle",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-icon-toggle'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialLayout",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-layout'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialMenu",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-menu'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialProgress",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-progress'"
+              },
+              {
+                "1": "inputs",
+                "2": "const ['progress', 'buffer']"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialRadio",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-radio'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialRipple",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'mdl-js-ripple-effect'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialSlider",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-slider'"
+              },
+              {
+                "1": "inputs",
+                "2": "const ['min', 'max', 'value', 'step']"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialSpinner",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-spinner'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialSwitch",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-switch'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialTabs",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-tabs'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialTextfield",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-textfield'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialTooltip",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-tooltip'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      },
+      {
+        "1": "MaterialSnackbar",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-js-snackbar'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ]
+      }
+    ],
+    "6": "directives.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "src/directives/material_button.ng_deps.dart",
+        "4": "i1"
+      },
+      {
+        "1": "src/directives/material_checkbox.ng_deps.dart",
+        "4": "i2"
+      },
+      {
+        "1": "src/directives/material_data_table.ng_deps.dart",
+        "4": "i3"
+      },
+      {
+        "1": "src/directives/material_icon_toggle.ng_deps.dart",
+        "4": "i4"
+      },
+      {
+        "1": "src/directives/material_layout.ng_deps.dart",
+        "4": "i5"
+      },
+      {
+        "1": "src/directives/material_menu.ng_deps.dart",
+        "4": "i6"
+      },
+      {
+        "1": "src/directives/material_radio.ng_deps.dart",
+        "4": "i7"
+      },
+      {
+        "1": "src/directives/material_tabs.ng_deps.dart",
+        "4": "i8"
+      },
+      {
+        "1": "src/directives/material_switch.ng_deps.dart",
+        "4": "i9"
+      }
+    ]
+  },
+  "MaterialButton": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-button",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialButton",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialCheckbox": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-checkbox",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialCheckbox",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialDataTable": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-data-table",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialDataTable",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialIconToggle": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-icon-toggle",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialIconToggle",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialLayout": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-layout",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialLayout",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialMenu": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-menu",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialMenu",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialProgress": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-progress",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialProgress",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "progress": "progress",
+        "buffer": "buffer"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialRadio": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-radio",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialRadio",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialRipple": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": "mdl-js-ripple-effect",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialRipple",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialSlider": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-slider",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialSlider",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "min": "min",
+        "max": "max",
+        "value": "value",
+        "step": "step"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialSpinner": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-spinner",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialSpinner",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialSwitch": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-switch",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialSwitch",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialTabs": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-tabs",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialTabs",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialTextfield": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-textfield",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialTextfield",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialTooltip": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-tooltip",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialTooltip",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  },
+  "MaterialSnackbar": {
+    "kind": "type",
+    "value": {
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-js-snackbar",
+      "exportAs": null,
+      "type": {
+        "name": "MaterialSnackbar",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": null
+    }
+  }
+}

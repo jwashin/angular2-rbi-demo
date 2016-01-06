@@ -1,0 +1,34 @@
+<div *ngFor="#contact of contacts">
+
+  <div class="wide-card mdl-card mdl-shadow--4dp"
+       [class.mdl-color--red-100]="contact.contactType=='friend'"
+       [class.mdl-color--blue-100]="contact.contactType=='family'"
+       [class.mdl-color--yellow-100]="contact.contactType=='work'">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">
+        <i class="material-icons">{{iconGlyph(contact)}}</i>
+        {{contact.first}} {{contact.last}}</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+      <span class="phone">Phone: </span> <span class="phone-number">{{phoneDisplay(contact.phone)}}</span>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+
+      <button (click)="deleteItem(contact.uuid)"
+              class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+        Delete
+      </button>
+
+      <button (click)="editContact(contact.uuid)"
+              class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+        edit
+      </button>
+
+    </div>
+  </div>
+</div>
+<button
+    class="edit-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--fab mdl-button--colored"
+    (click)="editContact('')">
+  <i class="material-icons">person_add</i>
+</button>

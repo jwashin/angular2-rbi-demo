@@ -1,0 +1,188 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:contact_list/services/contacts.dart",
+        "5": false
+      },
+      {
+        "1": "components/contact_list.dart",
+        "5": false
+      },
+      {
+        "1": "components/json_export.dart",
+        "5": false
+      },
+      {
+        "1": "components/delete_confirm.dart",
+        "5": false
+      },
+      {
+        "1": "components/edit_contact.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_rbi/directives.dart",
+        "5": false
+      },
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "dart:convert",
+        "5": false
+      },
+      {
+        "1": "dart:async",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "App",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'app'"
+              },
+              {
+                "1": "template",
+                "2": "'''<div class=\"mdl-layout mdl-js-layout\">\n  <header class=\"mdl-layout__header\">\n    <div class=\"mdl-layout__header-row\">\n      <!-- Title -->\n      <span class=\"mdl-layout-title\">Contacts</span>\n      <!-- Add spacer, to align navigation to the right -->\n      <div class=\"mdl-layout-spacer\"></div>\n      <!-- Navigation -->\n      <nav class=\"mdl-navigation\">\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':''}]\">All</a>\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default',{'filter':'family'}]\">Family</a>\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default',{'filter':'friend'}]\">Friends</a>\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default',{'filter':'work'}]\">Work</a>\n      </nav>\n      <button\n          class=\"mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon\"\n          id=\"hdrbtn\">\n        <i class=\"material-icons\">more_vert</i>\n      </button>\n    </div>\n\n  </header>\n  <div class=\"mdl-layout__drawer\">\n    <span class=\"mdl-layout-title\">Contacts</span>\n    <nav class=\"mdl-navigation\" (click)=\"toggleDrawer()\">\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':''}]\">All</a>\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':'family'}]\">Family</a>\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':'friend'}]\">Friends</a>\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':'work'}]\">Work</a>\n    </nav>\n  </div>\n    <ul class=\"mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect\"\n          for=\"hdrbtn\">\n     <!--we use buttons here instead of <li> so disabled works.-->\n     <button class=\"mdl-menu__item\" [disabled]=\"examplesLoaded==true\" href=\"#\" (click)=\"loadExampleData()\">Load example data</button>\n     <button class=\"mdl-menu__item\" href=\"#\" (click)=\"exportJson()\">JSON Export</button>\n  </ul>\n  <main class=\"mdl-layout__content\">\n    <div *ngIf=\"loading\" class=\"spinner\">\n    <div class=\"mdl-spinner mdl-js-spinner is-active\"></div>\n    </div>\n    <div class=\"page-content\"><router-outlet></router-outlet></div>\n  </main>\n</div>\n    '''"
+              },
+              {
+                "1": "directives",
+                "2": "const [ContactList, MaterialButton, MaterialMenu, MaterialLayout, ROUTER_DIRECTIVES, MaterialSpinner, NgIf]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          },
+          {
+            "1": "RouteConfig",
+            "2": [
+              "const [const Route(path: '/:filter', component: ContactList, name: 'Default'), const Route(path: '/json', component: JsonExport, name: 'Json'), const Route(path: '/delete:uuid', component: DeleteConfirm, name: 'Delete'), const Route(path: '/edit:uuid', component: EditContact, name: 'Edit')]"
+            ],
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "Router",
+            "4": "_router"
+          },
+          {
+            "1": "Contacts",
+            "4": "_contacts"
+          }
+        ],
+        "8": [
+          {
+            "2": "ContactList"
+          },
+          {
+            "2": "MaterialButton"
+          },
+          {
+            "2": "MaterialMenu"
+          },
+          {
+            "2": "MaterialLayout"
+          },
+          {
+            "2": "ROUTER_DIRECTIVES"
+          },
+          {
+            "2": "MaterialSpinner"
+          },
+          {
+            "2": "NgIf"
+          }
+        ]
+      }
+    ],
+    "6": "app.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/router.ng_deps.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:contact_list/services/contacts.ng_deps.dart",
+        "4": "i2"
+      },
+      {
+        "1": "components/contact_list.ng_deps.dart",
+        "4": "i3"
+      },
+      {
+        "1": "components/json_export.ng_deps.dart",
+        "4": "i4"
+      },
+      {
+        "1": "components/delete_confirm.ng_deps.dart",
+        "4": "i5"
+      },
+      {
+        "1": "components/edit_contact.ng_deps.dart",
+        "4": "i6"
+      },
+      {
+        "1": "package:angular2_rbi/directives.ng_deps.dart",
+        "4": "i7"
+      }
+    ]
+  },
+  "App": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "app",
+      "exportAs": null,
+      "type": {
+        "name": "App",
+        "moduleUrl": "asset:contact_list/lib/app.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"mdl-layout mdl-js-layout\">\n  <header class=\"mdl-layout__header\">\n    <div class=\"mdl-layout__header-row\">\n      <!-- Title -->\n      <span class=\"mdl-layout-title\">Contacts</span>\n      <!-- Add spacer, to align navigation to the right -->\n      <div class=\"mdl-layout-spacer\"></div>\n      <!-- Navigation -->\n      <nav class=\"mdl-navigation\">\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':''}]\">All</a>\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default',{'filter':'family'}]\">Family</a>\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default',{'filter':'friend'}]\">Friends</a>\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default',{'filter':'work'}]\">Work</a>\n      </nav>\n      <button\n          class=\"mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon\"\n          id=\"hdrbtn\">\n        <i class=\"material-icons\">more_vert</i>\n      </button>\n    </div>\n\n  </header>\n  <div class=\"mdl-layout__drawer\">\n    <span class=\"mdl-layout-title\">Contacts</span>\n    <nav class=\"mdl-navigation\" (click)=\"toggleDrawer()\">\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':''}]\">All</a>\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':'family'}]\">Family</a>\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':'friend'}]\">Friends</a>\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':'work'}]\">Work</a>\n    </nav>\n  </div>\n    <ul class=\"mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect\"\n          for=\"hdrbtn\">\n     <!--we use buttons here instead of <li> so disabled works.-->\n     <button class=\"mdl-menu__item\" [disabled]=\"examplesLoaded==true\" href=\"#\" (click)=\"loadExampleData()\">Load example data</button>\n     <button class=\"mdl-menu__item\" href=\"#\" (click)=\"exportJson()\">JSON Export</button>\n  </ul>\n  <main class=\"mdl-layout__content\">\n    <div *ngIf=\"loading\" class=\"spinner\">\n    <div class=\"mdl-spinner mdl-js-spinner is-active\"></div>\n    </div>\n    <div class=\"page-content\"><router-outlet></router-outlet></div>\n  </main>\n</div>\n    ",
+        "templateUrl": "asset:contact_list/lib/app.dart",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

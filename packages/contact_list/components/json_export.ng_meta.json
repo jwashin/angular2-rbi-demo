@@ -1,0 +1,90 @@
+{
+  "ngDeps": {
+    "1": "contact_list.components.json_export",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:contact_list/services/contacts.dart",
+        "5": false
+      },
+      {
+        "1": "dart:convert",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "JsonExport",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'json-export'"
+              },
+              {
+                "1": "template",
+                "2": "'''\n    <code>\n    {{asJson()}}\n    <code>\n    '''"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "Contacts",
+            "4": "data"
+          }
+        ]
+      }
+    ],
+    "6": "json_export.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:contact_list/services/contacts.ng_deps.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "JsonExport": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "json-export",
+      "exportAs": null,
+      "type": {
+        "name": "JsonExport",
+        "moduleUrl": "asset:contact_list/lib/components/json_export.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "    <code>\n    {{asJson()}}\n    <code>\n    ",
+        "templateUrl": "asset:contact_list/lib/components/json_export.dart",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "ngDeps": {
+    "1": "material_icon_toggle",
+    "3": [
+      {
+        "1": "material_ripple.dart",
+        "2": [
+          "RippleBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "dart:async",
+        "5": false
+      }
+    ],
+    "6": "material_icon_toggle.dart"
+  }
+}

@@ -1,0 +1,46 @@
+.edit-button {
+    position: fixed;
+    bottom: 45px;
+    right: 24px;
+    z-index: 3;
+}
+
+.wide-card {
+    width: 95%;
+    margin: 1em;
+}
+
+.menu-text {
+    color: black;
+    /*font-weight: bold;*/
+}
+
+.disabled-text {
+    color: grey;
+    font-style: italic;
+}
+
+.phone {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.phone-number {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.spinner {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15em;
+}
+
+.contact-type-button {
+    width: 10em;
+}
+
+.align-left {
+    text-align: left;
+}

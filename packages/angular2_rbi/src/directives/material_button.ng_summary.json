@@ -1,0 +1,26 @@
+{
+  "ngDeps": {
+    "1": "material_button",
+    "3": [
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "material_ripple.dart",
+        "2": [
+          "RippleBehavior"
+        ],
+        "5": false
+      },
+      {
+        "1": "dart:async",
+        "2": [
+          "Timer"
+        ],
+        "5": false
+      }
+    ],
+    "6": "material_button.dart"
+  }
+}

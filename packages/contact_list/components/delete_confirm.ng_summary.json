@@ -1,0 +1,97 @@
+{
+  "ngDeps": {
+    "1": "contact_list.components.delete_confirm",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:contact_list/services/contacts.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "DeleteConfirm",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'delete-confirm'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'delete_confirm.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [CORE_DIRECTIVES]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "Contacts",
+            "4": "_contacts"
+          },
+          {
+            "1": "RouteParams",
+            "4": "_params"
+          },
+          {
+            "1": "Router",
+            "4": "_router"
+          }
+        ],
+        "8": [
+          {
+            "2": "CORE_DIRECTIVES"
+          }
+        ]
+      }
+    ],
+    "6": "delete_confirm.dart"
+  },
+  "DeleteConfirm": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "delete-confirm",
+      "exportAs": null,
+      "type": {
+        "name": "DeleteConfirm",
+        "moduleUrl": "asset:contact_list/lib/components/delete_confirm.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\"wide-card mdl-card mdl-shadow--4dp\"\n     [ngClass]=\"{'mdl-color--red-100':contact.contactType=='friend',\n                   'mdl-color--blue-100':contact.contactType=='family',\n                   'mdl-color--yellow-100':contact.contactType=='work'}\">\n  <div class=\"mdl-card__title\">\n    <h2 class=\"mdl-card__title-text\">\n      <i class=\"material-icons mdl-color-text--red\">warning</i>\n      Are you sure you want to delete\n      {{contact.first}} {{contact.last}}?</h2>\n  </div>\n  <div class=\"mdl-card__actions mdl-card--border\">\n    <button (click)=\"deleteItem(contact.uuid)\"\n            class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n      Really Delete\n    </button>\n        <button (click)=\"cancel()\"\n            class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n      Cancel\n    </button>\n\n  </div>\n</div>\n",
+        "templateUrl": "asset:contact_list/lib/components/delete_confirm.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

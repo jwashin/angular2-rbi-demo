@@ -1,0 +1,119 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:contact_list/services/contacts.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_rbi/directives.dart",
+        "5": false
+      },
+      {
+        "1": "dart:html",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "EditContact",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'edit-contact'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'edit_contact.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [CORE_DIRECTIVES, FORM_DIRECTIVES, MaterialTextfield, MaterialButton]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "Contacts",
+            "4": "_contacts"
+          },
+          {
+            "1": "RouteParams",
+            "4": "_params"
+          },
+          {
+            "1": "Router",
+            "4": "_router"
+          }
+        ],
+        "6": [
+          "AfterContentChecked"
+        ],
+        "8": [
+          {
+            "2": "CORE_DIRECTIVES"
+          },
+          {
+            "2": "FORM_DIRECTIVES"
+          },
+          {
+            "2": "MaterialTextfield"
+          },
+          {
+            "2": "MaterialButton"
+          }
+        ]
+      }
+    ],
+    "6": "edit_contact.dart"
+  },
+  "EditContact": {
+    "kind": "type",
+    "value": {
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "edit-contact",
+      "exportAs": null,
+      "type": {
+        "name": "EditContact",
+        "moduleUrl": "asset:contact_list/lib/components/edit_contact.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        5
+      ],
+      "template": {
+        "encapsulation": 2,
+        "template": "<div class=\" mdl-card mdl-shadow--2dp wide-card\">\n  <div class=\"mdl-card__title\">\n    <p *ngIf=\"uuid.isNotEmpty\" class=\"mdl-card__title-text\">Editing</p>\n    <p *ngIf=\"uuid.isEmpty\" class=\"mdl-card__title-text\">New contact</p>\n  </div>\n  <form>\n    <div class=\"mdl-card__supporting-text\">\n      <div\n          class=\"mdl-textfield mdl-js-textfield mdl-textfield--floating-label\">\n        <input class=\"mdl-textfield__input\" id=\"first\"\n               [(ngModel)]=\"contact.first\"\n               type=\"text\" autofocus>\n        <label class=\"mdl-textfield__label\" for=\"first\">First\n          name</label>\n      </div>\n      <br>\n      <div\n          class=\"mdl-textfield mdl-js-textfield mdl-textfield--floating-label\">\n        <input class=\"mdl-textfield__input\" id=\"last\" [(ngModel)]=\"contact.last\"\n               type=\"text\">\n        <label class=\"mdl-textfield__label form-control\" for=\"last\">Last\n          name</label>\n      </div>\n      <br>\n      <div\n          class=\"mdl-textfield mdl-js-textfield mdl-textfield--floating-label\">\n        <input class=\"mdl-textfield__input\" pattern=\"[0-9]*\"\n               id=\"phone\" [(ngModel)]=\"contact.phone\"\n               type=\"text\" maxlength=\"10\">\n        <label class=\"mdl-textfield__label form-control\"\n               for=\"phone\">Phone</label>\n      </div>\n      <div>\n        <button id=\"family\"\n                (click)=\"contact.contactType = 'family'\"\n                [class.button-selected]=\"contact.contactType == 'family'\"\n                class=\"mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect\">\n          <i *ngIf=\"contact.contactType == 'family'\"\n             class=\"material-icons align-left\">check</i>\n          <i *ngIf=\"contact.contactType != 'family'\"\n             class=\"material-icons align-left\">clear</i>\n          Family\n        </button>\n        <br>\n\n        <button id=\"friend\"\n                (click)=\"contact.contactType = 'friend'\"\n                [class.button-selected]=\"contact.contactType == 'friend'\"\n                class=\"mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect\">\n          <i *ngIf=\"contact.contactType == 'friend'\"\n             class=\"material-icons align-left\">check</i>\n          <i *ngIf=\"contact.contactType != 'friend'\"\n             class=\"material-icons align-left\">clear</i>\n          Friend\n        </button>\n\n\n        <br>\n        <button id=\"work\"\n                class=\"mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect\"\n                [class.button-selected]=\"contact.contactType == 'work'\"\n                (click)=\"contact.contactType = 'work'\">\n          <i *ngIf=\"contact.contactType == 'work'\"\n             class=\"material-icons align-left\">check</i>\n          <i *ngIf=\"contact.contactType != 'work'\"\n             class=\"material-icons align-left\">clear</i>\n          Work\n        </button>\n\n      </div>\n    </div>\n  </form>\n  <div class=\"mdl-card__actions mdl-card--border\">\n    <button (click)=\"saveItem()\"\n            class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n      Save\n    </button>\n    <button (click)=\"cancel()\"\n            class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n      Cancel\n    </button>\n  </div>\n</div>\n<div class=\"wide-card mdl-card mdl-shadow--4dp\"\n     [class.mdl-color--red-100]=\"contact.contactType=='friend'\"\n     [class.mdl-color--blue-100]=\"contact.contactType=='family'\"\n     [class.mdl-color--yellow-100]=\"contact.contactType=='work'\"\n>\n  preview\n  <div class=\"mdl-card__title\">\n    <h2 class=\"mdl-card__title-text\">\n      <i class=\"material-icons\">{{iconGlyph}}</i>\n      {{contact.first}} {{contact.last}}</h2>\n  </div>\n  <div class=\"mdl-card__supporting-text\">\n    <span class=\"phone\">Phone: </span> <span class=\"phone-number\">{{phoneDisplay(contact.phone)}}</span>\n  </div>\n</div>\n",
+        "templateUrl": "asset:contact_list/lib/components/edit_contact.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      }
+    }
+  }
+}

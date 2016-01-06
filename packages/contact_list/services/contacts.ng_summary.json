@@ -1,0 +1,31 @@
+{
+  "ngDeps": {
+    "1": "contacts_service",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:uuid/uuid.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "Contacts",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ]
+      }
+    ],
+    "6": "contacts.dart"
+  }
+}

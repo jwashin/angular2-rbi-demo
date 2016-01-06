@@ -12,3 +12,5 @@ dependencies:
 transformers:
 - angular2:
     entry_points: web/main.dart
+dev_dependencies:
+  grinder: '^0.8.0+1'

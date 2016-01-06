@@ -18,14 +18,18 @@ class DeleteConfirm {
     }
   }
 
-  void deleteItem(String uuid){
-    if (contact != null)
-      contacts.removeContact(contact);
-    router.navigate(['Default',{'filter':contacts.currentFilter}]);
+  void deleteItem(String uuid) {
+    if (contact != null) contacts.removeContact(contact);
+    router.navigate([
+      'Default',
+      {'filter': contacts.currentFilter}
+    ]);
   }
 
-  void cancel(){
-    router.navigate(['Default',{'filter':contacts.currentFilter}]);
+  void cancel() {
+    router.navigate([
+      'Default',
+      {'filter': contacts.currentFilter}
+    ]);
   }
-
 }

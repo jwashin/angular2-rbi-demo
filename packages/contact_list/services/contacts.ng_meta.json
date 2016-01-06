@@ -23,6 +23,12 @@
             "7": true,
             "8": false
           }
+        ],
+        "5": [
+          {
+            "1": "Uuid",
+            "4": "_uuidGenerator"
+          }
         ]
       }
     ],

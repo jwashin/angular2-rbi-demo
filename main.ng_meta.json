@@ -15,6 +15,10 @@
         "5": false
       },
       {
+        "1": "package:uuid/uuid.dart",
+        "5": false
+      },
+      {
         "1": "package:contact_list/services/contacts.dart",
         "5": false
       },

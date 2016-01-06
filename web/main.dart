@@ -7,8 +7,8 @@ import 'package:contact_list/app.dart';
 
 void main() {
   bootstrap(App, [
-      Contacts,
-      ROUTER_PROVIDERS,
-      provide(LocationStrategy, useClass: HashLocationStrategy)
-    ]);
+    Contacts,
+    ROUTER_PROVIDERS,
+    provide(LocationStrategy, useClass: HashLocationStrategy)
+  ]);
 }

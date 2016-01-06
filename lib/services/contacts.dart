@@ -7,7 +7,6 @@ final Uuid uuidGenerator = new Uuid();
 
 @Injectable()
 class Contacts {
-
   List<Contact> contacts = [];
   int get length => contacts.length;
   String currentFilter;
@@ -63,7 +62,8 @@ class Contacts {
 }
 
 class Contact {
-  final String uuid, last, first, phone, contactType;
+  String last, first, phone, contactType;
+  final String uuid;
 
   Contact(this.last, this.first, this.phone, this.contactType, this.uuid);
 

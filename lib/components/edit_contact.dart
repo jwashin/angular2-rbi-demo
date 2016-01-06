@@ -7,12 +7,14 @@ import 'dart:html';
 const String IS_DIRTY = 'is-dirty';
 
 @Component(selector: 'edit-contact')
-@View(templateUrl: 'edit_contact.html', directives: const [
-  CORE_DIRECTIVES,
-  FORM_DIRECTIVES,
-  MaterialTextfield,
-  MaterialButton
-])
+@View(
+    templateUrl: 'edit_contact.html',
+    directives: const [
+      CORE_DIRECTIVES,
+      FORM_DIRECTIVES,
+      MaterialTextfield,
+      MaterialButton
+    ])
 class EditContact implements AfterContentChecked {
   Contact contact;
   String uuid = '';

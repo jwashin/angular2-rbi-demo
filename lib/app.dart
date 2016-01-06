@@ -70,7 +70,6 @@ const String DRAWER = 'mdl-layout__drawer';
       MaterialLayout,
       ROUTER_DIRECTIVES,
       MaterialSpinner,
-      NgClass,
       NgIf
     ])
 @RouteConfig(const [

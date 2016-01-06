@@ -16,14 +16,8 @@ const String IS_DRAWER_OPEN = 'is-visible';
 const String OBFUSCATOR = 'mdl-layout__obfuscator';
 const String DRAWER = 'mdl-layout__drawer';
 
-@Component(selector: 'app')
-@RouteConfig(const [
-  const Route(path: '/:filter', component: ContactList, name: 'Default'),
-  const Route(path: '/json', component: JsonExport, name: 'Json'),
-  const Route(path: '/delete:uuid', component: DeleteConfirm, name: 'Delete'),
-  const Route(path: '/edit:uuid', component: EditContact, name: 'Edit')
-])
-@View(
+@Component(
+    selector: 'app',
     template: '''<div class="mdl-layout mdl-js-layout">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
@@ -79,6 +73,12 @@ const String DRAWER = 'mdl-layout__drawer';
       NgClass,
       NgIf
     ])
+@RouteConfig(const [
+  const Route(path: '/:filter', component: ContactList, name: 'Default'),
+  const Route(path: '/json', component: JsonExport, name: 'Json'),
+  const Route(path: '/delete:uuid', component: DeleteConfirm, name: 'Delete'),
+  const Route(path: '/edit:uuid', component: EditContact, name: 'Edit')
+])
 class App {
   bool examplesLoaded = false;
   bool loading = false;

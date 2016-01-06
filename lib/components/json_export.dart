@@ -4,8 +4,8 @@ import 'package:angular2/angular2.dart';
 import 'package:contact_list/services/contacts.dart';
 import 'dart:convert';
 
-@Component(selector: 'json-export')
-@View(
+@Component(
+    selector: 'json-export',
     template: '''
     <code>
     {{asJson()}}

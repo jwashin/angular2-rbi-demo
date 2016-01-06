@@ -6,8 +6,8 @@ import 'dart:html';
 
 const String IS_DIRTY = 'is-dirty';
 
-@Component(selector: 'edit-contact')
-@View(
+@Component(
+    selector: 'edit-contact',
     templateUrl: 'edit_contact.html',
     directives: const [
       CORE_DIRECTIVES,

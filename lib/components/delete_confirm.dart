@@ -4,8 +4,10 @@ import 'package:angular2/angular2.dart';
 import 'package:angular2/router.dart';
 import 'package:contact_list/services/contacts.dart';
 
-@Component(selector: 'delete-confirm')
-@View(templateUrl: 'delete_confirm.html', directives: const [CORE_DIRECTIVES])
+@Component(
+    selector: 'delete-confirm',
+    templateUrl: 'delete_confirm.html',
+    directives: const [CORE_DIRECTIVES])
 class DeleteConfirm {
   Contact contact;
 

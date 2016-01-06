@@ -17,7 +17,11 @@ class ContactList {
   final Contacts _data;
   final RouteParams _params;
   final Router _router;
-
+  final Map<String, String> iconRepresentations = {
+    'friend': 'face',
+    'work': 'work',
+    'family': 'home'
+  };
   ContactList(this._data, this._params, this._router) {
     if (_params.get('filter') != null) {
       filter = _params.get('filter');
@@ -25,6 +29,16 @@ class ContactList {
     contacts = _data.filteredContacts(filter);
     _data.currentFilter = filter;
   }
+
+  String iconGlyph(Contact contact){
+    String contactType = contact.contactType;
+    if (iconRepresentations.containsKey(contactType)) {
+      return iconRepresentations[contactType];
+    }
+    return 'insert_emoticon';
+  }
+
+
 
   String phoneDisplay(String aString) {
     if (aString.length != 10) {

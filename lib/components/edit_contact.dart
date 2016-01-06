@@ -22,6 +22,12 @@ class EditContact implements AfterContentChecked {
   final Contacts _contacts;
   final RouteParams _params;
   final Router _router;
+  final Map<String, String> iconRepresentations = {
+    'friend': 'face',
+    'work': 'work',
+    'family': 'home'
+  };
+
 
   EditContact(this._contacts, this._params, this._router) {
     if (_params.get('uuid').isNotEmpty) {
@@ -47,6 +53,13 @@ class EditContact implements AfterContentChecked {
         }
       }
     }
+  }
+
+  String get iconGlyph{
+    if (iconRepresentations.containsKey(contact.contactType)){
+      return iconRepresentations[contact.contactType];
+    }
+    return 'insert_emoticon';
   }
 
   String phoneDisplay(String aString) {

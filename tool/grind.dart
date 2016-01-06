@@ -5,5 +5,10 @@ Future main(List<String> args) async {
   await grind(args);
 }
 
-@Task()
+@Task('Format all directories')
 void format() => DartFmt.format(existingSourceDirs);
+
+@Task('Build demo to gh-pages')
+Future buildDemo() async {
+  await Pub.global.run('peanut');
+}

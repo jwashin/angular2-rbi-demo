@@ -3,7 +3,6 @@
     <p *ngIf="uuid.isNotEmpty" class="mdl-card__title-text">Editing</p>
     <p *ngIf="uuid.isEmpty" class="mdl-card__title-text">New contact</p>
   </div>
-  <form>
     <div class="mdl-card__supporting-text">
       <div
           class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -69,7 +68,6 @@
 
       </div>
     </div>
-  </form>
   <div class="mdl-card__actions mdl-card--border">
     <button (click)="saveItem()"
             class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">

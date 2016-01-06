@@ -39,10 +39,10 @@ class EditContact implements AfterContentChecked {
     // looks like MDL widgets get values after they are initialized, so they
     // don't appear to know their values.
 
-    if (uuid != '') {
+    if (uuid.isNotEmpty) {
       List<Element> textFields = querySelectorAll('.mdl-js-textfield');
       for (Element k in textFields) {
-        if (k.firstChild.text != null && k.firstChild.text.length > 0) {
+        if (k.firstChild.text.isNotEmpty && k.firstChild.text.length > 0) {
           k.classes.add(IS_DIRTY);
         }
       }

@@ -1,7 +1,7 @@
 <div class=" mdl-card mdl-shadow--2dp wide-card">
   <div class="mdl-card__title">
-    <p *ngIf="uuid != ''" class="mdl-card__title-text">Editing</p>
-    <p *ngIf="uuid == ''" class="mdl-card__title-text">New contact</p>
+    <p *ngIf="uuid.isNotEmpty" class="mdl-card__title-text">Editing</p>
+    <p *ngIf="uuid.isEmpty" class="mdl-card__title-text">New contact</p>
   </div>
   <form>
     <div class="mdl-card__supporting-text">
@@ -9,7 +9,7 @@
           class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" id="first"
                [(ngModel)]="contact.first"
-               type="text">
+               type="text" autofocus>
         <label class="mdl-textfield__label" for="first">First
           name</label>
       </div>

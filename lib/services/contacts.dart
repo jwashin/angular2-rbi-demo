@@ -65,10 +65,7 @@ class Contact {
   String last, first, phone, contactType;
   final String uuid;
 
-
   Contact(this.last, this.first, this.phone, this.contactType, this.uuid);
-
-
 
   Map<String, String> toJson() => {
         'uuid': uuid,

@@ -30,15 +30,13 @@ class ContactList {
     _data.currentFilter = filter;
   }
 
-  String iconGlyph(Contact contact){
+  String iconGlyph(Contact contact) {
     String contactType = contact.contactType;
     if (iconRepresentations.containsKey(contactType)) {
       return iconRepresentations[contactType];
     }
     return 'insert_emoticon';
   }
-
-
 
   String phoneDisplay(String aString) {
     if (aString.length != 10) {

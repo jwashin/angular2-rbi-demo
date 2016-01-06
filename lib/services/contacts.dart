@@ -15,10 +15,10 @@ class Contacts {
 
   void addContact(String last, String first, String phone,
       [String contactType, String uuid]) {
-    if (uuid == null || uuid == '') {
+    if (uuid == null || uuid.isEmpty) {
       uuid = uuidGenerator.v4();
     }
-    if (contactType == null || contactType == '') {
+    if (contactType == null || contactType.isEmpty) {
       contactType = 'friend';
     }
     contacts.add(new Contact(last, first, phone, contactType, uuid));

@@ -72,7 +72,7 @@ class EditContact implements AfterContentChecked {
   }
 
   void saveItem() {
-    if (uuid == '') {
+    if (uuid.isEmpty) {
       _contacts.addContact(
           contact.last, contact.first, contact.phone, contact.contactType);
     } else {

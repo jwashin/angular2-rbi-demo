@@ -1,6 +1,9 @@
 import 'package:grinder/grinder.dart';
+import 'dart:async';
 
-main(List<String> args) => grind(args);
+Future main(List<String> args) async {
+  await grind(args);
+}
 
 @Task()
 void format() => DartFmt.format(existingSourceDirs);

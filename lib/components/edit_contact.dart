@@ -13,7 +13,7 @@ import 'dart:html';
       MaterialTextfield,
       MaterialButton
     ])
-class EditContact{
+class EditContact {
   Contact contact;
   String uuid = '';
 

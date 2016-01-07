@@ -2,4 +2,4 @@ I started this with an Angular2 and Dart Contacts App, though there's not much l
 
 Copyright (c) 2015 ng2-dart-samples
 
-Effusive thanks to Kasper Peulen for many enhancements.
+Effusive thanks to Kasper Peulen for many best practices and other enhancements.

@@ -4,8 +4,6 @@ import 'package:contact_list/services/contacts.dart';
 import 'package:angular2_rbi/directives.dart';
 import 'dart:html';
 
-const String IS_DIRTY = 'is-dirty';
-
 @Component(
     selector: 'edit-contact',
     templateUrl: 'edit_contact.html',
@@ -15,7 +13,7 @@ const String IS_DIRTY = 'is-dirty';
       MaterialTextfield,
       MaterialButton
     ])
-class EditContact implements AfterContentChecked {
+class EditContact{
   Contact contact;
   String uuid = '';
 
@@ -36,21 +34,6 @@ class EditContact implements AfterContentChecked {
           oldContact.contactType, oldContact.uuid);
     } else {
       contact = new Contact('', '', '', 'friend', '');
-    }
-  }
-
-  void ngAfterContentChecked() {
-    // hacky stuff to make form elements look right
-    // looks like MDL widgets get values after they are initialized, so they
-    // don't appear to know their values.
-
-    if (uuid.isNotEmpty) {
-      List<Element> textFields = querySelectorAll('.mdl-js-textfield');
-      for (Element k in textFields) {
-        if (k.firstChild.text.isNotEmpty) {
-          k.classes.add(IS_DIRTY);
-        }
-      }
     }
   }
 

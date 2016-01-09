@@ -34,9 +34,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/proto_view_factory.dart",
+        "1": "package:angular2/src/core/linker/resolved_metadata_cache.dart",
         "2": [
-          "ProtoViewFactory"
+          "ResolvedMetadataCache"
         ],
         "5": false
       },
@@ -62,6 +62,7 @@
       {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
+          "BaseException",
           "ExceptionHandler"
         ],
         "5": false
@@ -154,17 +155,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view_pool.dart",
+        "1": "package:angular2/src/core/render/api.dart",
         "2": [
-          "AppViewPool",
-          "APP_VIEW_POOL_CAPACITY"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_manager_utils.dart",
-        "2": [
-          "AppViewManagerUtils"
+          "RootRenderer"
         ],
         "5": false
       },
@@ -178,7 +171,8 @@
       {
         "1": "package:angular2/src/platform/dom/dom_renderer.dart",
         "2": [
-          "DomRenderer"
+          "DomRootRenderer",
+          "DomRootRenderer_"
         ],
         "5": false
       },
@@ -225,13 +219,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_renderer.dart",
-        "2": [
-          "DomRenderer_"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/linker/dynamic_component_loader.dart",
         "2": [
           "DynamicComponentLoader_"
@@ -261,7 +248,7 @@
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/linker/proto_view_factory.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/resolved_metadata_cache.ng_deps.dart",
         "4": "i3"
       },
       {
@@ -317,48 +304,44 @@
         "4": "i16"
       },
       {
-        "1": "package:angular2/src/core/linker/view_pool.ng_deps.dart",
+        "1": "package:angular2/src/core/render/api.ng_deps.dart",
         "4": "i17"
       },
       {
-        "1": "package:angular2/src/core/linker/view_manager_utils.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_tokens.ng_deps.dart",
         "4": "i18"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_tokens.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_renderer.ng_deps.dart",
         "4": "i19"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_renderer.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/shared_styles_host.ng_deps.dart",
         "4": "i20"
       },
       {
-        "1": "package:angular2/src/platform/dom/shared_styles_host.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/events/dom_events.ng_deps.dart",
         "4": "i21"
       },
       {
-        "1": "package:angular2/src/platform/dom/events/dom_events.ng_deps.dart",
+        "1": "package:angular2/src/web_workers/shared/serializer.ng_deps.dart",
         "4": "i22"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/serializer.ng_deps.dart",
+        "1": "utils.ng_deps.dart",
         "4": "i23"
       },
       {
-        "1": "utils.ng_deps.dart",
+        "1": "package:angular2/src/compiler/compiler.ng_deps.dart",
         "4": "i24"
       },
       {
-        "1": "package:angular2/src/compiler/compiler.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/dynamic_component_loader.ng_deps.dart",
         "4": "i25"
       },
       {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.ng_deps.dart",
-        "4": "i26"
-      },
-      {
         "1": "package:angular2/src/core/linker/view_manager.ng_deps.dart",
-        "4": "i27"
+        "4": "i26"
       }
     ]
   }

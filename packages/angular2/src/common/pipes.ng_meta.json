@@ -133,6 +133,123 @@
       }
     ]
   },
+  "AsyncPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "AsyncPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/async_pipe.dart",
+        "isHost": false
+      },
+      "name": "async",
+      "pure": false
+    }
+  },
+  "DatePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "DatePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/date_pipe.dart",
+        "isHost": false
+      },
+      "name": "date",
+      "pure": true
+    }
+  },
+  "JsonPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "JsonPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/json_pipe.dart",
+        "isHost": false
+      },
+      "name": "json",
+      "pure": false
+    }
+  },
+  "SlicePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "SlicePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/slice_pipe.dart",
+        "isHost": false
+      },
+      "name": "slice",
+      "pure": false
+    }
+  },
+  "LowerCasePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "LowerCasePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/lowercase_pipe.dart",
+        "isHost": false
+      },
+      "name": "lowercase",
+      "pure": false
+    }
+  },
+  "DecimalPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "DecimalPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "number",
+      "pure": false
+    }
+  },
+  "PercentPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "PercentPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "percent",
+      "pure": false
+    }
+  },
+  "CurrencyPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "CurrencyPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "isHost": false
+      },
+      "name": "currency",
+      "pure": false
+    }
+  },
+  "UpperCasePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "name": "UpperCasePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/uppercase_pipe.dart",
+        "isHost": false
+      },
+      "name": "uppercase",
+      "pure": false
+    }
+  },
   "COMMON_PIPES": {
     "kind": "alias",
     "value": [

@@ -82,6 +82,7 @@
   "DeleteConfirm": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "delete-confirm",

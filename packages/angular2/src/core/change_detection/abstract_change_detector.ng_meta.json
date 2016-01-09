@@ -61,7 +61,9 @@
         "2": [
           "ChangeDetectionError",
           "ExpressionChangedAfterItHasBeenCheckedException",
-          "DehydratedException"
+          "DehydratedException",
+          "EventEvaluationErrorContext",
+          "EventEvaluationError"
         ],
         "5": false
       },

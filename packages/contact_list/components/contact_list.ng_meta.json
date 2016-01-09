@@ -97,6 +97,7 @@
   "ContactList": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "contact-list",

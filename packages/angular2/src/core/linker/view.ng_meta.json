@@ -20,7 +20,17 @@
           "DirectiveIndex",
           "BindingTarget",
           "Locals",
-          "ProtoChangeDetector"
+          "ProtoChangeDetector",
+          "ChangeDetectorRef"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/di.dart",
+        "2": [
+          "ResolvedProvider",
+          "Injectable",
+          "Injector"
         ],
         "5": false
       },
@@ -32,26 +42,22 @@
         "5": false
       },
       {
-        "1": "element_injector.dart",
+        "1": "element.dart",
         "2": [
-          "ProtoElementInjector",
-          "ElementInjector",
-          "PreBuiltObjects",
+          "AppProtoElement",
+          "AppElement",
           "DirectiveProvider"
-        ],
-        "5": false
-      },
-      {
-        "1": "element_binder.dart",
-        "2": [
-          "ElementBinder"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "isPresent"
+          "isPresent",
+          "isBlank",
+          "Type",
+          "isArray",
+          "isNumber"
         ],
         "5": false
       },
@@ -65,29 +71,17 @@
       },
       {
         "1": "package:angular2/src/core/render/api.dart",
-        "4": "renderApi",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render/api.dart",
         "2": [
-          "RenderEventDispatcher"
+          "Renderer",
+          "RootRenderer"
         ],
         "5": false
       },
       {
         "1": "view_ref.dart",
         "2": [
-          "ViewRef",
-          "ProtoViewRef",
-          "internalView"
-        ],
-        "5": false
-      },
-      {
-        "1": "element_ref.dart",
-        "2": [
-          "ElementRef"
+          "ViewRef_",
+          "HostViewFactoryRef"
         ],
         "5": false
       },
@@ -106,17 +100,31 @@
         "5": false
       },
       {
-        "1": "template_commands.dart",
+        "1": "package:angular2/src/core/pipes/pipes.dart",
         "2": [
-          "TemplateCmd"
+          "Pipes"
         ],
         "5": false
       },
       {
-        "1": "view_ref.dart",
+        "1": "view_manager.dart",
         "2": [
-          "ViewRef_",
-          "ProtoViewRef_"
+          "AppViewManager_",
+          "AppViewManager"
+        ],
+        "5": false
+      },
+      {
+        "1": "resolved_metadata_cache.dart",
+        "2": [
+          "ResolvedMetadataCache"
+        ],
+        "5": false
+      },
+      {
+        "1": "view_type.dart",
+        "2": [
+          "ViewType"
         ],
         "5": false
       }
@@ -136,15 +144,15 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/change_detection/interfaces.ng_deps.dart",
+        "1": "package:angular2/src/core/di.ng_deps.dart",
         "4": "i1"
       },
       {
-        "1": "element_injector.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/interfaces.ng_deps.dart",
         "4": "i2"
       },
       {
-        "1": "element_binder.ng_deps.dart",
+        "1": "element.ng_deps.dart",
         "4": "i3"
       },
       {
@@ -160,19 +168,19 @@
         "4": "i6"
       },
       {
-        "1": "element_ref.ng_deps.dart",
+        "1": "package:angular2/src/core/pipes/pipes.ng_deps.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/core/pipes/pipes.ng_deps.dart",
+        "1": "package:angular2/src/core/render/util.ng_deps.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/core/render/util.ng_deps.dart",
+        "1": "view_manager.ng_deps.dart",
         "4": "i9"
       },
       {
-        "1": "template_commands.ng_deps.dart",
+        "1": "resolved_metadata_cache.ng_deps.dart",
         "4": "i10"
       }
     ]

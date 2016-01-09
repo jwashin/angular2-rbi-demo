@@ -222,6 +222,7 @@
   "NgControlName": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControl]",
@@ -252,6 +253,7 @@
   "NgFormControl": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngFormControl]",
@@ -281,6 +283,7 @@
   "NgModel": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngModel]:not([ngControl]):not([ngFormControl])",
@@ -309,6 +312,7 @@
   "NgControlGroup": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControlGroup]",
@@ -336,6 +340,7 @@
   "NgFormModel": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngFormModel]",
@@ -366,6 +371,7 @@
   "NgForm": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "form:not([ngNoForm]):not([ngFormModel]),ngForm,[ngForm]",
@@ -392,6 +398,7 @@
   "DefaultValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input:not([type=checkbox])[ngControl],textarea[ngControl],input:not([type=checkbox])[ngFormControl],textarea[ngFormControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]",
@@ -417,6 +424,7 @@
   "NgControlStatus": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControl],[ngModel],[ngFormControl]",
@@ -446,6 +454,7 @@
   "CheckboxControlValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input[type=checkbox][ngControl],input[type=checkbox][ngFormControl],input[type=checkbox][ngModel]",
@@ -471,6 +480,7 @@
   "NgSelectOption": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "option",
@@ -493,6 +503,7 @@
   "SelectControlValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "select[ngControl],select[ngFormControl],select[ngModel]",
@@ -507,8 +518,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "onTouched()",
-        "change": "onChange($event.target.value)"
+        "blur": "onTouched()"
       },
       "hostProperties": {},
       "hostAttributes": {},
@@ -519,6 +529,7 @@
   "RequiredValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[required][ngControl],[required][ngFormControl],[required][ngModel]",
@@ -541,6 +552,7 @@
   "MinLengthValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[minlength][ngControl],[minlength][ngFormControl],[minlength][ngModel]",
@@ -563,6 +575,7 @@
   "MaxLengthValidator": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[maxlength][ngControl],[maxlength][ngFormControl],[maxlength][ngModel]",
@@ -585,6 +598,7 @@
   "NumberValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input[type=number][ngControl],input[type=number][ngFormControl],input[type=number][ngModel]",

@@ -41,9 +41,5 @@
         "4": "i4"
       }
     ]
-  },
-  "_testBindings": {
-    "kind": "alias",
-    "value": []
   }
 }

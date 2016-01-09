@@ -51,13 +51,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/render/api.dart",
-        "2": [
-          "Renderer"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/debug/debug_element.dart",
         "2": [
           "DebugElement",
@@ -77,12 +70,6 @@
             "6": false,
             "7": true,
             "8": false
-          }
-        ],
-        "5": [
-          {
-            "1": "Renderer",
-            "4": "_renderer"
           }
         ],
         "6": [
@@ -109,12 +96,8 @@
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/render/api.ng_deps.dart",
-        "4": "i4"
-      },
-      {
         "1": "package:angular2/src/core/debug/debug_element.ng_deps.dart",
-        "4": "i5"
+        "4": "i4"
       }
     ]
   }

@@ -86,13 +86,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view_ref.dart",
-        "2": [
-          "internalView"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/console.dart",
         "2": [
           "Console"
@@ -119,6 +112,13 @@
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "lockMode"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/element_ref.dart",
+        "2": [
+          "ElementRef_"
         ],
         "5": false
       }
@@ -154,19 +154,19 @@
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/linker/view_ref.ng_deps.dart",
+        "1": "package:angular2/src/core/console.ng_deps.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/core/console.ng_deps.dart",
+        "1": "profile/profile.ng_deps.dart",
         "4": "i8"
       },
       {
-        "1": "profile/profile.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/change_detector_ref.ng_deps.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/core/change_detection/change_detector_ref.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/element_ref.ng_deps.dart",
         "4": "i10"
       }
     ]

@@ -69,6 +69,7 @@
   "CheckboxControlValueAccessor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "input[type=checkbox][ngControl],input[type=checkbox][ngFormControl],input[type=checkbox][ngModel]",

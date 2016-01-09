@@ -576,6 +576,7 @@
   "MaterialButton": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-button",
@@ -598,6 +599,7 @@
   "MaterialCheckbox": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-checkbox",
@@ -620,6 +622,7 @@
   "MaterialDataTable": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-data-table",
@@ -642,6 +645,7 @@
   "MaterialIconToggle": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-icon-toggle",
@@ -664,6 +668,7 @@
   "MaterialLayout": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-layout",
@@ -686,6 +691,7 @@
   "MaterialMenu": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-menu",
@@ -708,6 +714,7 @@
   "MaterialProgress": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-progress",
@@ -733,6 +740,7 @@
   "MaterialRadio": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-radio",
@@ -755,6 +763,7 @@
   "MaterialRipple": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "mdl-js-ripple-effect",
@@ -777,6 +786,7 @@
   "MaterialSlider": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-slider",
@@ -804,6 +814,7 @@
   "MaterialSpinner": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-spinner",
@@ -826,6 +837,7 @@
   "MaterialSwitch": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-switch",
@@ -848,6 +860,7 @@
   "MaterialTabs": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-tabs",
@@ -870,6 +883,7 @@
   "MaterialTextfield": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-textfield",
@@ -892,6 +906,7 @@
   "MaterialTooltip": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-tooltip",
@@ -914,6 +929,7 @@
   "MaterialSnackbar": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-snackbar",

@@ -12,7 +12,7 @@
           "Injector",
           "Injectable",
           "ViewMetadata",
-          "ViewRef",
+          "EmbeddedViewRef",
           "ViewResolver",
           "provide"
         ],
@@ -43,16 +43,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view.dart",
+        "1": "package:angular2/src/core/linker/view_ref.dart",
         "2": [
-          "AppView"
+          "ViewRef_"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view_ref.dart",
+        "1": "package:angular2/src/core/linker/view.dart",
         "2": [
-          "internalView"
+          "AppView"
         ],
         "5": false
       },
@@ -117,11 +117,11 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/linker/view.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/view_ref.ng_deps.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/linker/view_ref.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/view.ng_deps.dart",
         "4": "i3"
       },
       {

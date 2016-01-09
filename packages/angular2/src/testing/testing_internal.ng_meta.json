@@ -23,13 +23,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/di/injector.dart",
-        "2": [
-          "Injector"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
           "StringMapWrapper"
@@ -82,21 +75,13 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/di/injector.ng_deps.dart",
+        "1": "test_injector.ng_deps.dart",
         "4": "i2"
       },
       {
-        "1": "test_injector.ng_deps.dart",
-        "4": "i3"
-      },
-      {
         "1": "matchers.ng_deps.dart",
-        "4": "i4"
+        "4": "i3"
       }
     ]
-  },
-  "_testBindings": {
-    "kind": "alias",
-    "value": []
   }
 }

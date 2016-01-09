@@ -245,6 +245,7 @@
   "RouterOutlet": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "router-outlet",
@@ -267,6 +268,7 @@
   "RouterLink": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[routerLink]",

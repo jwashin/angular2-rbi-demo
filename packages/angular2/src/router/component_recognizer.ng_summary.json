@@ -42,7 +42,8 @@
           "AbstractRecognizer",
           "RouteRecognizer",
           "RedirectRecognizer",
-          "RouteMatch"
+          "RouteMatch",
+          "PathMatch"
         ],
         "5": false
       },

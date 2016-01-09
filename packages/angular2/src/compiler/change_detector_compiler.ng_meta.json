@@ -25,6 +25,27 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/change_detection/abstract_change_detector.dart",
+        "2": [
+          "AbstractChangeDetector"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/change_detection_util.dart",
+        "2": [
+          "ChangeDetectionUtil"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/constants.dart",
+        "2": [
+          "ChangeDetectorState"
+        ],
+        "5": false
+      },
+      {
         "1": "change_definition_factory.dart",
         "2": [
           "createChangeDetectorDefinitions"
@@ -110,28 +131,40 @@
         "4": "i1"
       },
       {
-        "1": "change_definition_factory.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/abstract_change_detector.ng_deps.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/change_detection/change_detection.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/change_detection_util.ng_deps.dart",
         "4": "i3"
       },
       {
-        "1": "template_ast.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/constants.ng_deps.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/transform/template_compiler/change_detector_codegen.ng_deps.dart",
+        "1": "change_definition_factory.ng_deps.dart",
         "4": "i5"
       },
       {
-        "1": "util.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/change_detection.ng_deps.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "template_ast.ng_deps.dart",
         "4": "i7"
+      },
+      {
+        "1": "package:angular2/src/transform/template_compiler/change_detector_codegen.ng_deps.dart",
+        "4": "i8"
+      },
+      {
+        "1": "util.ng_deps.dart",
+        "4": "i9"
+      },
+      {
+        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "4": "i10"
       }
     ]
   }

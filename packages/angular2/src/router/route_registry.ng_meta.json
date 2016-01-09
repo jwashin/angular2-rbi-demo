@@ -30,6 +30,8 @@
           "isString",
           "isStringMap",
           "Type",
+          "StringWrapper",
+          "Math",
           "getTypeNameForDebugging"
         ],
         "5": false

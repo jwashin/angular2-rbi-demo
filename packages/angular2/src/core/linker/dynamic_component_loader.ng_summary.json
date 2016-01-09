@@ -48,14 +48,14 @@
       {
         "1": "element_ref.dart",
         "2": [
-          "ElementRef"
+          "ElementRef",
+          "ElementRef_"
         ],
         "5": false
       },
       {
         "1": "view_ref.dart",
         "2": [
-          "ViewRef",
           "HostViewRef"
         ],
         "5": false

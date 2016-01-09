@@ -28,24 +28,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/element_injector.dart",
+        "1": "package:angular2/src/core/linker/element.dart",
         "2": [
-          "ElementInjector"
+          "AppElement"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/core/linker/view.dart",
         "2": [
-          "AppView",
-          "ViewType"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_ref.dart",
-        "2": [
-          "internalView"
+          "AppView"
         ],
         "5": false
       },
@@ -65,7 +57,7 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/linker/element_injector.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/element.ng_deps.dart",
         "4": "i1"
       },
       {
@@ -73,12 +65,8 @@
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/linker/view_ref.ng_deps.dart",
-        "4": "i3"
-      },
-      {
         "1": "package:angular2/src/core/linker/element_ref.ng_deps.dart",
-        "4": "i4"
+        "4": "i3"
       }
     ]
   }

@@ -3,21 +3,7 @@
     "1": "angular2.src.core.render.api",
     "3": [
       {
-        "1": "package:angular2/src/facade/exceptions.dart",
-        "2": [
-          "unimplemented"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "Map"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/metadata.dart",
+        "1": "package:angular2/src/core/metadata/view.dart",
         "2": [
           "ViewEncapsulation"
         ],

@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.transform.common.directive_metadata_reader",
+    "1": "angular2.transform.common.type_metadata_reader",
     "3": [
       {
         "1": "dart:async",
@@ -58,8 +58,12 @@
       {
         "1": "naive_eval.dart",
         "5": false
+      },
+      {
+        "1": "url_resolver.dart",
+        "5": false
       }
     ],
-    "6": "directive_metadata_reader.dart"
+    "6": "type_metadata_reader.dart"
   }
 }

@@ -3,7 +3,7 @@
     "1": "angular2.transform.template_compiler.ng_compiler",
     "3": [
       {
-        "1": "package:angular2/src/compiler/command_compiler.dart",
+        "1": "package:angular2/src/compiler/view_compiler.dart",
         "5": false
       },
       {
@@ -57,6 +57,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/compiler/proto_view_compiler.dart",
+        "5": false
+      },
+      {
         "1": "xhr_impl.dart",
         "5": false
       },
@@ -68,7 +72,7 @@
     "6": "ng_compiler.dart",
     "10": [
       {
-        "1": "package:angular2/src/compiler/command_compiler.ng_deps.dart",
+        "1": "package:angular2/src/compiler/view_compiler.ng_deps.dart",
         "4": "i0"
       },
       {
@@ -120,12 +124,16 @@
         "4": "i12"
       },
       {
-        "1": "xhr_impl.ng_deps.dart",
+        "1": "package:angular2/src/compiler/proto_view_compiler.ng_deps.dart",
         "4": "i13"
       },
       {
-        "1": "url_resolver.ng_deps.dart",
+        "1": "xhr_impl.ng_deps.dart",
         "4": "i14"
+      },
+      {
+        "1": "url_resolver.ng_deps.dart",
+        "4": "i15"
       }
     ]
   }

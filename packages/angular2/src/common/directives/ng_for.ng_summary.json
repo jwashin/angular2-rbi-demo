@@ -12,7 +12,7 @@
           "IterableDiffers",
           "ViewContainerRef",
           "TemplateRef",
-          "ViewRef"
+          "EmbeddedViewRef"
         ],
         "5": false
       },
@@ -76,6 +76,7 @@
   "NgFor": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngFor][ngForOf]",

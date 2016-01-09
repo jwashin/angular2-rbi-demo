@@ -29,7 +29,7 @@
           "platform",
           "ExceptionHandler",
           "Reflector",
-          "Renderer",
+          "RootRenderer",
           "reflector",
           "APPLICATION_COMMON_PROVIDERS",
           "PLATFORM_COMMON_PROVIDERS"
@@ -90,8 +90,8 @@
       {
         "1": "package:angular2/src/platform/dom/dom_renderer.dart",
         "2": [
-          "DomRenderer",
-          "DomRenderer_"
+          "DomRootRenderer",
+          "DomRootRenderer_"
         ],
         "5": false
       },

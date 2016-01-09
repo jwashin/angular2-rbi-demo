@@ -28,24 +28,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/element_injector.dart",
+        "1": "package:angular2/src/core/linker/element.dart",
         "2": [
-          "ElementInjector"
+          "AppElement"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/core/linker/view.dart",
         "2": [
-          "AppView",
-          "ViewType"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_ref.dart",
-        "2": [
-          "internalView"
+          "AppView"
         ],
         "5": false
       },

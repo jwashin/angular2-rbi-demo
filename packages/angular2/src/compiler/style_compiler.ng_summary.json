@@ -87,15 +87,6 @@
           "Injectable"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render/view_factory.dart",
-        "2": [
-          "COMPONENT_VARIABLE",
-          "HOST_ATTR",
-          "CONTENT_ATTR"
-        ],
-        "5": false
       }
     ],
     "5": [

@@ -201,6 +201,7 @@
   "NgForm": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "form:not([ngNoForm]):not([ngFormModel]),ngForm,[ngForm]",

@@ -143,6 +143,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -168,6 +171,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -193,6 +199,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -218,6 +227,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -243,6 +255,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -268,6 +283,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -297,6 +315,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -322,6 +343,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -347,6 +371,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -376,6 +403,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -401,6 +431,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -426,6 +459,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -451,6 +487,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -476,6 +515,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -501,6 +543,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       },
       {
@@ -526,6 +571,9 @@
             "1": "ElementRef",
             "4": "ref"
           }
+        ],
+        "6": [
+          "OnInit"
         ]
       }
     ],
@@ -592,7 +640,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -615,7 +665,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -638,7 +690,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -661,7 +715,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -684,7 +740,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -707,7 +765,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -733,7 +793,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -756,7 +818,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -779,7 +843,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -807,7 +873,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -830,7 +898,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -853,7 +923,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -876,7 +948,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -899,7 +973,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -922,7 +998,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   },
@@ -945,7 +1023,9 @@
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
-      "lifecycleHooks": [],
+      "lifecycleHooks": [
+        0
+      ],
       "template": null
     }
   }

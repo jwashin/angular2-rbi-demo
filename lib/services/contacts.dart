@@ -1,7 +1,7 @@
 library contacts_service;
 
 import 'package:angular2/angular2.dart';
-import 'package:uuid/uuid.dart';
+import 'package:uuid/uuid.dart' show Uuid;
 
 @Injectable()
 class Contacts {
@@ -9,10 +9,10 @@ class Contacts {
   int get length => contacts.length;
   String currentFilter;
 
-  final Uuid _uuidGenerator;
+  final Uuid _uuidGenerator = new Uuid();
   final List<String> _types = ['family', 'friend', 'work'];
 
-  Contacts(this._uuidGenerator);
+//  Contacts(this._uuidGenerator);
 
   void addContact(String last, String first, String phone,
       [String contactType, String uuid]) {

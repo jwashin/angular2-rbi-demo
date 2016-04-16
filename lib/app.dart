@@ -13,12 +13,6 @@ import 'package:contact_list/components/json_export.dart';
 import 'package:contact_list/components/delete_confirm.dart';
 import 'package:contact_list/components/edit_contact.dart';
 
-// found these in angular2_rbi/src/material_layout.dart
-// needed to shut the nav drawer after clicking a link
-const String IS_DRAWER_OPEN = 'is-visible';
-const String OBFUSCATOR = 'mdl-layout__obfuscator';
-const String DRAWER = 'mdl-layout__drawer';
-
 @Component(
     selector: 'app',
     template: '''<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -90,18 +84,18 @@ class App {
   final Router _router;
   final Contacts _contacts;
 
+  @ViewChild(MaterialLayout)
+  MaterialLayout layout;
+
   App(this._router, this._contacts) {
     loadExampleData();
   }
 
   void toggleDrawer() {
     // make the drawer go away when a link is clicked.
-    // These elements are dynamically generated for MDL. The constants are
-    // found in in angular2_rbi/src/material_layout.dart.
-    Element drawer = querySelector('.$DRAWER');
-    drawer.classes.toggle(IS_DRAWER_OPEN);
-    Element obfuscator = querySelector('.$OBFUSCATOR');
-    obfuscator.classes.toggle(IS_DRAWER_OPEN);
+    // needed to look in angular2_rbi/src/material_layout.dart to find the
+    // incantation.
+    layout.drawerToggleHandler(null);
   }
 
   void exportJson() {

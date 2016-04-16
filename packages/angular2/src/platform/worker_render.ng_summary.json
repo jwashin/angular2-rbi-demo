@@ -5,7 +5,7 @@
       {
         "1": "package:angular2/src/platform/worker_render_common.dart",
         "2": [
-          "WORKER_RENDER_APP_COMMON",
+          "WORKER_RENDER_APPLICATION_COMMON",
           "WORKER_RENDER_MESSAGING_PROVIDERS",
           "WORKER_SCRIPT",
           "initializeGenericWorkerRenderer"
@@ -41,31 +41,49 @@
         "5": false
       }
     ],
-    "5": [
-      {
-        "1": "WebWorkerInstance",
-        "4": [
-          {
-            "1": "Injectable",
-            "4": false,
-            "5": false,
-            "6": false,
-            "7": true,
-            "8": false
-          }
-        ],
-        "5": [
-          {
-            "1": "Isolate",
-            "4": "worker"
-          },
-          {
-            "1": "MessageBus",
-            "4": "bus"
-          }
-        ]
-      }
-    ],
     "6": "worker_render.dart"
-  }
+  },
+  "type": {
+    "WORKER_RENDER_APP": {
+      "class": "Identifier",
+      "name": "WORKER_RENDER_APP",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "initIsolate": {
+      "class": "Identifier",
+      "name": "initIsolate",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "spawnIsolate": {
+      "class": "Identifier",
+      "name": "spawnIsolate",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "UIMessageBusSource": {
+      "class": "Identifier",
+      "name": "UIMessageBusSource",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "WebWorkerInstance": {
+      "class": "Identifier",
+      "name": "WebWorkerInstance",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

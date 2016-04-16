@@ -12,10 +12,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/exceptions.dart",
+        "1": "package:angular2/src/facade/base_wrapped_exception.dart",
         "2": [
-          "BaseException",
-          "WrappedException"
+          "BaseWrappedException"
         ],
         "5": false
       },
@@ -31,9 +30,36 @@
     "6": "exception_handler.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/facade/base_wrapped_exception.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/facade/collection.template.dart",
+        "4": "i2"
       }
     ]
-  }
+  },
+  "type": {
+    "_ArrayLogger": {
+      "class": "Identifier",
+      "name": "_ArrayLogger",
+      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ExceptionHandler": {
+      "class": "Identifier",
+      "name": "ExceptionHandler",
+      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

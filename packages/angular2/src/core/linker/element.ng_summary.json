@@ -200,5 +200,160 @@
       }
     ],
     "6": "element.dart"
-  }
+  },
+  "type": {
+    "StaticKeys": {
+      "class": "Identifier",
+      "name": "StaticKeys",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DirectiveDependency": {
+      "class": "Identifier",
+      "name": "DirectiveDependency",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DirectiveProvider": {
+      "class": "Identifier",
+      "name": "DirectiveProvider",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "QueryMetadataWithSetter": {
+      "class": "Identifier",
+      "name": "QueryMetadataWithSetter",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "setProvidersVisibility": {
+      "class": "Identifier",
+      "name": "setProvidersVisibility",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "AppProtoElement": {
+      "class": "Identifier",
+      "name": "AppProtoElement",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_Context": {
+      "class": "Identifier",
+      "name": "_Context",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "InjectorWithHostBoundary": {
+      "class": "Identifier",
+      "name": "InjectorWithHostBoundary",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "AppElement": {
+      "class": "Identifier",
+      "name": "AppElement",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_QueryStrategy": {
+      "class": "Identifier",
+      "name": "_QueryStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_EmptyQueryStrategy": {
+      "class": "Identifier",
+      "name": "_EmptyQueryStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "InlineQueryStrategy": {
+      "class": "Identifier",
+      "name": "InlineQueryStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DynamicQueryStrategy": {
+      "class": "Identifier",
+      "name": "DynamicQueryStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_ElementDirectiveStrategy": {
+      "class": "Identifier",
+      "name": "_ElementDirectiveStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ElementDirectiveInlineStrategy": {
+      "class": "Identifier",
+      "name": "ElementDirectiveInlineStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ElementDirectiveDynamicStrategy": {
+      "class": "Identifier",
+      "name": "ElementDirectiveDynamicStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ProtoQueryRef": {
+      "class": "Identifier",
+      "name": "ProtoQueryRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "QueryRef": {
+      "class": "Identifier",
+      "name": "QueryRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_ComponentViewChangeDetectorRef": {
+      "class": "Identifier",
+      "name": "_ComponentViewChangeDetectorRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

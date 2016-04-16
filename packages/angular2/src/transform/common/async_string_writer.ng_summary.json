@@ -12,5 +12,16 @@
       }
     ],
     "6": "async_string_writer.dart"
-  }
+  },
+  "type": {
+    "AsyncStringWriter": {
+      "class": "Identifier",
+      "name": "AsyncStringWriter",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/async_string_writer.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

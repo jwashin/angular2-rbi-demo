@@ -22,9 +22,24 @@
     "6": "invalid_pipe_argument_exception.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "4": "i1"
       }
     ]
-  }
+  },
+  "type": {
+    "InvalidPipeArgumentException": {
+      "class": "Identifier",
+      "name": "InvalidPipeArgumentException",
+      "moduleUrl": "asset:angular2/lib/src/common/pipes/invalid_pipe_argument_exception.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

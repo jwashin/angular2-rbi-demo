@@ -3,6 +3,10 @@
     "1": "angular2.src.core.linker.compiler",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/linker/view_ref.dart",
         "2": [
           "HostViewFactoryRef"
@@ -35,7 +39,6 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "Future",
           "PromiseWrapper"
         ],
         "5": false
@@ -78,5 +81,34 @@
       }
     ],
     "6": "compiler.dart"
-  }
+  },
+  "type": {
+    "Compiler": {
+      "class": "Identifier",
+      "name": "Compiler",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "isHostViewFactory": {
+      "class": "Identifier",
+      "name": "isHostViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "Compiler_": {
+      "class": "Type",
+      "name": "Compiler_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    }
+  },
+  "alias": {}
 }

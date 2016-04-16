@@ -24,5 +24,48 @@
       }
     ],
     "6": "zone.dart"
-  }
+  },
+  "type": {
+    "_SimpleCallback": {
+      "class": "Identifier",
+      "name": "_SimpleCallback",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/zone.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "exec": {
+      "class": "Identifier",
+      "name": "exec",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/zone.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "log": {
+      "class": "Identifier",
+      "name": "log",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/zone.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "templateCompiler": {
+      "class": "Identifier",
+      "name": "templateCompiler",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/zone.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_friendlyError": {
+      "class": "Identifier",
+      "name": "_friendlyError",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/zone.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -57,23 +57,66 @@
     "6": "ng_if.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i1"
       }
     ]
   },
-  "NgIf": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "NgIf": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngIf]",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "NgIf",
         "moduleUrl": "asset:angular2/lib/src/common/directives/ng_if.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ViewContainerRef",
+              "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "TemplateRef",
+              "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {
@@ -84,7 +127,12 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [],
-      "template": null
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
-  }
+  },
+  "alias": {}
 }

@@ -14,8 +14,7 @@
         "2": [
           "isListLikeIterable",
           "iterateListLike",
-          "ListWrapper",
-          "MapWrapper"
+          "ListWrapper"
         ],
         "5": false
       },
@@ -42,11 +41,55 @@
         "1": "../differs/iterable_differs.dart",
         "2": [
           "IterableDiffer",
-          "IterableDifferFactory"
+          "IterableDifferFactory",
+          "TrackByFn"
         ],
         "5": false
       }
     ],
     "6": "default_iterable_differ.dart"
-  }
+  },
+  "type": {
+    "DefaultIterableDifferFactory": {
+      "class": "Identifier",
+      "name": "DefaultIterableDifferFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DefaultIterableDiffer": {
+      "class": "Identifier",
+      "name": "DefaultIterableDiffer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CollectionChangeRecord": {
+      "class": "Identifier",
+      "name": "CollectionChangeRecord",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_DuplicateItemRecordList": {
+      "class": "Identifier",
+      "name": "_DuplicateItemRecordList",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_DuplicateMap": {
+      "class": "Identifier",
+      "name": "_DuplicateMap",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

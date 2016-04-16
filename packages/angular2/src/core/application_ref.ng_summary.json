@@ -3,9 +3,14 @@
     "1": "angular2.src.core.application_ref",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/zone/ng_zone.dart",
         "2": [
-          "NgZone"
+          "NgZone",
+          "NgZoneError"
         ],
         "5": false
       },
@@ -45,7 +50,6 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "Future",
           "PromiseWrapper",
           "PromiseCompleter",
           "ObservableWrapper"
@@ -124,5 +128,96 @@
       }
     ],
     "6": "application_ref.dart"
-  }
+  },
+  "type": {
+    "_componentProviders": {
+      "class": "Identifier",
+      "name": "_componentProviders",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "createNgZone": {
+      "class": "Identifier",
+      "name": "createNgZone",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "platform": {
+      "class": "Identifier",
+      "name": "platform",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "disposePlatform": {
+      "class": "Identifier",
+      "name": "disposePlatform",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_createPlatform": {
+      "class": "Identifier",
+      "name": "_createPlatform",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_runPlatformInitializers": {
+      "class": "Identifier",
+      "name": "_runPlatformInitializers",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "PlatformRef": {
+      "class": "Identifier",
+      "name": "PlatformRef",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "PlatformRef_": {
+      "class": "Identifier",
+      "name": "PlatformRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_runAppInitializers": {
+      "class": "Identifier",
+      "name": "_runAppInitializers",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ApplicationRef": {
+      "class": "Identifier",
+      "name": "ApplicationRef",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ApplicationRef_": {
+      "class": "Identifier",
+      "name": "ApplicationRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -76,5 +76,40 @@
       }
     ],
     "6": "change_definition_factory.dart"
-  }
+  },
+  "type": {
+    "createChangeDetectorDefinitions": {
+      "class": "Identifier",
+      "name": "createChangeDetectorDefinitions",
+      "moduleUrl": "asset:angular2/lib/src/compiler/change_definition_factory.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ProtoViewVisitor": {
+      "class": "Identifier",
+      "name": "ProtoViewVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/change_definition_factory.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "createChangeDefinitions": {
+      "class": "Identifier",
+      "name": "createChangeDefinitions",
+      "moduleUrl": "asset:angular2/lib/src/compiler/change_definition_factory.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_collectNestedProtoViewsVariableNames": {
+      "class": "Identifier",
+      "name": "_collectNestedProtoViewsVariableNames",
+      "moduleUrl": "asset:angular2/lib/src/compiler/change_definition_factory.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

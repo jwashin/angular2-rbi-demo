@@ -20,5 +20,24 @@
       }
     ],
     "6": "entrypoint_matcher.dart"
-  }
+  },
+  "type": {
+    "_defaultEntrypointName": {
+      "class": "Identifier",
+      "name": "_defaultEntrypointName",
+      "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/entrypoint_matcher.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "EntrypointMatcher": {
+      "class": "Identifier",
+      "name": "EntrypointMatcher",
+      "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/entrypoint_matcher.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

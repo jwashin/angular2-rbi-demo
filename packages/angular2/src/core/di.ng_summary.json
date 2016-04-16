@@ -48,8 +48,7 @@
       {
         "1": "di/key.dart",
         "2": [
-          "Key",
-          "TypeLiteral"
+          "Key"
         ]
       },
       {
@@ -72,5 +71,7 @@
       }
     ],
     "6": "di.dart"
-  }
+  },
+  "type": {},
+  "alias": {}
 }

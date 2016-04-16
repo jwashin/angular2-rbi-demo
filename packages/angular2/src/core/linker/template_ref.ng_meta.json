@@ -14,9 +14,28 @@
     "6": "template_ref.dart",
     "10": [
       {
-        "1": "element_ref.ng_deps.dart",
+        "1": "element_ref.template.dart",
         "4": "i0"
       }
     ]
-  }
+  },
+  "type": {
+    "TemplateRef": {
+      "class": "Identifier",
+      "name": "TemplateRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TemplateRef_": {
+      "class": "Identifier",
+      "name": "TemplateRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

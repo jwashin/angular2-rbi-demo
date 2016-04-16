@@ -42,25 +42,40 @@
     "6": "remove_reflection_capabilities.dart",
     "10": [
       {
-        "1": "package:angular2/src/transform/common/annotation_matcher.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/annotation_matcher.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/transform/common/asset_reader.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/asset_reader.template.dart",
         "4": "i1"
       },
       {
-        "1": "codegen.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/mirror_mode.template.dart",
         "4": "i2"
       },
       {
-        "1": "entrypoint_matcher.ng_deps.dart",
+        "1": "codegen.template.dart",
         "4": "i3"
       },
       {
-        "1": "rewriter.ng_deps.dart",
+        "1": "entrypoint_matcher.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "rewriter.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "type": {
+    "removeReflectionCapabilities": {
+      "class": "Identifier",
+      "name": "removeReflectionCapabilities",
+      "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/remove_reflection_capabilities.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

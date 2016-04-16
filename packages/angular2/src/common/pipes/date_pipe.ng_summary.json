@@ -86,17 +86,22 @@
     ],
     "6": "date_pipe.dart"
   },
-  "DatePipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "DatePipe": {
       "class": "Pipe",
       "type": {
+        "class": "Type",
         "name": "DatePipe",
         "moduleUrl": "asset:angular2/lib/src/common/pipes/date_pipe.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": null
       },
       "name": "date",
       "pure": true
     }
-  }
+  },
+  "alias": {}
 }

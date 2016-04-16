@@ -25,7 +25,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/router/location.dart",
+        "1": "package:angular2/src/router/location/location.dart",
         "2": [
           "Location"
         ],
@@ -53,17 +53,34 @@
     "6": "location_mock.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/router/location.ng_deps.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/router/location/location.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "type": {
+    "SpyLocation": {
+      "class": "Type",
+      "name": "SpyLocation",
+      "moduleUrl": "asset:angular2/lib/src/mock/location_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    }
+  },
+  "alias": {}
 }

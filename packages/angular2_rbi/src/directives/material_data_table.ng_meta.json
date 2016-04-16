@@ -17,9 +17,92 @@
     "6": "material_data_table.dart",
     "10": [
       {
-        "1": "material_checkbox.ng_deps.dart",
+        "1": "material_checkbox.template.dart",
         "4": "i0"
       }
     ]
-  }
+  },
+  "type": {
+    "DATA_TABLE": {
+      "class": "Identifier",
+      "name": "DATA_TABLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SELECTABLE": {
+      "class": "Identifier",
+      "name": "SELECTABLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_SELECTED": {
+      "class": "Identifier",
+      "name": "IS_SELECTED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_UPGRADED": {
+      "class": "Identifier",
+      "name": "IS_UPGRADED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CHECKBOX": {
+      "class": "Identifier",
+      "name": "CHECKBOX",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "JS_CHECKBOX": {
+      "class": "Identifier",
+      "name": "JS_CHECKBOX",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_EFFECT": {
+      "class": "Identifier",
+      "name": "RIPPLE_EFFECT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DATA_TABLE_SELECT": {
+      "class": "Identifier",
+      "name": "DATA_TABLE_SELECT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CHECKBOX_INPUT": {
+      "class": "Identifier",
+      "name": "CHECKBOX_INPUT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DataTableBehavior": {
+      "class": "Identifier",
+      "name": "DataTableBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

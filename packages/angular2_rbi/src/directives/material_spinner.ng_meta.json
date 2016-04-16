@@ -1,0 +1,86 @@
+{
+  "ngDeps": null,
+  "type": {
+    "SPINNER_LAYER_COUNT": {
+      "class": "Identifier",
+      "name": "SPINNER_LAYER_COUNT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_LAYER": {
+      "class": "Identifier",
+      "name": "SPINNER_LAYER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_CIRCLE_CLIPPER": {
+      "class": "Identifier",
+      "name": "SPINNER_CIRCLE_CLIPPER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_CIRCLE": {
+      "class": "Identifier",
+      "name": "SPINNER_CIRCLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_GAP_PATCH": {
+      "class": "Identifier",
+      "name": "SPINNER_GAP_PATCH",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_LEFT": {
+      "class": "Identifier",
+      "name": "SPINNER_LEFT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_RIGHT": {
+      "class": "Identifier",
+      "name": "SPINNER_RIGHT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_ACTIVE": {
+      "class": "Identifier",
+      "name": "IS_ACTIVE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_UPGRADED": {
+      "class": "Identifier",
+      "name": "IS_UPGRADED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SpinnerBehavior": {
+      "class": "Identifier",
+      "name": "SpinnerBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

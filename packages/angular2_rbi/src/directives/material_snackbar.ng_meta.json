@@ -1,0 +1,46 @@
+{
+  "ngDeps": null,
+  "type": {
+    "SNACKBAR": {
+      "class": "Identifier",
+      "name": "SNACKBAR",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_snackbar.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "MESSAGE": {
+      "class": "Identifier",
+      "name": "MESSAGE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_snackbar.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ACTION": {
+      "class": "Identifier",
+      "name": "ACTION",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_snackbar.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ACTIVE": {
+      "class": "Identifier",
+      "name": "ACTIVE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_snackbar.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SnackbarBehavior": {
+      "class": "Identifier",
+      "name": "SnackbarBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_snackbar.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

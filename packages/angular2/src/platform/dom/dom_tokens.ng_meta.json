@@ -13,9 +13,20 @@
     "6": "dom_tokens.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       }
     ]
-  }
+  },
+  "type": {
+    "DOCUMENT": {
+      "class": "Identifier",
+      "name": "DOCUMENT",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_tokens.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -47,6 +47,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "BaseException"
+        ],
+        "5": false
+      },
+      {
         "1": "key.dart",
         "2": [
           "Key"
@@ -66,21 +73,156 @@
     "6": "injector.dart",
     "10": [
       {
-        "1": "provider.ng_deps.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i0"
       },
       {
-        "1": "exceptions.ng_deps.dart",
+        "1": "provider.template.dart",
         "4": "i1"
       },
       {
-        "1": "key.ng_deps.dart",
+        "1": "exceptions.template.dart",
         "4": "i2"
       },
       {
-        "1": "metadata.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "key.template.dart",
+        "4": "i5"
+      },
+      {
+        "1": "metadata.template.dart",
+        "4": "i6"
       }
     ]
-  }
+  },
+  "type": {
+    "_MAX_CONSTRUCTION_COUNTER": {
+      "class": "Identifier",
+      "name": "_MAX_CONSTRUCTION_COUNTER",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "UNDEFINED": {
+      "class": "Identifier",
+      "name": "UNDEFINED",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "Visibility": {
+      "class": "Identifier",
+      "name": "Visibility",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "canSee": {
+      "class": "Identifier",
+      "name": "canSee",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ProtoInjectorStrategy": {
+      "class": "Identifier",
+      "name": "ProtoInjectorStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ProtoInjectorInlineStrategy": {
+      "class": "Identifier",
+      "name": "ProtoInjectorInlineStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ProtoInjectorDynamicStrategy": {
+      "class": "Identifier",
+      "name": "ProtoInjectorDynamicStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ProtoInjector": {
+      "class": "Identifier",
+      "name": "ProtoInjector",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "InjectorStrategy": {
+      "class": "Identifier",
+      "name": "InjectorStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "InjectorInlineStrategy": {
+      "class": "Identifier",
+      "name": "InjectorInlineStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "InjectorDynamicStrategy": {
+      "class": "Identifier",
+      "name": "InjectorDynamicStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ProviderWithVisibility": {
+      "class": "Identifier",
+      "name": "ProviderWithVisibility",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DependencyProvider": {
+      "class": "Identifier",
+      "name": "DependencyProvider",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "Injector": {
+      "class": "Identifier",
+      "name": "Injector",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_mapProviders": {
+      "class": "Identifier",
+      "name": "_mapProviders",
+      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

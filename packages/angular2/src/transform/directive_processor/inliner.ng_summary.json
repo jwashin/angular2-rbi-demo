@@ -15,22 +15,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/transform/common/async_string_writer.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/transform/common/logging.dart",
-        "5": false
-      },
-      {
-        "1": "package:code_transformers/assets.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/transform/common/asset_reader.dart",
-        "5": false
-      },
-      {
         "1": "package:barback/barback.dart",
         "2": [
           "AssetId"
@@ -45,8 +29,51 @@
         "1": "package:path/path.dart",
         "4": "path",
         "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/asset_reader.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/async_string_writer.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/logging.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/url_resolver.dart",
+        "5": false
       }
     ],
     "6": "inliner.dart"
-  }
+  },
+  "type": {
+    "inlineParts": {
+      "class": "Identifier",
+      "name": "inlineParts",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/inliner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_getAllDeclarations": {
+      "class": "Identifier",
+      "name": "_getAllDeclarations",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/inliner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_NgDepsDirectivesVisitor": {
+      "class": "Identifier",
+      "name": "_NgDepsDirectivesVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/inliner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

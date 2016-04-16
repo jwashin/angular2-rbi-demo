@@ -18,5 +18,16 @@
       }
     ],
     "6": "hammer_common.dart"
-  }
+  },
+  "type": {
+    "HammerGesturesPluginCommon": {
+      "class": "Identifier",
+      "name": "HammerGesturesPluginCommon",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/hammer_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

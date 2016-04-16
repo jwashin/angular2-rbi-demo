@@ -19,10 +19,16 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "scheduleMicroTask"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "BaseException",
-          "WrappedException"
+          "BaseException"
         ],
         "5": false
       },
@@ -36,7 +42,6 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "PromiseWrapper",
           "ObservableWrapper"
         ],
         "5": false
@@ -79,21 +84,94 @@
     "6": "testability.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i1"
       },
       {
-        "1": "../zone/ng_zone.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "../zone/ng_zone.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "package:angular2/src/facade/async.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "type": {
+    "Testability": {
+      "class": "Type",
+      "name": "Testability",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "NgZone",
+            "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    },
+    "TestabilityRegistry": {
+      "class": "Type",
+      "name": "TestabilityRegistry",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    },
+    "GetTestability": {
+      "class": "Identifier",
+      "name": "GetTestability",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_NoopGetTestability": {
+      "class": "Identifier",
+      "name": "_NoopGetTestability",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "setTestabilityGetter": {
+      "class": "Identifier",
+      "name": "setTestabilityGetter",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

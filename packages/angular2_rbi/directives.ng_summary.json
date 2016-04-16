@@ -145,7 +145,8 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnInit",
+          "OnDestroy"
         ]
       },
       {
@@ -173,7 +174,8 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnInit",
+          "OnDestroy"
         ]
       },
       {
@@ -201,7 +203,8 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnInit",
+          "OnDestroy"
         ]
       },
       {
@@ -229,7 +232,8 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnInit",
+          "OnDestroy"
         ]
       },
       {
@@ -257,7 +261,8 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnInit",
+          "OnDestroy"
         ]
       },
       {
@@ -285,7 +290,8 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnInit",
+          "OnDestroy"
         ]
       },
       {
@@ -297,10 +303,6 @@
               {
                 "1": "selector",
                 "2": "'.mdl-js-progress'"
-              },
-              {
-                "1": "inputs",
-                "2": "const ['progress', 'buffer']"
               }
             ],
             "4": false,
@@ -317,7 +319,35 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnChanges"
+        ],
+        "7": [
+          {
+            "1": "progress",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "buffer",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
         ]
       },
       {
@@ -345,7 +375,8 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnInit",
+          "OnDestroy"
         ]
       },
       {
@@ -373,7 +404,8 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnInit",
+          "OnDestroy"
         ]
       },
       {
@@ -385,10 +417,6 @@
               {
                 "1": "selector",
                 "2": "'.mdl-js-slider'"
-              },
-              {
-                "1": "inputs",
-                "2": "const ['min', 'max', 'value', 'step']"
               }
             ],
             "4": false,
@@ -405,7 +433,75 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnChanges",
+          "OnDestroy"
+        ],
+        "7": [
+          {
+            "1": "min",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "max",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "value",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "step",
+            "2": [
+              {
+                "1": "Input",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          },
+          {
+            "1": "valueChange",
+            "2": [
+              {
+                "1": "Output",
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
         ]
       },
       {
@@ -489,7 +585,8 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnInit",
+          "OnDestroy"
         ]
       },
       {
@@ -517,7 +614,8 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnInit",
+          "OnDestroy"
         ]
       },
       {
@@ -545,7 +643,8 @@
           }
         ],
         "6": [
-          "OnInit"
+          "OnInit",
+          "OnDestroy"
         ]
       },
       {
@@ -575,22 +674,90 @@
         "6": [
           "OnInit"
         ]
+      },
+      {
+        "1": "MaterialBadge",
+        "4": [
+          {
+            "1": "Directive",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'.mdl-badge'"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ElementRef",
+            "4": "ref"
+          }
+        ],
+        "6": [
+          "OnChanges"
+        ],
+        "7": [
+          {
+            "1": "badge",
+            "2": [
+              {
+                "1": "Input",
+                "2": [
+                  "'data-badge'"
+                ],
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ]
       }
     ],
     "6": "directives.dart"
   },
-  "MaterialButton": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "MaterialButton": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-button",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialButton",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -599,23 +766,48 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        0,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialCheckbox": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialCheckbox": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-checkbox",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialCheckbox",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -624,23 +816,48 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        0,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialDataTable": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialDataTable": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-data-table",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialDataTable",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -649,23 +866,48 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        0,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialIconToggle": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialIconToggle": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-icon-toggle",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialIconToggle",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -674,23 +916,48 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        0,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialLayout": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialLayout": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-layout",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialLayout",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -699,23 +966,48 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        0,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialMenu": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialMenu": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-menu",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialMenu",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -724,23 +1016,48 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        0,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialProgress": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialProgress": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-progress",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialProgress",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {
@@ -752,23 +1069,47 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        3
       ],
-      "template": null
-    }
-  },
-  "MaterialRadio": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialRadio": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-radio",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialRadio",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -777,23 +1118,48 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        0,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialRipple": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialRipple": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "mdl-js-ripple-effect",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialRipple",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -802,23 +1168,48 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        0,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialSlider": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialSlider": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-slider",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialSlider",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {
@@ -827,28 +1218,55 @@
         "value": "value",
         "step": "step"
       },
-      "outputs": {},
+      "outputs": {
+        "valueChange": "valueChange"
+      },
       "hostListeners": {},
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        3,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialSpinner": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialSpinner": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-spinner",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialSpinner",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -859,21 +1277,45 @@
       "lifecycleHooks": [
         0
       ],
-      "template": null
-    }
-  },
-  "MaterialSwitch": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialSwitch": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-switch",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialSwitch",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -884,21 +1326,45 @@
       "lifecycleHooks": [
         0
       ],
-      "template": null
-    }
-  },
-  "MaterialTabs": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialTabs": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-tabs",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialTabs",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -907,23 +1373,48 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        0,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialTextfield": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialTextfield": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-textfield",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialTextfield",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -932,23 +1423,48 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        0,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialTooltip": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialTooltip": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-tooltip",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialTooltip",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -957,23 +1473,48 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        0
+        0,
+        1
       ],
-      "template": null
-    }
-  },
-  "MaterialSnackbar": {
-    "kind": "type",
-    "value": {
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialSnackbar": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": ".mdl-js-snackbar",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "MaterialSnackbar",
         "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -984,7 +1525,63 @@
       "lifecycleHooks": [
         0
       ],
-      "template": null
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaterialBadge": {
+      "class": "Directive",
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": ".mdl-badge",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "MaterialBadge",
+        "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "badge": "data-badge"
+      },
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        3
+      ],
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
-  }
+  },
+  "alias": {}
 }

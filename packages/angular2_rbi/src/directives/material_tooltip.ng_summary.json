@@ -1,0 +1,22 @@
+{
+  "ngDeps": null,
+  "type": {
+    "IS_ACTIVE": {
+      "class": "Identifier",
+      "name": "IS_ACTIVE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tooltip.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TooltipBehavior": {
+      "class": "Identifier",
+      "name": "TooltipBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tooltip.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

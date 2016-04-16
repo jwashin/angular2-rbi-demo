@@ -1,0 +1,124 @@
+{
+  "ngDeps": {
+    "1": "material_ripple",
+    "3": [
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "dart:async",
+        "2": [
+          "Timer"
+        ],
+        "5": false
+      },
+      {
+        "1": "dart:math",
+        "2": [
+          "sqrt"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2_rbi/src/util/animation_frame.dart",
+        "2": [
+          "getAnimationFrame"
+        ],
+        "5": false
+      }
+    ],
+    "6": "material_ripple.dart"
+  },
+  "type": {
+    "RIPPLE_EFFECT": {
+      "class": "Identifier",
+      "name": "RIPPLE_EFFECT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_ripple.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_CENTER": {
+      "class": "Identifier",
+      "name": "RIPPLE_CENTER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_ripple.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_IGNORE_EVENTS": {
+      "class": "Identifier",
+      "name": "RIPPLE_IGNORE_EVENTS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_ripple.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE": {
+      "class": "Identifier",
+      "name": "RIPPLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_ripple.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_ANIMATING": {
+      "class": "Identifier",
+      "name": "IS_ANIMATING",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_ripple.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_VISIBLE": {
+      "class": "Identifier",
+      "name": "IS_VISIBLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_ripple.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HAS_RIPPLE_EVENTS": {
+      "class": "Identifier",
+      "name": "HAS_RIPPLE_EVENTS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_ripple.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "INITIAL_SCALE": {
+      "class": "Identifier",
+      "name": "INITIAL_SCALE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_ripple.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "INITIAL_SIZE": {
+      "class": "Identifier",
+      "name": "INITIAL_SIZE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_ripple.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "FINAL_SCALE": {
+      "class": "Identifier",
+      "name": "FINAL_SCALE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_ripple.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RippleBehavior": {
+      "class": "Identifier",
+      "name": "RippleBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_ripple.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

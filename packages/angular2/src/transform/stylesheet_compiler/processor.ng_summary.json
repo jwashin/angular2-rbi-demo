@@ -41,5 +41,32 @@
       }
     ],
     "6": "processor.dart"
-  }
+  },
+  "type": {
+    "shimmedStylesheetAssetId": {
+      "class": "Identifier",
+      "name": "shimmedStylesheetAssetId",
+      "moduleUrl": "asset:angular2/lib/src/transform/stylesheet_compiler/processor.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "nonShimmedStylesheetAssetId": {
+      "class": "Identifier",
+      "name": "nonShimmedStylesheetAssetId",
+      "moduleUrl": "asset:angular2/lib/src/transform/stylesheet_compiler/processor.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "processStylesheet": {
+      "class": "Identifier",
+      "name": "processStylesheet",
+      "moduleUrl": "asset:angular2/lib/src/transform/stylesheet_compiler/processor.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

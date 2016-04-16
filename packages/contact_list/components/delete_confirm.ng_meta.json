@@ -66,31 +66,87 @@
     "6": "delete_confirm.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/router.ng_deps.dart",
+        "1": "package:angular2/router.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:contact_list/services/contacts.ng_deps.dart",
+        "1": "package:contact_list/services/contacts.template.dart",
         "4": "i2"
       }
     ]
   },
-  "DeleteConfirm": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "DeleteConfirm": {
       "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "delete-confirm",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "DeleteConfirm",
         "moduleUrl": "asset:contact_list/lib/components/delete_confirm.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "Contacts",
+              "moduleUrl": "asset:contact_list/lib/services/contacts.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "RouteParams",
+              "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "Router",
+              "moduleUrl": "asset:angular2/lib/src/router/router.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -106,7 +162,12 @@
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []
-      }
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
-  }
+  },
+  "alias": {}
 }

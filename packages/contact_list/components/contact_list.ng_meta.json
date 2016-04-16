@@ -77,35 +77,91 @@
     "6": "contact_list.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/router.ng_deps.dart",
+        "1": "package:angular2/router.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:contact_list/services/contacts.ng_deps.dart",
+        "1": "package:contact_list/services/contacts.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2_rbi/directives.ng_deps.dart",
+        "1": "package:angular2_rbi/directives.template.dart",
         "4": "i3"
       }
     ]
   },
-  "ContactList": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ContactList": {
       "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "contact-list",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "ContactList",
         "moduleUrl": "asset:contact_list/lib/components/contact_list.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "Contacts",
+              "moduleUrl": "asset:contact_list/lib/services/contacts.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "RouteParams",
+              "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "Router",
+              "moduleUrl": "asset:angular2/lib/src/router/router.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {
@@ -123,7 +179,12 @@
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []
-      }
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
-  }
+  },
+  "alias": {}
 }

@@ -63,27 +63,53 @@
     "6": "ng_control_status.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "ng_control.ng_deps.dart",
+        "1": "ng_control.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i2"
       }
     ]
   },
-  "NgControlStatus": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "NgControlStatus": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
       "selector": "[ngControl],[ngModel],[ngFormControl]",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "NgControlStatus",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control_status.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "NgControl",
+              "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": true,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -99,7 +125,12 @@
       },
       "hostAttributes": {},
       "lifecycleHooks": [],
-      "template": null
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
-  }
+  },
+  "alias": {}
 }

@@ -17,10 +17,6 @@
       {
         "1": "package:angular2_rbi/directives.dart",
         "5": false
-      },
-      {
-        "1": "dart:html",
-        "5": false
       }
     ],
     "5": [
@@ -82,18 +78,74 @@
     ],
     "6": "edit_contact.dart"
   },
-  "EditContact": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "EditContact": {
       "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "edit-contact",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "EditContact",
         "moduleUrl": "asset:contact_list/lib/components/edit_contact.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "Contacts",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "RouteParams",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "Router",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -109,7 +161,12 @@
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []
-      }
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
-  }
+  },
+  "alias": {}
 }

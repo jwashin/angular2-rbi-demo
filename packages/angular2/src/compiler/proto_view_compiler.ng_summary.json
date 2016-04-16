@@ -130,5 +130,186 @@
       }
     ],
     "6": "proto_view_compiler.dart"
-  }
+  },
+  "type": {
+    "PROTO_VIEW_JIT_IMPORTS": {
+      "class": "Identifier",
+      "name": "PROTO_VIEW_JIT_IMPORTS",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IMPLICIT_TEMPLATE_VAR": {
+      "class": "Identifier",
+      "name": "IMPLICIT_TEMPLATE_VAR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CLASS_ATTR": {
+      "class": "Identifier",
+      "name": "CLASS_ATTR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "STYLE_ATTR": {
+      "class": "Identifier",
+      "name": "STYLE_ATTR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ProtoViewCompiler": {
+      "class": "Type",
+      "name": "ProtoViewCompiler",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    },
+    "CompileProtoViews": {
+      "class": "Identifier",
+      "name": "CompileProtoViews",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CompileProtoView": {
+      "class": "Identifier",
+      "name": "CompileProtoView",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CompileProtoElement": {
+      "class": "Identifier",
+      "name": "CompileProtoElement",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "visitAndReturnContext": {
+      "class": "Identifier",
+      "name": "visitAndReturnContext",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ProtoViewFactory": {
+      "class": "Identifier",
+      "name": "ProtoViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CodeGenProtoViewFactory": {
+      "class": "Identifier",
+      "name": "CodeGenProtoViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RuntimeProtoViewFactory": {
+      "class": "Identifier",
+      "name": "RuntimeProtoViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ProtoViewBuilderVisitor": {
+      "class": "Identifier",
+      "name": "ProtoViewBuilderVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "mapToKeyValueArray": {
+      "class": "Identifier",
+      "name": "mapToKeyValueArray",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "mergeAttributeValue": {
+      "class": "Identifier",
+      "name": "mergeAttributeValue",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DirectiveContext": {
+      "class": "Identifier",
+      "name": "DirectiveContext",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "keyValueArrayToStringMap": {
+      "class": "Identifier",
+      "name": "keyValueArrayToStringMap",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "codeGenDirectivesArray": {
+      "class": "Identifier",
+      "name": "codeGenDirectivesArray",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "codeGenTypesArray": {
+      "class": "Identifier",
+      "name": "codeGenTypesArray",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "codeGenViewType": {
+      "class": "Identifier",
+      "name": "codeGenViewType",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "typeRef": {
+      "class": "Identifier",
+      "name": "typeRef",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getViewType": {
+      "class": "Identifier",
+      "name": "getViewType",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

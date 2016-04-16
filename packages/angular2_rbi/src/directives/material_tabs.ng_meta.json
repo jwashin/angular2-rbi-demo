@@ -14,6 +14,87 @@
         "5": false
       }
     ],
-    "6": "material_tabs.dart"
-  }
+    "6": "material_tabs.dart",
+    "10": [
+      {
+        "1": "material_ripple.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "type": {
+    "TAB_CLASS": {
+      "class": "Identifier",
+      "name": "TAB_CLASS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tabs.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "PANEL_CLASS": {
+      "class": "Identifier",
+      "name": "PANEL_CLASS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tabs.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_ACTIVE": {
+      "class": "Identifier",
+      "name": "IS_ACTIVE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tabs.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_UPGRADED": {
+      "class": "Identifier",
+      "name": "IS_UPGRADED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tabs.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_EFFECT": {
+      "class": "Identifier",
+      "name": "RIPPLE_EFFECT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tabs.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TABS_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "TABS_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tabs.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE": {
+      "class": "Identifier",
+      "name": "RIPPLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tabs.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_IGNORE_EVENTS": {
+      "class": "Identifier",
+      "name": "RIPPLE_IGNORE_EVENTS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tabs.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TabsBehavior": {
+      "class": "Identifier",
+      "name": "TabsBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tabs.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

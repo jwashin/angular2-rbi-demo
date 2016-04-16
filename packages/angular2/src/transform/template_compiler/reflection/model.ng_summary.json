@@ -8,5 +8,32 @@
       }
     ],
     "6": "model.dart"
-  }
+  },
+  "type": {
+    "CodegenModel": {
+      "class": "Identifier",
+      "name": "CodegenModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/model.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ReflectiveAccessor": {
+      "class": "Identifier",
+      "name": "ReflectiveAccessor",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/model.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "sanitizePropertyName": {
+      "class": "Identifier",
+      "name": "sanitizePropertyName",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/model.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

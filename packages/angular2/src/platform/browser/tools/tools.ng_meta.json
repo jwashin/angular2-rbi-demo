@@ -24,13 +24,32 @@
     "6": "tools.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/dynamic_component_loader.template.dart",
         "4": "i0"
       },
       {
-        "1": "common_tools.ng_deps.dart",
+        "1": "common_tools.template.dart",
         "4": "i1"
       }
     ]
-  }
+  },
+  "type": {
+    "enableDebugTools": {
+      "class": "Identifier",
+      "name": "enableDebugTools",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/tools/tools.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "disableDebugTools": {
+      "class": "Identifier",
+      "name": "disableDebugTools",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/tools/tools.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

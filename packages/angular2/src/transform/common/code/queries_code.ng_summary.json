@@ -24,5 +24,32 @@
       }
     ],
     "6": "queries_code.dart"
-  }
+  },
+  "type": {
+    "QueriesVisitor": {
+      "class": "Identifier",
+      "name": "QueriesVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_QueriesPropertyVisitor": {
+      "class": "Identifier",
+      "name": "_QueriesPropertyVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_QueriesAnnotationVisitor": {
+      "class": "Identifier",
+      "name": "_QueriesAnnotationVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

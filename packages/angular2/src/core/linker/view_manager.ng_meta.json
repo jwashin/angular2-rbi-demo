@@ -42,7 +42,8 @@
         "2": [
           "AppView",
           "HostViewFactory",
-          "flattenNestedViewRenderNodes"
+          "flattenNestedViewRenderNodes",
+          "findLastRenderNode"
         ],
         "5": false
       },
@@ -68,6 +69,7 @@
           "HostViewFactoryRef_",
           "EmbeddedViewRef",
           "HostViewRef",
+          "ViewRef",
           "ViewRef_"
         ],
         "5": false
@@ -84,13 +86,6 @@
         "2": [
           "TemplateRef",
           "TemplateRef_"
-        ],
-        "5": false
-      },
-      {
-        "1": "view_listener.dart",
-        "2": [
-          "AppViewListener"
         ],
         "5": false
       },
@@ -152,10 +147,6 @@
             "4": "_renderer"
           },
           {
-            "1": "AppViewListener",
-            "4": "_viewListener"
-          },
-          {
             "1": "String",
             "3": [
               "const Inject(APP_ID)"
@@ -168,57 +159,121 @@
     "6": "view_manager.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
-        "1": "view.ng_deps.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i2"
       },
       {
-        "1": "element.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i3"
       },
       {
-        "1": "element_ref.ng_deps.dart",
+        "1": "view.template.dart",
         "4": "i4"
       },
       {
-        "1": "view_ref.ng_deps.dart",
+        "1": "element.template.dart",
         "4": "i5"
       },
       {
-        "1": "view_container_ref.ng_deps.dart",
+        "1": "element_ref.template.dart",
         "4": "i6"
       },
       {
-        "1": "template_ref.ng_deps.dart",
+        "1": "view_ref.template.dart",
         "4": "i7"
       },
       {
-        "1": "view_listener.ng_deps.dart",
+        "1": "view_container_ref.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/core/render/api.ng_deps.dart",
+        "1": "template_ref.template.dart",
         "4": "i9"
       },
       {
-        "1": "../profile/profile.ng_deps.dart",
+        "1": "package:angular2/src/core/render/api.template.dart",
         "4": "i10"
       },
       {
-        "1": "package:angular2/src/core/application_tokens.ng_deps.dart",
+        "1": "../profile/profile.template.dart",
         "4": "i11"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.ng_deps.dart",
+        "1": "package:angular2/src/core/application_tokens.template.dart",
         "4": "i12"
+      },
+      {
+        "1": "package:angular2/src/core/metadata/view.template.dart",
+        "4": "i13"
+      },
+      {
+        "1": "view_type.template.dart",
+        "4": "i14"
       }
     ]
-  }
+  },
+  "type": {
+    "AppViewManager": {
+      "class": "Identifier",
+      "name": "AppViewManager",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "AppViewManager_": {
+      "class": "Type",
+      "name": "AppViewManager_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "RootRenderer",
+            "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "APP_ID",
+            "moduleUrl": "asset:angular2/lib/src/core/application_tokens.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "alias": {}
 }

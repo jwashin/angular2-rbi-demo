@@ -14,13 +14,32 @@
     "6": "directive_lifecycle_reflector.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/reflection/reflection.ng_deps.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/linker/interfaces.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/interfaces.template.dart",
         "4": "i1"
       }
     ]
-  }
+  },
+  "type": {
+    "INTERFACES": {
+      "class": "Identifier",
+      "name": "INTERFACES",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/directive_lifecycle_reflector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "hasLifecycleHook": {
+      "class": "Identifier",
+      "name": "hasLifecycleHook",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/directive_lifecycle_reflector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

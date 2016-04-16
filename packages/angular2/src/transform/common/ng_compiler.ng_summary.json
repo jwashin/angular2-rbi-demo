@@ -61,6 +61,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/i18n.dart",
+        "5": false
+      },
+      {
         "1": "xhr_impl.dart",
         "5": false
       },
@@ -70,5 +74,24 @@
       }
     ],
     "6": "ng_compiler.dart"
-  }
+  },
+  "type": {
+    "createTemplateCompiler": {
+      "class": "Identifier",
+      "name": "createTemplateCompiler",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/ng_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_createHtmlParser": {
+      "class": "Identifier",
+      "name": "_createHtmlParser",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/ng_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

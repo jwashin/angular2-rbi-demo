@@ -13,9 +13,20 @@
     "6": "title.dart",
     "10": [
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i0"
       }
     ]
-  }
+  },
+  "type": {
+    "Title": {
+      "class": "Identifier",
+      "name": "Title",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/title.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

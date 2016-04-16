@@ -32,5 +32,102 @@
       }
     ],
     "6": "worker_app.dart"
-  }
+  },
+  "type": {
+    "RENDER_SEND_PORT": {
+      "class": "Identifier",
+      "name": "RENDER_SEND_PORT",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "WORKER_APP_APPLICATION": {
+      "class": "Identifier",
+      "name": "WORKER_APP_APPLICATION",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "WORKER_APP_APPLICATION_COMMON",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "MessageBus",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "createMessageBus",
+            "prefix": null,
+            "moduleUrl": null,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          }
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "APP_INITIALIZER",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": {
+            "class": "Identifier",
+            "name": "setupIsolate",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useFactory": null
+        }
+      ]
+    },
+    "createMessageBus": {
+      "class": "Identifier",
+      "name": "createMessageBus",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "setupIsolate": {
+      "class": "Identifier",
+      "name": "setupIsolate",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "WebWorkerMessageBusSink": {
+      "class": "Identifier",
+      "name": "WebWorkerMessageBusSink",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

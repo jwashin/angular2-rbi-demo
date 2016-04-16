@@ -8,5 +8,40 @@
       }
     ],
     "6": "reflection_capabilities.dart"
-  }
+  },
+  "type": {
+    "NullReflectionCapabilities": {
+      "class": "Identifier",
+      "name": "NullReflectionCapabilities",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/reflection_capabilities.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_nullGetter": {
+      "class": "Identifier",
+      "name": "_nullGetter",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/reflection_capabilities.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_nullSetter": {
+      "class": "Identifier",
+      "name": "_nullSetter",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/reflection_capabilities.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_nullMethod": {
+      "class": "Identifier",
+      "name": "_nullMethod",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/reflection_capabilities.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

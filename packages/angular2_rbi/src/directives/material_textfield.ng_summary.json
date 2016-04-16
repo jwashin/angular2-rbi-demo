@@ -1,0 +1,86 @@
+{
+  "ngDeps": null,
+  "type": {
+    "NO_MAX_ROWS": {
+      "class": "Identifier",
+      "name": "NO_MAX_ROWS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "MAX_ROWS_ATTRIBUTE": {
+      "class": "Identifier",
+      "name": "MAX_ROWS_ATTRIBUTE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "LABEL": {
+      "class": "Identifier",
+      "name": "LABEL",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TEXTFIELD_INPUT": {
+      "class": "Identifier",
+      "name": "TEXTFIELD_INPUT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_DIRTY": {
+      "class": "Identifier",
+      "name": "IS_DIRTY",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_FOCUSED": {
+      "class": "Identifier",
+      "name": "IS_FOCUSED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_DISABLED": {
+      "class": "Identifier",
+      "name": "IS_DISABLED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_INVALID": {
+      "class": "Identifier",
+      "name": "IS_INVALID",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_UPGRADED": {
+      "class": "Identifier",
+      "name": "IS_UPGRADED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TextfieldBehavior": {
+      "class": "Identifier",
+      "name": "TextfieldBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

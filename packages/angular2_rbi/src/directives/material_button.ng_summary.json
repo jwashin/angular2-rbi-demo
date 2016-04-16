@@ -22,5 +22,48 @@
       }
     ],
     "6": "material_button.dart"
-  }
+  },
+  "type": {
+    "RIPPLE_EFFECT": {
+      "class": "Identifier",
+      "name": "RIPPLE_EFFECT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_button.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BUTTON_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "BUTTON_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_button.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE": {
+      "class": "Identifier",
+      "name": "RIPPLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_button.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BUTTON_DISABLED": {
+      "class": "Identifier",
+      "name": "BUTTON_DISABLED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_button.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ButtonBehavior": {
+      "class": "Identifier",
+      "name": "ButtonBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_button.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

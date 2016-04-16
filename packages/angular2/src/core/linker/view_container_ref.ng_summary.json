@@ -19,7 +19,8 @@
       {
         "1": "package:angular2/src/core/di.dart",
         "2": [
-          "ResolvedProvider"
+          "ResolvedProvider",
+          "Injectable"
         ],
         "5": false
       },
@@ -68,5 +69,24 @@
       }
     ],
     "6": "view_container_ref.dart"
-  }
+  },
+  "type": {
+    "ViewContainerRef": {
+      "class": "Identifier",
+      "name": "ViewContainerRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewContainerRef_": {
+      "class": "Identifier",
+      "name": "ViewContainerRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -76,25 +76,77 @@
     "6": "resolved_metadata_cache.dart",
     "10": [
       {
-        "1": "../di.ng_deps.dart",
+        "1": "../di.template.dart",
         "4": "i0"
       },
       {
-        "1": "element.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
-        "1": "directive_resolver.ng_deps.dart",
+        "1": "element.template.dart",
         "4": "i2"
       },
       {
-        "1": "../pipes/pipe_provider.ng_deps.dart",
+        "1": "directive_resolver.template.dart",
         "4": "i3"
       },
       {
-        "1": "pipe_resolver.ng_deps.dart",
+        "1": "../pipes/pipe_provider.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "pipe_resolver.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "type": {
+    "ResolvedMetadataCache": {
+      "class": "Type",
+      "name": "ResolvedMetadataCache",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/resolved_metadata_cache.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "DirectiveResolver",
+            "moduleUrl": "asset:angular2/lib/src/core/linker/directive_resolver.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "PipeResolver",
+            "moduleUrl": "asset:angular2/lib/src/core/linker/pipe_resolver.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "alias": {}
 }

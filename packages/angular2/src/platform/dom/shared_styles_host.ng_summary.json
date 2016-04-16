@@ -70,5 +70,46 @@
       }
     ],
     "6": "shared_styles_host.dart"
-  }
+  },
+  "type": {
+    "SharedStylesHost": {
+      "class": "Type",
+      "name": "SharedStylesHost",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/shared_styles_host.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    },
+    "DomSharedStylesHost": {
+      "class": "Type",
+      "name": "DomSharedStylesHost",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/shared_styles_host.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "DOCUMENT",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "alias": {}
 }

@@ -3,15 +3,19 @@
     "1": "angular2.src.testing.test_component_builder",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/core.dart",
         "2": [
           "ComponentRef",
-          "DebugElement",
           "DirectiveResolver",
           "DynamicComponentLoader",
           "Injector",
           "Injectable",
           "ViewMetadata",
+          "ElementRef",
           "EmbeddedViewRef",
           "ViewResolver",
           "provide"
@@ -24,13 +28,6 @@
           "Type",
           "isPresent",
           "isBlank"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "Future"
         ],
         "5": false
       },
@@ -78,9 +75,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/debug/debug_element.dart",
+        "1": "package:angular2/src/core/debug/debug_node.dart",
         "2": [
-          "DebugElement_"
+          "DebugNode",
+          "DebugElement",
+          "getDebugNode"
         ],
         "5": false
       }
@@ -109,37 +108,88 @@
     "6": "test_component_builder.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/linker/view_ref.ng_deps.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/linker/view.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/view_ref.template.dart",
         "4": "i3"
       },
       {
-        "1": "utils.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/view.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_tokens.ng_deps.dart",
+        "1": "utils.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_tokens.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/debug/debug_element.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i7"
+      },
+      {
+        "1": "package:angular2/src/core/debug/debug_node.template.dart",
+        "4": "i8"
       }
     ]
-  }
+  },
+  "type": {
+    "ComponentFixture": {
+      "class": "Identifier",
+      "name": "ComponentFixture",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ComponentFixture_": {
+      "class": "Identifier",
+      "name": "ComponentFixture_",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TestComponentBuilder": {
+      "class": "Type",
+      "name": "TestComponentBuilder",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "Injector",
+            "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "alias": {}
 }

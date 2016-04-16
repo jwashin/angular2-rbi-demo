@@ -3,6 +3,10 @@
     "1": "angular2.src.compiler.template_compiler",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "IS_DART",
@@ -35,8 +39,7 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "PromiseWrapper",
-          "Future"
+          "PromiseWrapper"
         ],
         "5": false
       },
@@ -231,5 +234,260 @@
       }
     ],
     "6": "template_compiler.dart"
-  }
+  },
+  "type": {
+    "TemplateCompiler": {
+      "class": "Type",
+      "name": "TemplateCompiler",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "RuntimeMetadataResolver",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "TemplateNormalizer",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "TemplateParser",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "StyleCompiler",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "ChangeDetectionCompiler",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "ProtoViewCompiler",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "ViewCompiler",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "ResolvedMetadataCache",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "ChangeDetectorGenConfig",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    },
+    "NormalizedComponentWithViewDirectives": {
+      "class": "Identifier",
+      "name": "NormalizedComponentWithViewDirectives",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CompiledTemplate": {
+      "class": "Identifier",
+      "name": "CompiledTemplate",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "assertComponent": {
+      "class": "Identifier",
+      "name": "assertComponent",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "templateModuleUrl": {
+      "class": "Identifier",
+      "name": "templateModuleUrl",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "codeGenHostViewFactoryName": {
+      "class": "Identifier",
+      "name": "codeGenHostViewFactoryName",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "codeGenComponentViewFactoryName": {
+      "class": "Identifier",
+      "name": "codeGenComponentViewFactoryName",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "mergeStringMaps": {
+      "class": "Identifier",
+      "name": "mergeStringMaps",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "removeDuplicates": {
+      "class": "Identifier",
+      "name": "removeDuplicates",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DirectiveCollector": {
+      "class": "Identifier",
+      "name": "DirectiveCollector",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "filterPipes": {
+      "class": "Identifier",
+      "name": "filterPipes",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "PipeVisitor": {
+      "class": "Identifier",
+      "name": "PipeVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

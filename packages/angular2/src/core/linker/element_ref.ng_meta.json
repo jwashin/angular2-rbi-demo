@@ -20,13 +20,32 @@
     "6": "element_ref.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "element.ng_deps.dart",
+        "1": "element.template.dart",
         "4": "i1"
       }
     ]
-  }
+  },
+  "type": {
+    "ElementRef": {
+      "class": "Identifier",
+      "name": "ElementRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ElementRef_": {
+      "class": "Identifier",
+      "name": "ElementRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

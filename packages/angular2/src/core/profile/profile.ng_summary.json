@@ -17,5 +17,16 @@
       }
     ],
     "6": "profile.dart"
-  }
+  },
+  "type": {
+    "noopScope": {
+      "class": "Identifier",
+      "name": "noopScope",
+      "moduleUrl": "asset:angular2/lib/src/core/profile/profile.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

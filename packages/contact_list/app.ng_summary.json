@@ -3,38 +3,6 @@
     "1": "",
     "3": [
       {
-        "1": "package:angular2/angular2.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/router.dart",
-        "5": false
-      },
-      {
-        "1": "package:contact_list/services/contacts.dart",
-        "5": false
-      },
-      {
-        "1": "components/contact_list.dart",
-        "5": false
-      },
-      {
-        "1": "components/json_export.dart",
-        "5": false
-      },
-      {
-        "1": "components/delete_confirm.dart",
-        "5": false
-      },
-      {
-        "1": "components/edit_contact.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2_rbi/directives.dart",
-        "5": false
-      },
-      {
         "1": "dart:html",
         "5": false
       },
@@ -44,6 +12,38 @@
       },
       {
         "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/router.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2_rbi/directives.dart",
+        "5": false
+      },
+      {
+        "1": "package:contact_list/services/contacts.dart",
+        "5": false
+      },
+      {
+        "1": "package:contact_list/components/contact_list.dart",
+        "5": false
+      },
+      {
+        "1": "package:contact_list/components/json_export.dart",
+        "5": false
+      },
+      {
+        "1": "package:contact_list/components/delete_confirm.dart",
+        "5": false
+      },
+      {
+        "1": "package:contact_list/components/edit_contact.dart",
         "5": false
       }
     ],
@@ -122,18 +122,81 @@
     ],
     "6": "app.dart"
   },
-  "App": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "IS_DRAWER_OPEN": {
+      "class": "Identifier",
+      "name": "IS_DRAWER_OPEN",
+      "moduleUrl": "asset:contact_list/lib/app.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "OBFUSCATOR": {
+      "class": "Identifier",
+      "name": "OBFUSCATOR",
+      "moduleUrl": "asset:contact_list/lib/app.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DRAWER": {
+      "class": "Identifier",
+      "name": "DRAWER",
+      "moduleUrl": "asset:contact_list/lib/app.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "App": {
       "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "app",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "App",
         "moduleUrl": "asset:contact_list/lib/app.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "Router",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "Contacts",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -149,7 +212,12 @@
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []
-      }
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
-  }
+  },
+  "alias": {}
 }

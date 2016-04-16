@@ -3,17 +3,14 @@
     "1": "angular2.platform.browser",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "Type",
           "isPresent"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/promise.dart",
-        "2": [
-          "Future"
         ],
         "5": false
       },
@@ -74,8 +71,9 @@
         "1": "package:angular2/src/platform/browser_common.dart",
         "2": [
           "BROWSER_PROVIDERS",
-          "ELEMENT_PROBE_BINDINGS",
+          "CACHED_TEMPLATE_PROVIDER",
           "ELEMENT_PROBE_PROVIDERS",
+          "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
           "inspectNativeElement",
           "BrowserDomAdapter",
           "By",
@@ -87,5 +85,65 @@
       }
     ],
     "6": "browser.dart"
-  }
+  },
+  "type": {
+    "BROWSER_APP_PROVIDERS": {
+      "class": "Identifier",
+      "name": "BROWSER_APP_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/platform/browser.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "BROWSER_APP_COMMON_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "COMPILER_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "XHR",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "XHRImpl",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        }
+      ]
+    },
+    "bootstrap": {
+      "class": "Identifier",
+      "name": "bootstrap",
+      "moduleUrl": "asset:angular2/lib/platform/browser.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

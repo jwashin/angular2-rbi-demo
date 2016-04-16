@@ -60,17 +60,22 @@
     ],
     "6": "json_pipe.dart"
   },
-  "JsonPipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "JsonPipe": {
       "class": "Pipe",
       "type": {
+        "class": "Type",
         "name": "JsonPipe",
         "moduleUrl": "asset:angular2/lib/src/common/pipes/json_pipe.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": null
       },
       "name": "json",
       "pure": false
     }
-  }
+  },
+  "alias": {}
 }

@@ -28,6 +28,7 @@
           "HtmlAttrAst",
           "HtmlElementAst",
           "HtmlTextAst",
+          "HtmlCommentAst",
           "HtmlAst"
         ],
         "5": false
@@ -67,21 +68,54 @@
     "6": "legacy_template.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "html_ast.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
-        "1": "html_parser.ng_deps.dart",
+        "1": "html_ast.template.dart",
         "4": "i2"
       },
       {
-        "1": "util.ng_deps.dart",
+        "1": "html_parser.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "util.template.dart",
+        "4": "i4"
       }
     ]
-  }
+  },
+  "type": {
+    "SPECIAL_CASES": {
+      "class": "Identifier",
+      "name": "SPECIAL_CASES",
+      "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "LegacyHtmlAstTransformer": {
+      "class": "Identifier",
+      "name": "LegacyHtmlAstTransformer",
+      "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "LegacyHtmlParser": {
+      "class": "Type",
+      "name": "LegacyHtmlParser",
+      "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    }
+  },
+  "alias": {}
 }

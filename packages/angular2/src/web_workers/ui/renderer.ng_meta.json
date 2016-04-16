@@ -118,33 +118,144 @@
     "6": "renderer.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/message_bus.ng_deps.dart",
+        "1": "package:angular2/src/web_workers/shared/message_bus.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/serializer.ng_deps.dart",
+        "1": "package:angular2/src/web_workers/shared/serializer.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/render/api.ng_deps.dart",
+        "1": "package:angular2/src/core/render/api.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/web_workers/ui/event_dispatcher.ng_deps.dart",
+        "1": "package:angular2/src/web_workers/shared/messaging_api.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/render_store.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/service_message_broker.ng_deps.dart",
+        "1": "bind.template.dart",
         "4": "i6"
+      },
+      {
+        "1": "package:angular2/src/web_workers/ui/event_dispatcher.template.dart",
+        "4": "i7"
+      },
+      {
+        "1": "package:angular2/src/web_workers/shared/render_store.template.dart",
+        "4": "i8"
+      },
+      {
+        "1": "package:angular2/src/web_workers/shared/service_message_broker.template.dart",
+        "4": "i9"
       }
     ]
-  }
+  },
+  "type": {
+    "MessageBasedRenderer": {
+      "class": "Type",
+      "name": "MessageBasedRenderer",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/ui/renderer.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "ServiceMessageBrokerFactory",
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/service_message_broker.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "MessageBus",
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "Serializer",
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/serializer.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "RenderStore",
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/render_store.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "RootRenderer",
+            "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "alias": {}
 }

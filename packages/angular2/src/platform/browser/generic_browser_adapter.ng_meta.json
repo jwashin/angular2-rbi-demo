@@ -37,13 +37,32 @@
     "6": "generic_browser_adapter.dart",
     "10": [
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/platform/browser/xhr_impl.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/platform/browser/xhr_impl.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "type": {
+    "GenericBrowserDomAdapter": {
+      "class": "Identifier",
+      "name": "GenericBrowserDomAdapter",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/generic_browser_adapter.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -1,0 +1,742 @@
+{
+  "ngDeps": null,
+  "type": {
+    "HAS_DRAWER": {
+      "class": "Identifier",
+      "name": "HAS_DRAWER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HAS_SCROLLING_HEADER": {
+      "class": "Identifier",
+      "name": "HAS_SCROLLING_HEADER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HAS_TABS": {
+      "class": "Identifier",
+      "name": "HAS_TABS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_ACTIVE": {
+      "class": "Identifier",
+      "name": "IS_ACTIVE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_ANIMATING": {
+      "class": "Identifier",
+      "name": "IS_ANIMATING",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CASTING_SHADOW": {
+      "class": "Identifier",
+      "name": "CASTING_SHADOW",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_CHECKED": {
+      "class": "Identifier",
+      "name": "IS_CHECKED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_COMPACT": {
+      "class": "Identifier",
+      "name": "IS_COMPACT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_DIRTY": {
+      "class": "Identifier",
+      "name": "IS_DIRTY",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_DISABLED": {
+      "class": "Identifier",
+      "name": "IS_DISABLED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_FOCUSED": {
+      "class": "Identifier",
+      "name": "IS_FOCUSED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_INVALID": {
+      "class": "Identifier",
+      "name": "IS_INVALID",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_LOWEST_VALUE": {
+      "class": "Identifier",
+      "name": "IS_LOWEST_VALUE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_SELECTED": {
+      "class": "Identifier",
+      "name": "IS_SELECTED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_SMALL_SCREEN": {
+      "class": "Identifier",
+      "name": "IS_SMALL_SCREEN",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_UPGRADED": {
+      "class": "Identifier",
+      "name": "IS_UPGRADED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_VISIBLE": {
+      "class": "Identifier",
+      "name": "IS_VISIBLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ICON": {
+      "class": "Identifier",
+      "name": "ICON",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BUTTON_DISABLED": {
+      "class": "Identifier",
+      "name": "BUTTON_DISABLED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BUTTON_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "BUTTON_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CHECKBOX": {
+      "class": "Identifier",
+      "name": "CHECKBOX",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BOX_OUTLINE": {
+      "class": "Identifier",
+      "name": "BOX_OUTLINE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "FOCUS_HELPER": {
+      "class": "Identifier",
+      "name": "FOCUS_HELPER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CHECKBOX_INPUT": {
+      "class": "Identifier",
+      "name": "CHECKBOX_INPUT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CHECKBOX_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "CHECKBOX_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TICK_OUTLINE": {
+      "class": "Identifier",
+      "name": "TICK_OUTLINE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DATA_TABLE": {
+      "class": "Identifier",
+      "name": "DATA_TABLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SELECTABLE": {
+      "class": "Identifier",
+      "name": "SELECTABLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DATA_TABLE_SELECT": {
+      "class": "Identifier",
+      "name": "DATA_TABLE_SELECT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ICON_TOGGLE_INPUT": {
+      "class": "Identifier",
+      "name": "ICON_TOGGLE_INPUT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ICON_TOGGLE_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "ICON_TOGGLE_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "JS_CHECKBOX": {
+      "class": "Identifier",
+      "name": "JS_CHECKBOX",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "JS_RADIO": {
+      "class": "Identifier",
+      "name": "JS_RADIO",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_EFFECT": {
+      "class": "Identifier",
+      "name": "RIPPLE_EFFECT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_IGNORE_EVENTS": {
+      "class": "Identifier",
+      "name": "RIPPLE_IGNORE_EVENTS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "FIXED_HEADER": {
+      "class": "Identifier",
+      "name": "FIXED_HEADER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ON_LARGE_SCREEN": {
+      "class": "Identifier",
+      "name": "ON_LARGE_SCREEN",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ON_SMALL_SCREEN": {
+      "class": "Identifier",
+      "name": "ON_SMALL_SCREEN",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CONTAINER": {
+      "class": "Identifier",
+      "name": "CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CONTENT": {
+      "class": "Identifier",
+      "name": "CONTENT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DRAWER": {
+      "class": "Identifier",
+      "name": "DRAWER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DRAWER_BTN": {
+      "class": "Identifier",
+      "name": "DRAWER_BTN",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HEADER": {
+      "class": "Identifier",
+      "name": "HEADER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HEADER_SCROLL": {
+      "class": "Identifier",
+      "name": "HEADER_SCROLL",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HEADER_SEAMED": {
+      "class": "Identifier",
+      "name": "HEADER_SEAMED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HEADER_WATERFALL": {
+      "class": "Identifier",
+      "name": "HEADER_WATERFALL",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "OBFUSCATOR": {
+      "class": "Identifier",
+      "name": "OBFUSCATOR",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TAB": {
+      "class": "Identifier",
+      "name": "TAB",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TAB_BAR": {
+      "class": "Identifier",
+      "name": "TAB_BAR",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TAB_BAR_BUTTON": {
+      "class": "Identifier",
+      "name": "TAB_BAR_BUTTON",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TAB_CONTAINER": {
+      "class": "Identifier",
+      "name": "TAB_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TAB_BAR_LEFT_BUTTON": {
+      "class": "Identifier",
+      "name": "TAB_BAR_LEFT_BUTTON",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TAB_BAR_RIGHT_BUTTON": {
+      "class": "Identifier",
+      "name": "TAB_BAR_RIGHT_BUTTON",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "PANEL": {
+      "class": "Identifier",
+      "name": "PANEL",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TAB_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "TAB_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BOTTOM_LEFT": {
+      "class": "Identifier",
+      "name": "BOTTOM_LEFT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BOTTOM_RIGHT": {
+      "class": "Identifier",
+      "name": "BOTTOM_RIGHT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TOP_LEFT": {
+      "class": "Identifier",
+      "name": "TOP_LEFT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TOP_RIGHT": {
+      "class": "Identifier",
+      "name": "TOP_RIGHT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "UNALIGNED": {
+      "class": "Identifier",
+      "name": "UNALIGNED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "MENU_CONTAINER": {
+      "class": "Identifier",
+      "name": "MENU_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ITEM": {
+      "class": "Identifier",
+      "name": "ITEM",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ITEM_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "ITEM_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "OUTLINE": {
+      "class": "Identifier",
+      "name": "OUTLINE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "INDETERMINATE_CLASS": {
+      "class": "Identifier",
+      "name": "INDETERMINATE_CLASS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RADIO_BTN": {
+      "class": "Identifier",
+      "name": "RADIO_BTN",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RADIO_INNER_CIRCLE": {
+      "class": "Identifier",
+      "name": "RADIO_INNER_CIRCLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RADIO_OUTER_CIRCLE": {
+      "class": "Identifier",
+      "name": "RADIO_OUTER_CIRCLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RADIO_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "RADIO_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE": {
+      "class": "Identifier",
+      "name": "RIPPLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_CENTER": {
+      "class": "Identifier",
+      "name": "RIPPLE_CENTER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BACKGROUND_FLEX": {
+      "class": "Identifier",
+      "name": "BACKGROUND_FLEX",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BACKGROUND_LOWER": {
+      "class": "Identifier",
+      "name": "BACKGROUND_LOWER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BACKGROUND_UPPER": {
+      "class": "Identifier",
+      "name": "BACKGROUND_UPPER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SLIDER_CONTAINER": {
+      "class": "Identifier",
+      "name": "SLIDER_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IE_CONTAINER": {
+      "class": "Identifier",
+      "name": "IE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_CIRCLE": {
+      "class": "Identifier",
+      "name": "SPINNER_CIRCLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_CIRCLE_CLIPPER": {
+      "class": "Identifier",
+      "name": "SPINNER_CIRCLE_CLIPPER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_GAP_PATCH": {
+      "class": "Identifier",
+      "name": "SPINNER_GAP_PATCH",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_LAYER": {
+      "class": "Identifier",
+      "name": "SPINNER_LAYER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_LEFT": {
+      "class": "Identifier",
+      "name": "SPINNER_LEFT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPINNER_RIGHT": {
+      "class": "Identifier",
+      "name": "SPINNER_RIGHT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SWITCH_FOCUS_HELPER": {
+      "class": "Identifier",
+      "name": "SWITCH_FOCUS_HELPER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SWITCH_INPUT": {
+      "class": "Identifier",
+      "name": "SWITCH_INPUT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SWITCH_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "SWITCH_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "THUMB": {
+      "class": "Identifier",
+      "name": "THUMB",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TRACK": {
+      "class": "Identifier",
+      "name": "TRACK",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "PANEL_CLASS": {
+      "class": "Identifier",
+      "name": "PANEL_CLASS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TABS_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "TABS_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TAB_CLASS": {
+      "class": "Identifier",
+      "name": "TAB_CLASS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TEXTFIELD_INPUT": {
+      "class": "Identifier",
+      "name": "TEXTFIELD_INPUT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "LABEL": {
+      "class": "Identifier",
+      "name": "LABEL",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

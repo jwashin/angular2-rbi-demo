@@ -16,5 +16,32 @@
       }
     ],
     "6": "ng_deps_model.pb.dart"
-  }
+  },
+  "type": {
+    "NgDepsModel$json": {
+      "class": "Identifier",
+      "name": "NgDepsModel$json",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/ng_deps_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "NgDepsModel": {
+      "class": "Identifier",
+      "name": "NgDepsModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/ng_deps_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_ReadonlyNgDepsModel": {
+      "class": "Identifier",
+      "name": "_ReadonlyNgDepsModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/ng_deps_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

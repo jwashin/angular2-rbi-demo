@@ -70,5 +70,18 @@
       }
     ],
     "6": "key_events.dart"
-  }
+  },
+  "type": {
+    "KeyEventsPlugin": {
+      "class": "Type",
+      "name": "KeyEventsPlugin",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/key_events.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    }
+  },
+  "alias": {}
 }

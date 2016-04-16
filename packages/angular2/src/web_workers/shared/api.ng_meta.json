@@ -13,9 +13,20 @@
     "6": "api.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       }
     ]
-  }
+  },
+  "type": {
+    "ON_WEB_WORKER": {
+      "class": "Identifier",
+      "name": "ON_WEB_WORKER",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/api.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

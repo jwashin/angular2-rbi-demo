@@ -42,7 +42,8 @@
         "2": [
           "AppView",
           "HostViewFactory",
-          "flattenNestedViewRenderNodes"
+          "flattenNestedViewRenderNodes",
+          "findLastRenderNode"
         ],
         "5": false
       },
@@ -68,6 +69,7 @@
           "HostViewFactoryRef_",
           "EmbeddedViewRef",
           "HostViewRef",
+          "ViewRef",
           "ViewRef_"
         ],
         "5": false
@@ -84,13 +86,6 @@
         "2": [
           "TemplateRef",
           "TemplateRef_"
-        ],
-        "5": false
-      },
-      {
-        "1": "view_listener.dart",
-        "2": [
-          "AppViewListener"
         ],
         "5": false
       },
@@ -152,10 +147,6 @@
             "4": "_renderer"
           },
           {
-            "1": "AppViewListener",
-            "4": "_viewListener"
-          },
-          {
             "1": "String",
             "3": [
               "const Inject(APP_ID)"
@@ -166,5 +157,61 @@
       }
     ],
     "6": "view_manager.dart"
-  }
+  },
+  "type": {
+    "AppViewManager": {
+      "class": "Identifier",
+      "name": "AppViewManager",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "AppViewManager_": {
+      "class": "Type",
+      "name": "AppViewManager_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "RootRenderer",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "APP_ID",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "alias": {}
 }

@@ -73,7 +73,8 @@
         "1": "package:angular2/src/core/render/api.dart",
         "2": [
           "Renderer",
-          "RootRenderer"
+          "RootRenderer",
+          "RenderDebugInfo"
         ],
         "5": false
       },
@@ -138,5 +139,88 @@
       }
     ],
     "6": "view.dart"
-  }
+  },
+  "type": {
+    "REFLECT_PREFIX": {
+      "class": "Identifier",
+      "name": "REFLECT_PREFIX",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "EMPTY_CONTEXT": {
+      "class": "Identifier",
+      "name": "EMPTY_CONTEXT",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "AppView": {
+      "class": "Identifier",
+      "name": "AppView",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_localsToStringMap": {
+      "class": "Identifier",
+      "name": "_localsToStringMap",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "AppProtoView": {
+      "class": "Identifier",
+      "name": "AppProtoView",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HostViewFactory": {
+      "class": "Identifier",
+      "name": "HostViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "flattenNestedViewRenderNodes": {
+      "class": "Identifier",
+      "name": "flattenNestedViewRenderNodes",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_flattenNestedViewRenderNodes": {
+      "class": "Identifier",
+      "name": "_flattenNestedViewRenderNodes",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "findLastRenderNode": {
+      "class": "Identifier",
+      "name": "findLastRenderNode",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "checkSlotCount": {
+      "class": "Identifier",
+      "name": "checkSlotCount",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

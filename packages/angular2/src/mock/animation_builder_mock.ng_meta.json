@@ -63,25 +63,66 @@
     "6": "animation_builder_mock.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/animate/animation_builder.ng_deps.dart",
+        "1": "package:angular2/src/animate/animation_builder.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/animate/css_animation_builder.ng_deps.dart",
+        "1": "package:angular2/src/animate/css_animation_builder.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/animate/animation.ng_deps.dart",
+        "1": "package:angular2/src/animate/css_animation_options.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/animate/browser_details.ng_deps.dart",
+        "1": "package:angular2/src/animate/animation.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "package:angular2/src/animate/browser_details.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "type": {
+    "MockAnimationBuilder": {
+      "class": "Type",
+      "name": "MockAnimationBuilder",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    },
+    "MockCssAnimationBuilder": {
+      "class": "Identifier",
+      "name": "MockCssAnimationBuilder",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "MockBrowserAbstraction": {
+      "class": "Identifier",
+      "name": "MockBrowserAbstraction",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "MockAnimation": {
+      "class": "Identifier",
+      "name": "MockAnimation",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

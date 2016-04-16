@@ -36,13 +36,32 @@
     "6": "by.dart",
     "10": [
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "type": {
+    "By": {
+      "class": "Identifier",
+      "name": "By",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/by.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

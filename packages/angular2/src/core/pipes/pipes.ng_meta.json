@@ -54,21 +54,48 @@
     "6": "pipes.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
       },
       {
-        "1": "pipe_provider.ng_deps.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/change_detection/pipes.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "pipe_provider.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/pipes.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "type": {
+    "ProtoPipes": {
+      "class": "Identifier",
+      "name": "ProtoPipes",
+      "moduleUrl": "asset:angular2/lib/src/core/pipes/pipes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "Pipes": {
+      "class": "Identifier",
+      "name": "Pipes",
+      "moduleUrl": "asset:angular2/lib/src/core/pipes/pipes.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -52,5 +52,66 @@
       }
     ],
     "6": "utils.dart"
-  }
+  },
+  "type": {
+    "Log": {
+      "class": "Type",
+      "name": "Log",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    },
+    "BrowserDetection": {
+      "class": "Identifier",
+      "name": "BrowserDetection",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "dispatchEvent": {
+      "class": "Identifier",
+      "name": "dispatchEvent",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "el": {
+      "class": "Identifier",
+      "name": "el",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "containsRegexp": {
+      "class": "Identifier",
+      "name": "containsRegexp",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "normalizeCSS": {
+      "class": "Identifier",
+      "name": "normalizeCSS",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "stringifyElement": {
+      "class": "Identifier",
+      "name": "stringifyElement",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -22,5 +22,120 @@
       }
     ],
     "6": "material_radio.dart"
-  }
+  },
+  "type": {
+    "JS_RADIO": {
+      "class": "Identifier",
+      "name": "JS_RADIO",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RADIO_BTN": {
+      "class": "Identifier",
+      "name": "RADIO_BTN",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RADIO_OUTER_CIRCLE": {
+      "class": "Identifier",
+      "name": "RADIO_OUTER_CIRCLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RADIO_INNER_CIRCLE": {
+      "class": "Identifier",
+      "name": "RADIO_INNER_CIRCLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_EFFECT": {
+      "class": "Identifier",
+      "name": "RIPPLE_EFFECT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_IGNORE_EVENTS": {
+      "class": "Identifier",
+      "name": "RIPPLE_IGNORE_EVENTS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RADIO_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "RADIO_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_CENTER": {
+      "class": "Identifier",
+      "name": "RIPPLE_CENTER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE": {
+      "class": "Identifier",
+      "name": "RIPPLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_FOCUSED": {
+      "class": "Identifier",
+      "name": "IS_FOCUSED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_DISABLED": {
+      "class": "Identifier",
+      "name": "IS_DISABLED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_CHECKED": {
+      "class": "Identifier",
+      "name": "IS_CHECKED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_UPGRADED": {
+      "class": "Identifier",
+      "name": "IS_UPGRADED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RadioBehavior": {
+      "class": "Identifier",
+      "name": "RadioBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_radio.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

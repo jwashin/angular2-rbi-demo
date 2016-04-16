@@ -3,6 +3,10 @@
     "1": "angular2.src.mock.mock_application_ref",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/application_ref.dart",
         "2": [
           "ApplicationRef"
@@ -44,13 +48,6 @@
           "NgZone"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "Future"
-        ],
-        "5": false
       }
     ],
     "5": [
@@ -69,5 +66,18 @@
       }
     ],
     "6": "mock_application_ref.dart"
-  }
+  },
+  "type": {
+    "MockApplicationRef": {
+      "class": "Type",
+      "name": "MockApplicationRef",
+      "moduleUrl": "asset:angular2/lib/src/mock/mock_application_ref.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    }
+  },
+  "alias": {}
 }

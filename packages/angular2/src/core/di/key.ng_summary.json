@@ -20,13 +20,6 @@
         "5": false
       },
       {
-        "1": "type_literal.dart",
-        "2": [
-          "TypeLiteral"
-        ],
-        "5": false
-      },
-      {
         "1": "forward_ref.dart",
         "2": [
           "resolveForwardRef"
@@ -34,14 +27,25 @@
         "5": false
       }
     ],
-    "4": [
-      {
-        "1": "type_literal.dart",
-        "2": [
-          "TypeLiteral"
-        ]
-      }
-    ],
     "6": "key.dart"
-  }
+  },
+  "type": {
+    "Key": {
+      "class": "Identifier",
+      "name": "Key",
+      "moduleUrl": "asset:angular2/lib/src/core/di/key.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "KeyRegistry": {
+      "class": "Identifier",
+      "name": "KeyRegistry",
+      "moduleUrl": "asset:angular2/lib/src/core/di/key.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

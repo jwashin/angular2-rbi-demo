@@ -8,6 +8,9 @@
       },
       {
         "1": "package:uuid/uuid.dart",
+        "2": [
+          "Uuid"
+        ],
         "5": false
       }
     ],
@@ -23,21 +26,36 @@
             "7": true,
             "8": false
           }
-        ],
-        "5": [
-          {
-            "1": "Uuid",
-            "4": "_uuidGenerator"
-          }
         ]
       }
     ],
     "6": "contacts.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       }
     ]
-  }
+  },
+  "type": {
+    "Contacts": {
+      "class": "Type",
+      "name": "Contacts",
+      "moduleUrl": "asset:contact_list/lib/services/contacts.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    },
+    "Contact": {
+      "class": "Identifier",
+      "name": "Contact",
+      "moduleUrl": "asset:contact_list/lib/services/contacts.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

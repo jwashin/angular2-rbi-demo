@@ -5,57 +5,9 @@
       {
         "1": "package:angular2/core.dart",
         "2": [
-          "APP_ID",
-          "APPLICATION_COMMON_PROVIDERS",
-          "AppViewManager",
-          "DirectiveResolver",
-          "DynamicComponentLoader",
           "Injector",
-          "NgZone",
-          "Renderer",
           "Provider",
-          "ViewResolver",
-          "provide"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/animate/animation_builder.dart",
-        "2": [
-          "AnimationBuilder"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/mock/animation_builder_mock.dart",
-        "2": [
-          "MockAnimationBuilder"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/resolved_metadata_cache.dart",
-        "2": [
-          "ResolvedMetadataCache"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflection.dart",
-        "2": [
-          "Reflector",
-          "reflector"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/change_detection/change_detection.dart",
-        "2": [
-          "IterableDiffers",
-          "defaultIterableDiffers",
-          "KeyValueDiffers",
-          "defaultKeyValueDiffers",
-          "ChangeDetectorGenConfig"
+          "PLATFORM_INITIALIZER"
         ],
         "5": false
       },
@@ -64,78 +16,6 @@
         "2": [
           "BaseException",
           "ExceptionHandler"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/pipe_resolver.dart",
-        "2": [
-          "PipeResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/compiler/xhr.dart",
-        "2": [
-          "XHR"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
-        "2": [
-          "DOM"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/mock/directive_resolver_mock.dart",
-        "2": [
-          "MockDirectiveResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/mock/view_resolver_mock.dart",
-        "2": [
-          "MockViewResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/mock/mock_location_strategy.dart",
-        "2": [
-          "MockLocationStrategy"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/router/location_strategy.dart",
-        "2": [
-          "LocationStrategy"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/mock/ng_zone_mock.dart",
-        "2": [
-          "MockNgZone"
-        ],
-        "5": false
-      },
-      {
-        "1": "test_component_builder.dart",
-        "2": [
-          "TestComponentBuilder"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/platform/common_dom.dart",
-        "2": [
-          "EventManager",
-          "EVENT_MANAGER_PLUGINS",
-          "ELEMENT_PROBE_PROVIDERS"
         ],
         "5": false
       },
@@ -150,89 +30,95 @@
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "FunctionWrapper",
+          "isPresent",
           "Type"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render/api.dart",
-        "2": [
-          "RootRenderer"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/dom_tokens.dart",
-        "2": [
-          "DOCUMENT"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/dom_renderer.dart",
-        "2": [
-          "DomRootRenderer",
-          "DomRootRenderer_"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/shared_styles_host.dart",
-        "2": [
-          "DomSharedStylesHost"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/shared_styles_host.dart",
-        "2": [
-          "SharedStylesHost"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/events/dom_events.dart",
-        "2": [
-          "DomEventsPlugin"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/web_workers/shared/serializer.dart",
-        "2": [
-          "Serializer"
-        ],
-        "5": false
-      },
-      {
-        "1": "utils.dart",
-        "2": [
-          "Log"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/compiler/compiler.dart",
-        "2": [
-          "COMPILER_PROVIDERS"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.dart",
-        "2": [
-          "DynamicComponentLoader_"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_manager.dart",
-        "2": [
-          "AppViewManager_"
         ],
         "5": false
       }
     ],
     "6": "test_injector.dart"
-  }
+  },
+  "type": {
+    "TestInjector": {
+      "class": "Identifier",
+      "name": "TestInjector",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getTestInjector": {
+      "class": "Identifier",
+      "name": "getTestInjector",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "setBaseTestProviders": {
+      "class": "Identifier",
+      "name": "setBaseTestProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "resetBaseTestProviders": {
+      "class": "Identifier",
+      "name": "resetBaseTestProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "inject": {
+      "class": "Identifier",
+      "name": "inject",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "InjectSetupWrapper": {
+      "class": "Identifier",
+      "name": "InjectSetupWrapper",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "withProviders": {
+      "class": "Identifier",
+      "name": "withProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "injectAsync": {
+      "class": "Identifier",
+      "name": "injectAsync",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "emptyArray": {
+      "class": "Identifier",
+      "name": "emptyArray",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "FunctionWithParamTokens": {
+      "class": "Identifier",
+      "name": "FunctionWithParamTokens",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

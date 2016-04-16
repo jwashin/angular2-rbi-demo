@@ -82,17 +82,22 @@
     ],
     "6": "slice_pipe.dart"
   },
-  "SlicePipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "SlicePipe": {
       "class": "Pipe",
       "type": {
+        "class": "Type",
         "name": "SlicePipe",
         "moduleUrl": "asset:angular2/lib/src/common/pipes/slice_pipe.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": null
       },
       "name": "slice",
       "pure": false
     }
-  }
+  },
+  "alias": {}
 }

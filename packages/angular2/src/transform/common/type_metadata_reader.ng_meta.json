@@ -67,45 +67,208 @@
     "6": "type_metadata_reader.dart",
     "10": [
       {
-        "1": "package:angular2/src/compiler/directive_metadata.ng_deps.dart",
+        "1": "package:angular2/src/compiler/directive_metadata.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/compiler/template_compiler.ng_deps.dart",
+        "1": "package:angular2/src/compiler/template_compiler.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/change_detection/change_detection.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/change_detection.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/linker/interfaces.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/interfaces.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.ng_deps.dart",
+        "1": "package:angular2/src/core/metadata/view.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/transform/common/annotation_matcher.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/annotation_matcher.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/transform/common/interface_matcher.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/interface_matcher.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/transform/common/logging.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/logging.template.dart",
         "4": "i7"
       },
       {
-        "1": "naive_eval.ng_deps.dart",
+        "1": "naive_eval.template.dart",
         "4": "i8"
       },
       {
-        "1": "url_resolver.ng_deps.dart",
+        "1": "url_resolver.template.dart",
         "4": "i9"
       }
     ]
-  }
+  },
+  "type": {
+    "TypeMetadataReader": {
+      "class": "Identifier",
+      "name": "TypeMetadataReader",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_populateMap": {
+      "class": "Identifier",
+      "name": "_populateMap",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_populateList": {
+      "class": "Identifier",
+      "name": "_populateList",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_expressionToString": {
+      "class": "Identifier",
+      "name": "_expressionToString",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_expressionToBool": {
+      "class": "Identifier",
+      "name": "_expressionToBool",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_CompileTypeMetadataVisitor": {
+      "class": "Identifier",
+      "name": "_CompileTypeMetadataVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_CompileFactoryMetadataVisitor": {
+      "class": "Identifier",
+      "name": "_CompileFactoryMetadataVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_DirectiveMetadataVisitor": {
+      "class": "Identifier",
+      "name": "_DirectiveMetadataVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_LifecycleHookVisitor": {
+      "class": "Identifier",
+      "name": "_LifecycleHookVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_CompileTemplateMetadataVisitor": {
+      "class": "Identifier",
+      "name": "_CompileTemplateMetadataVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_PipeMetadataVisitor": {
+      "class": "Identifier",
+      "name": "_PipeMetadataVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_readProviders": {
+      "class": "Identifier",
+      "name": "_readProviders",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_readProvider": {
+      "class": "Identifier",
+      "name": "_readProvider",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_readDeps": {
+      "class": "Identifier",
+      "name": "_readDeps",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_createQueryMetadata": {
+      "class": "Identifier",
+      "name": "_createQueryMetadata",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_getCompileDiDependencyMetadata": {
+      "class": "Identifier",
+      "name": "_getCompileDiDependencyMetadata",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_getAnnotation": {
+      "class": "Identifier",
+      "name": "_getAnnotation",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_hasAnnotation": {
+      "class": "Identifier",
+      "name": "_hasAnnotation",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_hasConst": {
+      "class": "Identifier",
+      "name": "_hasConst",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_readIdentifier": {
+      "class": "Identifier",
+      "name": "_readIdentifier",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

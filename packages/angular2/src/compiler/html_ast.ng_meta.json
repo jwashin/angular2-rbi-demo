@@ -17,6 +17,75 @@
         "5": false
       }
     ],
-    "6": "html_ast.dart"
-  }
+    "6": "html_ast.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "parse_util.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "type": {
+    "HtmlAst": {
+      "class": "Identifier",
+      "name": "HtmlAst",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HtmlTextAst": {
+      "class": "Identifier",
+      "name": "HtmlTextAst",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HtmlAttrAst": {
+      "class": "Identifier",
+      "name": "HtmlAttrAst",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HtmlElementAst": {
+      "class": "Identifier",
+      "name": "HtmlElementAst",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HtmlCommentAst": {
+      "class": "Identifier",
+      "name": "HtmlCommentAst",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "HtmlAstVisitor": {
+      "class": "Identifier",
+      "name": "HtmlAstVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "htmlVisitAll": {
+      "class": "Identifier",
+      "name": "htmlVisitAll",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

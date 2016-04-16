@@ -19,8 +19,210 @@
           "Timer"
         ],
         "5": false
+      },
+      {
+        "1": "package:angular2_rbi/src/util/animation_frame.dart",
+        "2": [
+          "getAnimationFrame"
+        ],
+        "5": false
       }
     ],
     "6": "material_menu.dart"
-  }
+  },
+  "type": {
+    "MENU_CONTAINER": {
+      "class": "Identifier",
+      "name": "MENU_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "OUTLINE": {
+      "class": "Identifier",
+      "name": "OUTLINE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ITEM": {
+      "class": "Identifier",
+      "name": "ITEM",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ITEM_RIPPLE_CONTAINER": {
+      "class": "Identifier",
+      "name": "ITEM_RIPPLE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_EFFECT": {
+      "class": "Identifier",
+      "name": "RIPPLE_EFFECT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE_IGNORE_EVENTS": {
+      "class": "Identifier",
+      "name": "RIPPLE_IGNORE_EVENTS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RIPPLE": {
+      "class": "Identifier",
+      "name": "RIPPLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_UPGRADED": {
+      "class": "Identifier",
+      "name": "IS_UPGRADED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_VISIBLE": {
+      "class": "Identifier",
+      "name": "IS_VISIBLE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_ANIMATING": {
+      "class": "Identifier",
+      "name": "IS_ANIMATING",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BOTTOM_LEFT": {
+      "class": "Identifier",
+      "name": "BOTTOM_LEFT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BOTTOM_RIGHT": {
+      "class": "Identifier",
+      "name": "BOTTOM_RIGHT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TOP_LEFT": {
+      "class": "Identifier",
+      "name": "TOP_LEFT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TOP_RIGHT": {
+      "class": "Identifier",
+      "name": "TOP_RIGHT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "UNALIGNED": {
+      "class": "Identifier",
+      "name": "UNALIGNED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ENTER": {
+      "class": "Identifier",
+      "name": "ENTER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ESCAPE": {
+      "class": "Identifier",
+      "name": "ESCAPE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SPACE": {
+      "class": "Identifier",
+      "name": "SPACE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "UP_ARROW": {
+      "class": "Identifier",
+      "name": "UP_ARROW",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "DOWN_ARROW": {
+      "class": "Identifier",
+      "name": "DOWN_ARROW",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TRANSITION_DURATION_SECONDS": {
+      "class": "Identifier",
+      "name": "TRANSITION_DURATION_SECONDS",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TRANSITION_DURATION_FRACTION": {
+      "class": "Identifier",
+      "name": "TRANSITION_DURATION_FRACTION",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CLOSE_TIMEOUT": {
+      "class": "Identifier",
+      "name": "CLOSE_TIMEOUT",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "MenuBehavior": {
+      "class": "Identifier",
+      "name": "MenuBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

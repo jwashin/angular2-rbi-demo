@@ -162,5 +162,90 @@
       }
     ],
     "6": "view_compiler.dart"
-  }
+  },
+  "type": {
+    "VIEW_JIT_IMPORTS": {
+      "class": "Identifier",
+      "name": "VIEW_JIT_IMPORTS",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewCompiler": {
+      "class": "Type",
+      "name": "ViewCompiler",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    },
+    "ViewFactory": {
+      "class": "Identifier",
+      "name": "ViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CodeGenViewFactory": {
+      "class": "Identifier",
+      "name": "CodeGenViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "RuntimeViewFactory": {
+      "class": "Identifier",
+      "name": "RuntimeViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ParentElement": {
+      "class": "Identifier",
+      "name": "ParentElement",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewBuilderVisitor": {
+      "class": "Identifier",
+      "name": "ViewBuilderVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "codeGenEventHandler": {
+      "class": "Identifier",
+      "name": "codeGenEventHandler",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "codeGenViewFactoryName": {
+      "class": "Identifier",
+      "name": "codeGenViewFactoryName",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "codeGenViewEncapsulation": {
+      "class": "Identifier",
+      "name": "codeGenViewEncapsulation",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

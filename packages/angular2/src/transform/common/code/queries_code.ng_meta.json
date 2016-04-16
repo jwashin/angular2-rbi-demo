@@ -26,13 +26,40 @@
     "6": "queries_code.dart",
     "10": [
       {
-        "1": "package:angular2/src/transform/common/annotation_matcher.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/annotation_matcher.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/transform/common/naive_eval.ng_deps.dart",
+        "1": "package:angular2/src/transform/common/naive_eval.template.dart",
         "4": "i1"
       }
     ]
-  }
+  },
+  "type": {
+    "QueriesVisitor": {
+      "class": "Identifier",
+      "name": "QueriesVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_QueriesPropertyVisitor": {
+      "class": "Identifier",
+      "name": "_QueriesPropertyVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_QueriesAnnotationVisitor": {
+      "class": "Identifier",
+      "name": "_QueriesAnnotationVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -1,0 +1,70 @@
+{
+  "ngDeps": null,
+  "type": {
+    "IE_CONTAINER": {
+      "class": "Identifier",
+      "name": "IE_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SLIDER_CONTAINER": {
+      "class": "Identifier",
+      "name": "SLIDER_CONTAINER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BACKGROUND_FLEX": {
+      "class": "Identifier",
+      "name": "BACKGROUND_FLEX",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BACKGROUND_LOWER": {
+      "class": "Identifier",
+      "name": "BACKGROUND_LOWER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BACKGROUND_UPPER": {
+      "class": "Identifier",
+      "name": "BACKGROUND_UPPER",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_LOWEST_VALUE": {
+      "class": "Identifier",
+      "name": "IS_LOWEST_VALUE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_UPGRADED": {
+      "class": "Identifier",
+      "name": "IS_UPGRADED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SliderBehavior": {
+      "class": "Identifier",
+      "name": "SliderBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

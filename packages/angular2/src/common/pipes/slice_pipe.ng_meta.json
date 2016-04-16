@@ -83,30 +83,43 @@
     "6": "slice_pipe.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
       },
       {
-        "1": "invalid_pipe_argument_exception.ng_deps.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "invalid_pipe_argument_exception.template.dart",
+        "4": "i4"
       }
     ]
   },
-  "SlicePipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "SlicePipe": {
       "class": "Pipe",
       "type": {
+        "class": "Type",
         "name": "SlicePipe",
         "moduleUrl": "asset:angular2/lib/src/common/pipes/slice_pipe.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": null
       },
       "name": "slice",
       "pure": false
     }
-  }
+  },
+  "alias": {}
 }

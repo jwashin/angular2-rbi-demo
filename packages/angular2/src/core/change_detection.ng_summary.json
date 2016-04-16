@@ -17,10 +17,15 @@
           "IterableDifferFactory",
           "KeyValueDiffers",
           "KeyValueDiffer",
-          "KeyValueDifferFactory"
+          "KeyValueDifferFactory",
+          "CollectionChangeRecord",
+          "KeyValueChangeRecord",
+          "TrackByFn"
         ]
       }
     ],
     "6": "change_detection.dart"
-  }
+  },
+  "type": {},
+  "alias": {}
 }

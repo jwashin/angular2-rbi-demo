@@ -11,5 +11,16 @@
       }
     ],
     "6": "api.dart"
-  }
+  },
+  "type": {
+    "ON_WEB_WORKER": {
+      "class": "Identifier",
+      "name": "ON_WEB_WORKER",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/api.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

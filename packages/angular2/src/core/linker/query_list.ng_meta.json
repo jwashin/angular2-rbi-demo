@@ -14,9 +14,20 @@
     "6": "query_list.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i0"
       }
     ]
-  }
+  },
+  "type": {
+    "QueryList": {
+      "class": "Identifier",
+      "name": "QueryList",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/query_list.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

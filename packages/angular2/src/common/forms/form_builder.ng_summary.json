@@ -29,6 +29,14 @@
         "1": "model.dart",
         "4": "modelModule",
         "5": false
+      },
+      {
+        "1": "directives/validators.dart",
+        "2": [
+          "ValidatorFn",
+          "AsyncValidatorFn"
+        ],
+        "5": false
       }
     ],
     "5": [
@@ -48,10 +56,17 @@
     ],
     "6": "form_builder.dart"
   },
-  "FORM_PROVIDERS": {
-    "kind": "alias",
-    "value": [
-      "FormBuilder"
-    ]
-  }
+  "type": {
+    "FormBuilder": {
+      "class": "Type",
+      "name": "FormBuilder",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/form_builder.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    }
+  },
+  "alias": {}
 }

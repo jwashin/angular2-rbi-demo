@@ -17,7 +17,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/router/router_link_transform.dart",
+        "1": "package:angular2/src/router/directives/router_link_transform.dart",
         "2": [
           "RouterLinkTransform"
         ],
@@ -26,12 +26,46 @@
     ],
     "4": [
       {
-        "1": "package:angular2/src/router/router_link_transform.dart",
+        "1": "package:angular2/src/router/directives/router_link_transform.dart",
         "2": [
           "RouterLinkTransform"
         ]
       }
     ],
     "6": "router_link_dsl.dart"
-  }
+  },
+  "type": {
+    "ROUTER_LINK_DSL_PROVIDER": {
+      "class": "Identifier",
+      "name": "ROUTER_LINK_DSL_PROVIDER",
+      "moduleUrl": "asset:angular2/lib/router/router_link_dsl.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "class": "Identifier",
+          "name": "TEMPLATE_TRANSFORMS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useClass": {
+          "class": "Type",
+          "name": "RouterLinkTransform",
+          "moduleUrl": null,
+          "prefix": null,
+          "isHost": false,
+          "constConstructor": null,
+          "value": null,
+          "diDeps": null
+        },
+        "useExisting": null,
+        "useValue": null,
+        "useFactory": null
+      }
+    }
+  },
+  "alias": {}
 }

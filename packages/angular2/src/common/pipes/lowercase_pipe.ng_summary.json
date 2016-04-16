@@ -62,17 +62,22 @@
     ],
     "6": "lowercase_pipe.dart"
   },
-  "LowerCasePipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "LowerCasePipe": {
       "class": "Pipe",
       "type": {
+        "class": "Type",
         "name": "LowerCasePipe",
         "moduleUrl": "asset:angular2/lib/src/common/pipes/lowercase_pipe.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": null
       },
       "name": "lowercase",
       "pure": false
     }
-  }
+  },
+  "alias": {}
 }

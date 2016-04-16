@@ -187,6 +187,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/router/location/browser_platform_location.dart",
+        "2": [
+          "BrowserPlatformLocation"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/web_workers/shared/service_message_broker.dart",
         "2": [
           "ServiceMessageBrokerFactory",
@@ -222,15 +229,534 @@
           "RenderStore"
         ],
         "5": false
+      },
+      {
+        "1": "dom/events/hammer_gestures.dart",
+        "2": [
+          "HAMMER_GESTURE_CONFIG",
+          "HammerGestureConfig"
+        ],
+        "5": false
       }
     ],
     "6": "worker_render_common.dart"
   },
-  "WORKER_RENDER_MESSAGING_PROVIDERS": {
-    "kind": "alias",
-    "value": [
+  "type": {
+    "WORKER_SCRIPT": {
+      "class": "Identifier",
+      "name": "WORKER_SCRIPT",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "WORKER_RENDER_MESSAGING_PROVIDERS": {
+      "class": "Identifier",
+      "name": "WORKER_RENDER_MESSAGING_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "MessageBasedRenderer",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "MessageBasedXHRImpl",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        }
+      ]
+    },
+    "WORKER_RENDER_PLATFORM": {
+      "class": "Identifier",
+      "name": "WORKER_RENDER_PLATFORM",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "PLATFORM_COMMON_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "PLATFORM_INITIALIZER",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": {
+            "class": "Identifier",
+            "name": "initWebWorkerRenderPlatform",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useFactory": null
+        }
+      ]
+    },
+    "WORKER_RENDER_ROUTER": {
+      "class": "Identifier",
+      "name": "WORKER_RENDER_ROUTER",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "BrowserPlatformLocation",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        }
+      ]
+    },
+    "WORKER_RENDER_APPLICATION_COMMON": {
+      "class": "Identifier",
+      "name": "WORKER_RENDER_APPLICATION_COMMON",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "APPLICATION_COMMON_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "WORKER_RENDER_MESSAGING_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "ExceptionHandler",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "_exceptionHandler",
+            "prefix": null,
+            "moduleUrl": null,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          }
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "DOCUMENT",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "_document",
+            "prefix": null,
+            "moduleUrl": null,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          }
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "EVENT_MANAGER_PLUGINS",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "DomEventsPlugin",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "EVENT_MANAGER_PLUGINS",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "KeyEventsPlugin",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "EVENT_MANAGER_PLUGINS",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "HammerGesturesPlugin",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "HAMMER_GESTURE_CONFIG",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "HammerGestureConfig",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "DomRootRenderer",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "DomRootRenderer_",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "RootRenderer",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": {
+            "class": "Identifier",
+            "name": "DomRootRenderer",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "SharedStylesHost",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": {
+            "class": "Identifier",
+            "name": "DomSharedStylesHost",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "XHR",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "XHRImpl",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Identifier",
+          "name": "MessageBasedXHRImpl",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "ServiceMessageBrokerFactory",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "ServiceMessageBrokerFactory_",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "ClientMessageBrokerFactory",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "ClientMessageBrokerFactory_",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Identifier",
+          "name": "Serializer",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "ON_WEB_WORKER",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": false,
+          "useFactory": null
+        },
+        {
+          "class": "Identifier",
+          "name": "RenderStore",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "DomSharedStylesHost",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "Testability",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "BrowserDetails",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "AnimationBuilder",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "EventManager",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        }
+      ]
+    },
+    "initializeGenericWorkerRenderer": {
+      "class": "Identifier",
+      "name": "initializeGenericWorkerRenderer",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "initWebWorkerRenderPlatform": {
+      "class": "Identifier",
+      "name": "initWebWorkerRenderPlatform",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_exceptionHandler": {
+      "class": "Identifier",
+      "name": "_exceptionHandler",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_document": {
+      "class": "Identifier",
+      "name": "_document",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {
+    "WORKER_RENDER_MESSAGING_PROVIDERS": [
       "MessageBasedRenderer",
       "MessageBasedXHRImpl"
+    ],
+    "WORKER_RENDER_ROUTER": [
+      "BrowserPlatformLocation"
     ]
   }
 }

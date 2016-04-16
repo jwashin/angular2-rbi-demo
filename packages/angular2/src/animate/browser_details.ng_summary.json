@@ -40,5 +40,26 @@
       }
     ],
     "6": "browser_details.dart"
-  }
+  },
+  "type": {
+    "BrowserDetails": {
+      "class": "Type",
+      "name": "BrowserDetails",
+      "moduleUrl": "asset:angular2/lib/src/animate/browser_details.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    },
+    "RafQueue": {
+      "class": "Identifier",
+      "name": "RafQueue",
+      "moduleUrl": "asset:angular2/lib/src/animate/browser_details.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

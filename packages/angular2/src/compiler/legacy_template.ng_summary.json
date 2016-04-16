@@ -28,6 +28,7 @@
           "HtmlAttrAst",
           "HtmlElementAst",
           "HtmlTextAst",
+          "HtmlCommentAst",
           "HtmlAst"
         ],
         "5": false
@@ -65,5 +66,34 @@
       }
     ],
     "6": "legacy_template.dart"
-  }
+  },
+  "type": {
+    "SPECIAL_CASES": {
+      "class": "Identifier",
+      "name": "SPECIAL_CASES",
+      "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "LegacyHtmlAstTransformer": {
+      "class": "Identifier",
+      "name": "LegacyHtmlAstTransformer",
+      "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "LegacyHtmlParser": {
+      "class": "Type",
+      "name": "LegacyHtmlParser",
+      "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    }
+  },
+  "alias": {}
 }

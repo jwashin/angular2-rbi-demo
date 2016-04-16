@@ -1,0 +1,86 @@
+{
+  "ngDeps": null,
+  "type": {
+    "PROGRESS_INDETERMINATE": {
+      "class": "Identifier",
+      "name": "PROGRESS_INDETERMINATE",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "IS_UPGRADED": {
+      "class": "Identifier",
+      "name": "IS_UPGRADED",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "PROGRESS_BAR": {
+      "class": "Identifier",
+      "name": "PROGRESS_BAR",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BAR": {
+      "class": "Identifier",
+      "name": "BAR",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BAR1": {
+      "class": "Identifier",
+      "name": "BAR1",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BAR2": {
+      "class": "Identifier",
+      "name": "BAR2",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BAR3": {
+      "class": "Identifier",
+      "name": "BAR3",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "BUFFER_BAR": {
+      "class": "Identifier",
+      "name": "BUFFER_BAR",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "AUX_BAR": {
+      "class": "Identifier",
+      "name": "AUX_BAR",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ProgressBehavior": {
+      "class": "Identifier",
+      "name": "ProgressBehavior",
+      "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

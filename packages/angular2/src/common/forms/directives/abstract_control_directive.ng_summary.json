@@ -25,5 +25,16 @@
       }
     ],
     "6": "abstract_control_directive.dart"
-  }
+  },
+  "type": {
+    "AbstractControlDirective": {
+      "class": "Identifier",
+      "name": "AbstractControlDirective",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/abstract_control_directive.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

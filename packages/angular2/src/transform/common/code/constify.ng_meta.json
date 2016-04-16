@@ -12,5 +12,24 @@
       }
     ],
     "6": "constify.dart"
-  }
+  },
+  "type": {
+    "constify": {
+      "class": "Identifier",
+      "name": "constify",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/constify.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_ConstifyingVisitor": {
+      "class": "Identifier",
+      "name": "_ConstifyingVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/constify.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -61,22 +61,31 @@
     "6": "json_pipe.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:angular2/core.template.dart",
+        "4": "i1"
       }
     ]
   },
-  "JsonPipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "JsonPipe": {
       "class": "Pipe",
       "type": {
+        "class": "Type",
         "name": "JsonPipe",
         "moduleUrl": "asset:angular2/lib/src/common/pipes/json_pipe.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": null
       },
       "name": "json",
       "pure": false
     }
-  }
+  },
+  "alias": {}
 }

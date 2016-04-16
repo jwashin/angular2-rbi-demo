@@ -95,6 +95,24 @@
             "4": "_contacts"
           }
         ],
+        "7": [
+          {
+            "1": "layout",
+            "2": [
+              {
+                "1": "ViewChild",
+                "2": [
+                  "MaterialLayout"
+                ],
+                "4": false,
+                "5": false,
+                "6": false,
+                "7": false,
+                "8": false
+              }
+            ]
+          }
+        ],
         "8": [
           {
             "2": "ContactList"
@@ -120,33 +138,12 @@
         ]
       }
     ],
-    "6": "app.dart"
+    "6": "app.dart",
+    "8": [
+      "layout"
+    ]
   },
   "type": {
-    "IS_DRAWER_OPEN": {
-      "class": "Identifier",
-      "name": "IS_DRAWER_OPEN",
-      "moduleUrl": "asset:contact_list/lib/app.dart",
-      "prefix": null,
-      "constConstructor": null,
-      "value": null
-    },
-    "OBFUSCATOR": {
-      "class": "Identifier",
-      "name": "OBFUSCATOR",
-      "moduleUrl": "asset:contact_list/lib/app.dart",
-      "prefix": null,
-      "constConstructor": null,
-      "value": null
-    },
-    "DRAWER": {
-      "class": "Identifier",
-      "name": "DRAWER",
-      "moduleUrl": "asset:contact_list/lib/app.dart",
-      "prefix": null,
-      "constConstructor": null,
-      "value": null
-    },
     "App": {
       "class": "Directive",
       "isComponent": true,
@@ -216,7 +213,23 @@
       "providers": [],
       "viewProviders": [],
       "queries": [],
-      "viewQueries": []
+      "viewQueries": [
+        {
+          "selectors": [
+            {
+              "class": "Identifier",
+              "name": "MaterialLayout",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            }
+          ],
+          "descendants": true,
+          "first": true,
+          "propertyName": "layout"
+        }
+      ]
     }
   },
   "alias": {}

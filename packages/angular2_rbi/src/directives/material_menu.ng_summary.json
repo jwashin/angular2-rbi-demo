@@ -36,7 +36,6 @@
       "name": "MENU_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "OUTLINE": {
@@ -44,7 +43,6 @@
       "name": "OUTLINE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ITEM": {
@@ -52,7 +50,6 @@
       "name": "ITEM",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ITEM_RIPPLE_CONTAINER": {
@@ -60,7 +57,6 @@
       "name": "ITEM_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_EFFECT": {
@@ -68,7 +64,6 @@
       "name": "RIPPLE_EFFECT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_IGNORE_EVENTS": {
@@ -76,7 +71,6 @@
       "name": "RIPPLE_IGNORE_EVENTS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE": {
@@ -84,7 +78,6 @@
       "name": "RIPPLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_UPGRADED": {
@@ -92,7 +85,6 @@
       "name": "IS_UPGRADED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_VISIBLE": {
@@ -100,7 +92,6 @@
       "name": "IS_VISIBLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_ANIMATING": {
@@ -108,7 +99,6 @@
       "name": "IS_ANIMATING",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BOTTOM_LEFT": {
@@ -116,7 +106,6 @@
       "name": "BOTTOM_LEFT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BOTTOM_RIGHT": {
@@ -124,7 +113,6 @@
       "name": "BOTTOM_RIGHT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TOP_LEFT": {
@@ -132,7 +120,6 @@
       "name": "TOP_LEFT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TOP_RIGHT": {
@@ -140,7 +127,6 @@
       "name": "TOP_RIGHT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "UNALIGNED": {
@@ -148,7 +134,6 @@
       "name": "UNALIGNED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ENTER": {
@@ -156,7 +141,6 @@
       "name": "ENTER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ESCAPE": {
@@ -164,7 +148,6 @@
       "name": "ESCAPE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPACE": {
@@ -172,7 +155,6 @@
       "name": "SPACE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "UP_ARROW": {
@@ -180,7 +162,6 @@
       "name": "UP_ARROW",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DOWN_ARROW": {
@@ -188,7 +169,6 @@
       "name": "DOWN_ARROW",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TRANSITION_DURATION_SECONDS": {
@@ -196,7 +176,6 @@
       "name": "TRANSITION_DURATION_SECONDS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TRANSITION_DURATION_FRACTION": {
@@ -204,7 +183,6 @@
       "name": "TRANSITION_DURATION_FRACTION",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CLOSE_TIMEOUT": {
@@ -212,7 +190,6 @@
       "name": "CLOSE_TIMEOUT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "MenuBehavior": {
@@ -220,7 +197,6 @@
       "name": "MenuBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_menu.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

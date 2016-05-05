@@ -6,7 +6,6 @@
       "name": "getAnimationFrame",
       "moduleUrl": "asset:angular2_rbi/lib/src/util/animation_frame.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

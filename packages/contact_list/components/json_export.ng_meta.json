@@ -18,26 +18,6 @@
     "5": [
       {
         "1": "JsonExport",
-        "4": [
-          {
-            "1": "Component",
-            "3": [
-              {
-                "1": "selector",
-                "2": "'json-export'"
-              },
-              {
-                "1": "template",
-                "2": "'''\n    <code>\n    {{asJson()}}\n    <code>\n    '''"
-              }
-            ],
-            "4": false,
-            "5": true,
-            "6": true,
-            "7": true,
-            "8": false
-          }
-        ],
         "5": [
           {
             "1": "Contacts",
@@ -47,13 +27,13 @@
       }
     ],
     "6": "json_export.dart",
-    "10": [
+    "7": [
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "package:angular2/angular2.ngfactory.dart",
         "4": "i0"
       },
       {
-        "1": "package:contact_list/services/contacts.template.dart",
+        "1": "package:contact_list/services/contacts.ngfactory.dart",
         "4": "i1"
       }
     ]
@@ -62,7 +42,6 @@
     "JsonExport": {
       "class": "Directive",
       "isComponent": true,
-      "dynamicLoadable": true,
       "selector": "json-export",
       "exportAs": null,
       "type": {
@@ -71,25 +50,29 @@
         "moduleUrl": "asset:contact_list/lib/components/json_export.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
         "diDeps": [
           {
             "token": {
-              "class": "Identifier",
-              "name": "Contacts",
-              "moduleUrl": "asset:contact_list/lib/services/contacts.dart",
-              "prefix": null,
-              "constConstructor": null,
-              "value": null
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "Contacts",
+                "moduleUrl": "asset:contact_list/lib/services/contacts.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
             },
             "query": null,
             "viewQuery": null,
+            "value": null,
             "isAttribute": false,
             "isSelf": false,
             "isHost": false,
             "isSkipSelf": false,
-            "isOptional": false
+            "isOptional": false,
+            "isValue": false
           }
         ]
       },

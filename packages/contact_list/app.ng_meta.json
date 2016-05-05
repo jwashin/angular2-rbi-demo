@@ -52,37 +52,11 @@
         "1": "App",
         "4": [
           {
-            "1": "Component",
-            "3": [
-              {
-                "1": "selector",
-                "2": "'app'"
-              },
-              {
-                "1": "template",
-                "2": "'''<div class=\"mdl-layout mdl-js-layout mdl-layout--fixed-header\">\n  <header class=\"mdl-layout__header\">\n    <div class=\"mdl-layout__header-row\">\n      <!-- Title -->\n      <span class=\"mdl-layout-title\">Contacts</span>\n      <!-- Add spacer, to align navigation to the right -->\n      <div class=\"mdl-layout-spacer\"></div>\n      <!-- Navigation -->\n      <nav class=\"mdl-navigation mdl-layout--large-screen-only\">\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':''}]\">All</a>\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default',{'filter':'family'}]\">Family</a>\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default',{'filter':'friend'}]\">Friends</a>\n        <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default',{'filter':'work'}]\">Work</a>\n      </nav>\n      <button\n          class=\"mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon\"\n          id=\"hdrbtn\">\n        <i class=\"material-icons\">more_vert</i>\n      </button>\n    </div>\n\n  </header>\n  <div class=\"mdl-layout__drawer\">\n    <span class=\"mdl-layout-title\">Contacts</span>\n    <nav class=\"mdl-navigation\" (click)=\"toggleDrawer()\">\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':''}]\">All</a>\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':'family'}]\">Family</a>\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':'friend'}]\">Friends</a>\n      <a class=\"mdl-navigation__link\" [routerLink]=\"['/Default', {'filter':'work'}]\">Work</a>\n    </nav>\n  </div>\n    <ul class=\"mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect\"\n          for=\"hdrbtn\">\n     <!--we use buttons here instead of <li> so disabled works.-->\n     <button class=\"mdl-menu__item\" [disabled]=\"examplesLoaded==true\" href=\"#\" (click)=\"loadExampleData()\">Load example data</button>\n     <button class=\"mdl-menu__item\" href=\"#\" (click)=\"exportJson()\">JSON Export</button>\n  </ul>\n  <main class=\"mdl-layout__content\">\n    <div class=\"page-content\">\n      <div *ngIf=\"loading\" class=\"spinner\">\n        <div class=\"mdl-spinner mdl-js-spinner is-active\"></div>\n      </div>\n      <router-outlet></router-outlet>\n    </div>\n  </main>\n</div>\n    '''"
-              },
-              {
-                "1": "directives",
-                "2": "const [ContactList, MaterialButton, MaterialMenu, MaterialLayout, ROUTER_DIRECTIVES, MaterialSpinner, NgIf]"
-              }
-            ],
-            "4": false,
-            "5": true,
-            "6": true,
-            "7": true,
-            "8": false
-          },
-          {
             "1": "RouteConfig",
             "2": [
               "const [const Route(path: '/:filter', component: ContactList, name: 'Default'), const Route(path: '/json', component: JsonExport, name: 'Json'), const Route(path: '/delete:uuid', component: DeleteConfirm, name: 'Delete'), const Route(path: '/edit:uuid', component: EditContact, name: 'Edit')]"
             ],
-            "4": false,
-            "5": false,
-            "6": false,
-            "7": false,
-            "8": false
+            "4": false
           }
         ],
         "5": [
@@ -96,24 +70,6 @@
           }
         ],
         "7": [
-          {
-            "1": "layout",
-            "2": [
-              {
-                "1": "ViewChild",
-                "2": [
-                  "MaterialLayout"
-                ],
-                "4": false,
-                "5": false,
-                "6": false,
-                "7": false,
-                "8": false
-              }
-            ]
-          }
-        ],
-        "8": [
           {
             "2": "ContactList"
           },
@@ -139,40 +95,37 @@
       }
     ],
     "6": "app.dart",
-    "8": [
-      "layout"
-    ],
-    "10": [
+    "7": [
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "package:angular2/angular2.ngfactory.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/router.template.dart",
+        "1": "package:angular2/router.ngfactory.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2_rbi/directives.template.dart",
+        "1": "package:angular2_rbi/directives.ngfactory.dart",
         "4": "i2"
       },
       {
-        "1": "package:contact_list/services/contacts.template.dart",
+        "1": "package:contact_list/services/contacts.ngfactory.dart",
         "4": "i3"
       },
       {
-        "1": "package:contact_list/components/contact_list.template.dart",
+        "1": "package:contact_list/components/contact_list.ngfactory.dart",
         "4": "i4"
       },
       {
-        "1": "package:contact_list/components/json_export.template.dart",
+        "1": "package:contact_list/components/json_export.ngfactory.dart",
         "4": "i5"
       },
       {
-        "1": "package:contact_list/components/delete_confirm.template.dart",
+        "1": "package:contact_list/components/delete_confirm.ngfactory.dart",
         "4": "i6"
       },
       {
-        "1": "package:contact_list/components/edit_contact.template.dart",
+        "1": "package:contact_list/components/edit_contact.ngfactory.dart",
         "4": "i7"
       }
     ]
@@ -181,7 +134,6 @@
     "App": {
       "class": "Directive",
       "isComponent": true,
-      "dynamicLoadable": true,
       "selector": "app",
       "exportAs": null,
       "type": {
@@ -190,42 +142,51 @@
         "moduleUrl": "asset:contact_list/lib/app.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
         "diDeps": [
           {
             "token": {
-              "class": "Identifier",
-              "name": "Router",
-              "moduleUrl": "asset:angular2/lib/src/router/router.dart",
-              "prefix": null,
-              "constConstructor": null,
-              "value": null
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "Router",
+                "moduleUrl": "asset:angular2/lib/src/router/router.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
             },
             "query": null,
             "viewQuery": null,
+            "value": null,
             "isAttribute": false,
             "isSelf": false,
             "isHost": false,
             "isSkipSelf": false,
-            "isOptional": false
+            "isOptional": false,
+            "isValue": false
           },
           {
             "token": {
-              "class": "Identifier",
-              "name": "Contacts",
-              "moduleUrl": "asset:contact_list/lib/services/contacts.dart",
-              "prefix": null,
-              "constConstructor": null,
-              "value": null
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "Contacts",
+                "moduleUrl": "asset:contact_list/lib/services/contacts.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
             },
             "query": null,
             "viewQuery": null,
+            "value": null,
             "isAttribute": false,
             "isSelf": false,
             "isHost": false,
             "isSkipSelf": false,
-            "isOptional": false
+            "isOptional": false,
+            "isValue": false
           }
         ]
       },
@@ -251,37 +212,46 @@
         {
           "selectors": [
             {
-              "class": "Type",
-              "name": "MaterialLayout",
-              "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
-              "prefix": null,
-              "isHost": false,
-              "constConstructor": null,
               "value": null,
-              "diDeps": [
-                {
-                  "token": {
-                    "class": "Identifier",
-                    "name": "ElementRef",
-                    "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
-                    "prefix": null,
-                    "constConstructor": null,
-                    "value": null
-                  },
-                  "query": null,
-                  "viewQuery": null,
-                  "isAttribute": false,
-                  "isSelf": false,
-                  "isHost": false,
-                  "isSkipSelf": false,
-                  "isOptional": false
-                }
-              ]
+              "identifier": {
+                "class": "Type",
+                "name": "MaterialLayout",
+                "moduleUrl": "asset:angular2_rbi/lib/directives.dart",
+                "prefix": null,
+                "isHost": false,
+                "value": null,
+                "diDeps": [
+                  {
+                    "token": {
+                      "value": null,
+                      "identifier": {
+                        "class": "Identifier",
+                        "name": "ElementRef",
+                        "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+                        "prefix": null,
+                        "value": null
+                      },
+                      "identifierIsInstance": false
+                    },
+                    "query": null,
+                    "viewQuery": null,
+                    "value": null,
+                    "isAttribute": false,
+                    "isSelf": false,
+                    "isHost": false,
+                    "isSkipSelf": false,
+                    "isOptional": false,
+                    "isValue": false
+                  }
+                ]
+              },
+              "identifierIsInstance": false
             }
           ],
           "descendants": true,
           "first": true,
-          "propertyName": "layout"
+          "propertyName": "layout",
+          "read": null
         }
       ]
     }

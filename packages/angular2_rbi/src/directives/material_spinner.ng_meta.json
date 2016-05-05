@@ -6,7 +6,6 @@
       "name": "SPINNER_LAYER_COUNT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_LAYER": {
@@ -14,7 +13,6 @@
       "name": "SPINNER_LAYER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_CIRCLE_CLIPPER": {
@@ -22,7 +20,6 @@
       "name": "SPINNER_CIRCLE_CLIPPER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_CIRCLE": {
@@ -30,7 +27,6 @@
       "name": "SPINNER_CIRCLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_GAP_PATCH": {
@@ -38,7 +34,6 @@
       "name": "SPINNER_GAP_PATCH",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_LEFT": {
@@ -46,7 +41,6 @@
       "name": "SPINNER_LEFT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_RIGHT": {
@@ -54,7 +48,6 @@
       "name": "SPINNER_RIGHT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_ACTIVE": {
@@ -62,7 +55,6 @@
       "name": "IS_ACTIVE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_UPGRADED": {
@@ -70,7 +62,6 @@
       "name": "IS_UPGRADED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SpinnerBehavior": {
@@ -78,7 +69,6 @@
       "name": "SpinnerBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_spinner.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

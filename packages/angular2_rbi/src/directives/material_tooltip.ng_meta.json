@@ -6,7 +6,6 @@
       "name": "IS_ACTIVE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tooltip.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TooltipBehavior": {
@@ -14,7 +13,6 @@
       "name": "TooltipBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_tooltip.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

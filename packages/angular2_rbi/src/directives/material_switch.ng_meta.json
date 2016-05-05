@@ -22,9 +22,9 @@
       }
     ],
     "6": "material_switch.dart",
-    "10": [
+    "7": [
       {
-        "1": "material_ripple.template.dart",
+        "1": "material_ripple.ngfactory.dart",
         "4": "i0"
       }
     ]
@@ -35,7 +35,6 @@
       "name": "SWITCH_INPUT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TRACK": {
@@ -43,7 +42,6 @@
       "name": "TRACK",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "THUMB": {
@@ -51,7 +49,6 @@
       "name": "THUMB",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "FOCUS_HELPER": {
@@ -59,7 +56,6 @@
       "name": "FOCUS_HELPER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_EFFECT": {
@@ -67,7 +63,6 @@
       "name": "RIPPLE_EFFECT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_IGNORE_EVENTS": {
@@ -75,7 +70,6 @@
       "name": "RIPPLE_IGNORE_EVENTS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SWITCH_RIPPLE_CONTAINER": {
@@ -83,7 +77,6 @@
       "name": "SWITCH_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_CENTER": {
@@ -91,7 +84,6 @@
       "name": "RIPPLE_CENTER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE": {
@@ -99,7 +91,6 @@
       "name": "RIPPLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_FOCUSED": {
@@ -107,7 +98,6 @@
       "name": "IS_FOCUSED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_DISABLED": {
@@ -115,7 +105,6 @@
       "name": "IS_DISABLED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_CHECKED": {
@@ -123,7 +112,6 @@
       "name": "IS_CHECKED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_UPGRADED": {
@@ -131,7 +119,6 @@
       "name": "IS_UPGRADED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SwitchBehavior": {
@@ -139,7 +126,6 @@
       "name": "SwitchBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_switch.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

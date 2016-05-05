@@ -22,34 +22,6 @@
     "5": [
       {
         "1": "ContactList",
-        "4": [
-          {
-            "1": "Component",
-            "3": [
-              {
-                "1": "selector",
-                "2": "'contact-list'"
-              },
-              {
-                "1": "inputs",
-                "2": "const ['filter']"
-              },
-              {
-                "1": "templateUrl",
-                "2": "'contact_list.html'"
-              },
-              {
-                "1": "directives",
-                "2": "const [CORE_DIRECTIVES, MaterialButton]"
-              }
-            ],
-            "4": false,
-            "5": true,
-            "6": true,
-            "7": true,
-            "8": false
-          }
-        ],
         "5": [
           {
             "1": "Contacts",
@@ -64,7 +36,7 @@
             "4": "_router"
           }
         ],
-        "8": [
+        "7": [
           {
             "2": "CORE_DIRECTIVES"
           },
@@ -75,21 +47,21 @@
       }
     ],
     "6": "contact_list.dart",
-    "10": [
+    "7": [
       {
-        "1": "package:angular2/angular2.template.dart",
+        "1": "package:angular2/angular2.ngfactory.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/router.template.dart",
+        "1": "package:angular2/router.ngfactory.dart",
         "4": "i1"
       },
       {
-        "1": "package:contact_list/services/contacts.template.dart",
+        "1": "package:contact_list/services/contacts.ngfactory.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2_rbi/directives.template.dart",
+        "1": "package:angular2_rbi/directives.ngfactory.dart",
         "4": "i3"
       }
     ]
@@ -98,7 +70,6 @@
     "ContactList": {
       "class": "Directive",
       "isComponent": true,
-      "dynamicLoadable": true,
       "selector": "contact-list",
       "exportAs": null,
       "type": {
@@ -107,59 +78,73 @@
         "moduleUrl": "asset:contact_list/lib/components/contact_list.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
         "diDeps": [
           {
             "token": {
-              "class": "Identifier",
-              "name": "Contacts",
-              "moduleUrl": "asset:contact_list/lib/services/contacts.dart",
-              "prefix": null,
-              "constConstructor": null,
-              "value": null
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "Contacts",
+                "moduleUrl": "asset:contact_list/lib/services/contacts.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
             },
             "query": null,
             "viewQuery": null,
+            "value": null,
             "isAttribute": false,
             "isSelf": false,
             "isHost": false,
             "isSkipSelf": false,
-            "isOptional": false
+            "isOptional": false,
+            "isValue": false
           },
           {
             "token": {
-              "class": "Identifier",
-              "name": "RouteParams",
-              "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
-              "prefix": null,
-              "constConstructor": null,
-              "value": null
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "RouteParams",
+                "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
             },
             "query": null,
             "viewQuery": null,
+            "value": null,
             "isAttribute": false,
             "isSelf": false,
             "isHost": false,
             "isSkipSelf": false,
-            "isOptional": false
+            "isOptional": false,
+            "isValue": false
           },
           {
             "token": {
-              "class": "Identifier",
-              "name": "Router",
-              "moduleUrl": "asset:angular2/lib/src/router/router.dart",
-              "prefix": null,
-              "constConstructor": null,
-              "value": null
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "Router",
+                "moduleUrl": "asset:angular2/lib/src/router/router.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
             },
             "query": null,
             "viewQuery": null,
+            "value": null,
             "isAttribute": false,
             "isSelf": false,
             "isHost": false,
             "isSkipSelf": false,
-            "isOptional": false
+            "isOptional": false,
+            "isValue": false
           }
         ]
       },
@@ -174,7 +159,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<div *ngFor=\"#contact of contacts\">\n\n  <div class=\"wide-card mdl-card mdl-shadow--4dp\"\n       [class.mdl-color--red-100]=\"contact.contactType=='friend'\"\n       [class.mdl-color--blue-100]=\"contact.contactType=='family'\"\n       [class.mdl-color--yellow-100]=\"contact.contactType=='work'\">\n    <div class=\"mdl-card__title\">\n      <h2 class=\"mdl-card__title-text\">\n        <i class=\"material-icons\">{{iconGlyph(contact)}}</i>\n        {{contact.first}} {{contact.last}}</h2>\n    </div>\n    <div class=\"mdl-card__supporting-text\">\n      <span class=\"phone\">Phone: </span> <span class=\"phone-number\">{{phoneDisplay(contact.phone)}}</span>\n    </div>\n    <div class=\"mdl-card__actions mdl-card--border\">\n\n      <button (click)=\"deleteItem(contact.uuid)\"\n              class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n        Delete\n      </button>\n\n      <button (click)=\"editContact(contact.uuid)\"\n              class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n        edit\n      </button>\n\n    </div>\n  </div>\n</div>\n<button\n    class=\"edit-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--fab mdl-button--colored\"\n    (click)=\"editContact('')\">\n  <i class=\"material-icons\">person_add</i>\n</button>\n",
+        "template": "<div *ngFor=\"let contact of contacts\">\n\n  <div class=\"wide-card mdl-card mdl-shadow--4dp\"\n       [class.mdl-color--red-100]=\"contact.contactType=='friend'\"\n       [class.mdl-color--blue-100]=\"contact.contactType=='family'\"\n       [class.mdl-color--yellow-100]=\"contact.contactType=='work'\">\n    <div class=\"mdl-card__title\">\n      <h2 class=\"mdl-card__title-text\">\n        <i class=\"material-icons\">{{iconGlyph(contact)}}</i>\n        {{contact.first}} {{contact.last}}</h2>\n    </div>\n    <div class=\"mdl-card__supporting-text\">\n      <span class=\"phone\">Phone: </span> <span class=\"phone-number\">{{phoneDisplay(contact.phone)}}</span>\n    </div>\n    <div class=\"mdl-card__actions mdl-card--border\">\n\n      <button (click)=\"deleteItem(contact.uuid)\"\n              class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n        Delete\n      </button>\n\n      <button (click)=\"editContact(contact.uuid)\"\n              class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n        edit\n      </button>\n\n    </div>\n  </div>\n</div>\n<button\n    class=\"edit-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--fab mdl-button--colored\"\n    (click)=\"editContact('')\">\n  <i class=\"material-icons\">person_add</i>\n</button>\n",
         "templateUrl": "asset:contact_list/lib/components/contact_list.html",
         "styles": [],
         "styleUrls": [],

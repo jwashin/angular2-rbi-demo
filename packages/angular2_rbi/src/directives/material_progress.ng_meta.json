@@ -6,7 +6,6 @@
       "name": "PROGRESS_INDETERMINATE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_UPGRADED": {
@@ -14,7 +13,6 @@
       "name": "IS_UPGRADED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "PROGRESS_BAR": {
@@ -22,7 +20,6 @@
       "name": "PROGRESS_BAR",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BAR": {
@@ -30,7 +27,6 @@
       "name": "BAR",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BAR1": {
@@ -38,7 +34,6 @@
       "name": "BAR1",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BAR2": {
@@ -46,7 +41,6 @@
       "name": "BAR2",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BAR3": {
@@ -54,7 +48,6 @@
       "name": "BAR3",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BUFFER_BAR": {
@@ -62,7 +55,6 @@
       "name": "BUFFER_BAR",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "AUX_BAR": {
@@ -70,7 +62,6 @@
       "name": "AUX_BAR",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ProgressBehavior": {
@@ -78,7 +69,6 @@
       "name": "ProgressBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_progress.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

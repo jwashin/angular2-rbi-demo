@@ -22,9 +22,9 @@
       }
     ],
     "6": "material_button.dart",
-    "10": [
+    "7": [
       {
-        "1": "material_ripple.template.dart",
+        "1": "material_ripple.ngfactory.dart",
         "4": "i0"
       }
     ]
@@ -35,7 +35,6 @@
       "name": "RIPPLE_EFFECT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_button.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BUTTON_RIPPLE_CONTAINER": {
@@ -43,7 +42,6 @@
       "name": "BUTTON_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_button.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE": {
@@ -51,7 +49,6 @@
       "name": "RIPPLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_button.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BUTTON_DISABLED": {
@@ -59,7 +56,6 @@
       "name": "BUTTON_DISABLED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_button.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ButtonBehavior": {
@@ -67,7 +63,6 @@
       "name": "ButtonBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_button.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

@@ -6,7 +6,6 @@
       "name": "SNACKBAR",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_snackbar.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "MESSAGE": {
@@ -14,7 +13,6 @@
       "name": "MESSAGE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_snackbar.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ACTION": {
@@ -22,7 +20,6 @@
       "name": "ACTION",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_snackbar.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ACTIVE": {
@@ -30,7 +27,6 @@
       "name": "ACTIVE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_snackbar.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SnackbarBehavior": {
@@ -38,7 +34,6 @@
       "name": "SnackbarBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_snackbar.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

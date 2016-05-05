@@ -22,7 +22,6 @@
       "name": "DATA_TABLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SELECTABLE": {
@@ -30,7 +29,6 @@
       "name": "SELECTABLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_SELECTED": {
@@ -38,7 +36,6 @@
       "name": "IS_SELECTED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_UPGRADED": {
@@ -46,7 +43,6 @@
       "name": "IS_UPGRADED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CHECKBOX": {
@@ -54,7 +50,6 @@
       "name": "CHECKBOX",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "JS_CHECKBOX": {
@@ -62,7 +57,6 @@
       "name": "JS_CHECKBOX",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_EFFECT": {
@@ -70,7 +64,6 @@
       "name": "RIPPLE_EFFECT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DATA_TABLE_SELECT": {
@@ -78,7 +71,6 @@
       "name": "DATA_TABLE_SELECT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CHECKBOX_INPUT": {
@@ -86,7 +78,6 @@
       "name": "CHECKBOX_INPUT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DataTableBehavior": {
@@ -94,7 +85,6 @@
       "name": "DataTableBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_data_table.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

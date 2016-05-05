@@ -6,7 +6,6 @@
       "name": "IE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SLIDER_CONTAINER": {
@@ -14,7 +13,6 @@
       "name": "SLIDER_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BACKGROUND_FLEX": {
@@ -22,7 +20,6 @@
       "name": "BACKGROUND_FLEX",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BACKGROUND_LOWER": {
@@ -30,7 +27,6 @@
       "name": "BACKGROUND_LOWER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BACKGROUND_UPPER": {
@@ -38,7 +34,6 @@
       "name": "BACKGROUND_UPPER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_LOWEST_VALUE": {
@@ -46,7 +41,6 @@
       "name": "IS_LOWEST_VALUE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_UPGRADED": {
@@ -54,7 +48,6 @@
       "name": "IS_UPGRADED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SliderBehavior": {
@@ -62,7 +55,6 @@
       "name": "SliderBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_slider.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

@@ -26,7 +26,6 @@
       "name": "ICON_TOGGLE_INPUT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_icon_toggle.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_EFFECT": {
@@ -34,7 +33,6 @@
       "name": "RIPPLE_EFFECT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_icon_toggle.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_IGNORE_EVENTS": {
@@ -42,7 +40,6 @@
       "name": "RIPPLE_IGNORE_EVENTS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_icon_toggle.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ICON_TOGGLE_RIPPLE_CONTAINER": {
@@ -50,7 +47,6 @@
       "name": "ICON_TOGGLE_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_icon_toggle.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_CENTER": {
@@ -58,7 +54,6 @@
       "name": "RIPPLE_CENTER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_icon_toggle.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE": {
@@ -66,7 +61,6 @@
       "name": "RIPPLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_icon_toggle.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_FOCUSED": {
@@ -74,7 +68,6 @@
       "name": "IS_FOCUSED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_icon_toggle.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_DISABLED": {
@@ -82,7 +75,6 @@
       "name": "IS_DISABLED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_icon_toggle.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_CHECKED": {
@@ -90,7 +82,6 @@
       "name": "IS_CHECKED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_icon_toggle.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_UPGRADED": {
@@ -98,7 +89,6 @@
       "name": "IS_UPGRADED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_icon_toggle.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IconToggleBehavior": {
@@ -106,7 +96,6 @@
       "name": "IconToggleBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_icon_toggle.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

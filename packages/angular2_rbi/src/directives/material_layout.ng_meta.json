@@ -15,9 +15,9 @@
       }
     ],
     "6": "material_layout.dart",
-    "10": [
+    "7": [
       {
-        "1": "material_ripple.template.dart",
+        "1": "material_ripple.ngfactory.dart",
         "4": "i0"
       }
     ]
@@ -28,7 +28,6 @@
       "name": "CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HEADER": {
@@ -36,7 +35,6 @@
       "name": "HEADER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DRAWER": {
@@ -44,7 +42,6 @@
       "name": "DRAWER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CONTENT": {
@@ -52,7 +49,6 @@
       "name": "CONTENT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DRAWER_BTN": {
@@ -60,7 +56,6 @@
       "name": "DRAWER_BTN",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ICON": {
@@ -68,7 +63,6 @@
       "name": "ICON",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_EFFECT": {
@@ -76,7 +70,6 @@
       "name": "RIPPLE_EFFECT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_RIPPLE_CONTAINER": {
@@ -84,7 +77,6 @@
       "name": "TAB_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE": {
@@ -92,7 +84,6 @@
       "name": "RIPPLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_IGNORE_EVENTS": {
@@ -100,7 +91,6 @@
       "name": "RIPPLE_IGNORE_EVENTS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HEADER_SEAMED": {
@@ -108,7 +98,6 @@
       "name": "HEADER_SEAMED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HEADER_WATERFALL": {
@@ -116,7 +105,6 @@
       "name": "HEADER_WATERFALL",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HEADER_SCROLL": {
@@ -124,7 +112,6 @@
       "name": "HEADER_SCROLL",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "FIXED_HEADER": {
@@ -132,7 +119,6 @@
       "name": "FIXED_HEADER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "OBFUSCATOR": {
@@ -140,7 +126,6 @@
       "name": "OBFUSCATOR",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_BAR": {
@@ -148,7 +133,6 @@
       "name": "TAB_BAR",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_CONTAINER": {
@@ -156,7 +140,6 @@
       "name": "TAB_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB": {
@@ -164,7 +147,6 @@
       "name": "TAB",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_BAR_BUTTON": {
@@ -172,7 +154,6 @@
       "name": "TAB_BAR_BUTTON",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_BAR_LEFT_BUTTON": {
@@ -180,7 +161,6 @@
       "name": "TAB_BAR_LEFT_BUTTON",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_BAR_RIGHT_BUTTON": {
@@ -188,7 +168,6 @@
       "name": "TAB_BAR_RIGHT_BUTTON",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "PANEL": {
@@ -196,7 +175,6 @@
       "name": "PANEL",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HAS_DRAWER": {
@@ -204,7 +182,6 @@
       "name": "HAS_DRAWER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HAS_TABS": {
@@ -212,7 +189,6 @@
       "name": "HAS_TABS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HAS_SCROLLING_HEADER": {
@@ -220,7 +196,6 @@
       "name": "HAS_SCROLLING_HEADER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CASTING_SHADOW": {
@@ -228,7 +203,6 @@
       "name": "CASTING_SHADOW",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_COMPACT": {
@@ -236,7 +210,6 @@
       "name": "IS_COMPACT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_SMALL_SCREEN": {
@@ -244,7 +217,6 @@
       "name": "IS_SMALL_SCREEN",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_DRAWER_OPEN": {
@@ -252,7 +224,6 @@
       "name": "IS_DRAWER_OPEN",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_ACTIVE": {
@@ -260,7 +231,6 @@
       "name": "IS_ACTIVE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_UPGRADED": {
@@ -268,7 +238,6 @@
       "name": "IS_UPGRADED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_ANIMATING": {
@@ -276,7 +245,6 @@
       "name": "IS_ANIMATING",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ON_LARGE_SCREEN": {
@@ -284,7 +252,6 @@
       "name": "ON_LARGE_SCREEN",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ON_SMALL_SCREEN": {
@@ -292,7 +259,6 @@
       "name": "ON_SMALL_SCREEN",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "MAX_WIDTH": {
@@ -300,7 +266,6 @@
       "name": "MAX_WIDTH",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_SCROLL_PIXELS": {
@@ -308,7 +273,6 @@
       "name": "TAB_SCROLL_PIXELS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "MENU_ICON": {
@@ -316,7 +280,6 @@
       "name": "MENU_ICON",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CHEVRON_LEFT": {
@@ -324,7 +287,6 @@
       "name": "CHEVRON_LEFT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CHEVRON_RIGHT": {
@@ -332,7 +294,6 @@
       "name": "CHEVRON_RIGHT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "STANDARD": {
@@ -340,7 +301,6 @@
       "name": "STANDARD",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SEAMED": {
@@ -348,7 +308,6 @@
       "name": "SEAMED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "WATERFALL": {
@@ -356,7 +315,6 @@
       "name": "WATERFALL",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SCROLL": {
@@ -364,7 +322,6 @@
       "name": "SCROLL",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "LayoutBehavior": {
@@ -372,7 +329,6 @@
       "name": "LayoutBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_layout.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

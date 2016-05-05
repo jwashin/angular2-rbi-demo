@@ -6,7 +6,6 @@
       "name": "NO_MAX_ROWS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "MAX_ROWS_ATTRIBUTE": {
@@ -14,7 +13,6 @@
       "name": "MAX_ROWS_ATTRIBUTE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "LABEL": {
@@ -22,7 +20,6 @@
       "name": "LABEL",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TEXTFIELD_INPUT": {
@@ -30,7 +27,6 @@
       "name": "TEXTFIELD_INPUT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_DIRTY": {
@@ -38,7 +34,6 @@
       "name": "IS_DIRTY",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_FOCUSED": {
@@ -46,7 +41,6 @@
       "name": "IS_FOCUSED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_DISABLED": {
@@ -54,7 +48,6 @@
       "name": "IS_DISABLED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_INVALID": {
@@ -62,7 +55,6 @@
       "name": "IS_INVALID",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_UPGRADED": {
@@ -70,7 +62,6 @@
       "name": "IS_UPGRADED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TextfieldBehavior": {
@@ -78,7 +69,6 @@
       "name": "TextfieldBehavior",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/material_textfield.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

@@ -6,7 +6,6 @@
       "name": "HAS_DRAWER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HAS_SCROLLING_HEADER": {
@@ -14,7 +13,6 @@
       "name": "HAS_SCROLLING_HEADER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HAS_TABS": {
@@ -22,7 +20,6 @@
       "name": "HAS_TABS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_ACTIVE": {
@@ -30,7 +27,6 @@
       "name": "IS_ACTIVE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_ANIMATING": {
@@ -38,7 +34,6 @@
       "name": "IS_ANIMATING",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CASTING_SHADOW": {
@@ -46,7 +41,6 @@
       "name": "CASTING_SHADOW",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_CHECKED": {
@@ -54,7 +48,6 @@
       "name": "IS_CHECKED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_COMPACT": {
@@ -62,7 +55,6 @@
       "name": "IS_COMPACT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_DIRTY": {
@@ -70,7 +62,6 @@
       "name": "IS_DIRTY",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_DISABLED": {
@@ -78,7 +69,6 @@
       "name": "IS_DISABLED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_FOCUSED": {
@@ -86,7 +76,6 @@
       "name": "IS_FOCUSED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_INVALID": {
@@ -94,7 +83,6 @@
       "name": "IS_INVALID",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_LOWEST_VALUE": {
@@ -102,7 +90,6 @@
       "name": "IS_LOWEST_VALUE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_SELECTED": {
@@ -110,7 +97,6 @@
       "name": "IS_SELECTED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_SMALL_SCREEN": {
@@ -118,7 +104,6 @@
       "name": "IS_SMALL_SCREEN",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_UPGRADED": {
@@ -126,7 +111,6 @@
       "name": "IS_UPGRADED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IS_VISIBLE": {
@@ -134,7 +118,6 @@
       "name": "IS_VISIBLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ICON": {
@@ -142,7 +125,6 @@
       "name": "ICON",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BUTTON_DISABLED": {
@@ -150,7 +132,6 @@
       "name": "BUTTON_DISABLED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BUTTON_RIPPLE_CONTAINER": {
@@ -158,7 +139,6 @@
       "name": "BUTTON_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CHECKBOX": {
@@ -166,7 +146,6 @@
       "name": "CHECKBOX",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BOX_OUTLINE": {
@@ -174,7 +153,6 @@
       "name": "BOX_OUTLINE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "FOCUS_HELPER": {
@@ -182,7 +160,6 @@
       "name": "FOCUS_HELPER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CHECKBOX_INPUT": {
@@ -190,7 +167,6 @@
       "name": "CHECKBOX_INPUT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CHECKBOX_RIPPLE_CONTAINER": {
@@ -198,7 +174,6 @@
       "name": "CHECKBOX_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TICK_OUTLINE": {
@@ -206,7 +181,6 @@
       "name": "TICK_OUTLINE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DATA_TABLE": {
@@ -214,7 +188,6 @@
       "name": "DATA_TABLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SELECTABLE": {
@@ -222,7 +195,6 @@
       "name": "SELECTABLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DATA_TABLE_SELECT": {
@@ -230,7 +202,6 @@
       "name": "DATA_TABLE_SELECT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ICON_TOGGLE_INPUT": {
@@ -238,7 +209,6 @@
       "name": "ICON_TOGGLE_INPUT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ICON_TOGGLE_RIPPLE_CONTAINER": {
@@ -246,7 +216,6 @@
       "name": "ICON_TOGGLE_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "JS_CHECKBOX": {
@@ -254,7 +223,6 @@
       "name": "JS_CHECKBOX",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "JS_RADIO": {
@@ -262,7 +230,6 @@
       "name": "JS_RADIO",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_EFFECT": {
@@ -270,7 +237,6 @@
       "name": "RIPPLE_EFFECT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_IGNORE_EVENTS": {
@@ -278,7 +244,6 @@
       "name": "RIPPLE_IGNORE_EVENTS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "FIXED_HEADER": {
@@ -286,7 +251,6 @@
       "name": "FIXED_HEADER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ON_LARGE_SCREEN": {
@@ -294,7 +258,6 @@
       "name": "ON_LARGE_SCREEN",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ON_SMALL_SCREEN": {
@@ -302,7 +265,6 @@
       "name": "ON_SMALL_SCREEN",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CONTAINER": {
@@ -310,7 +272,6 @@
       "name": "CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CONTENT": {
@@ -318,7 +279,6 @@
       "name": "CONTENT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DRAWER": {
@@ -326,7 +286,6 @@
       "name": "DRAWER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DRAWER_BTN": {
@@ -334,7 +293,6 @@
       "name": "DRAWER_BTN",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HEADER": {
@@ -342,7 +300,6 @@
       "name": "HEADER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HEADER_SCROLL": {
@@ -350,7 +307,6 @@
       "name": "HEADER_SCROLL",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HEADER_SEAMED": {
@@ -358,7 +314,6 @@
       "name": "HEADER_SEAMED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HEADER_WATERFALL": {
@@ -366,7 +321,6 @@
       "name": "HEADER_WATERFALL",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "OBFUSCATOR": {
@@ -374,7 +328,6 @@
       "name": "OBFUSCATOR",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB": {
@@ -382,7 +335,6 @@
       "name": "TAB",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_BAR": {
@@ -390,7 +342,6 @@
       "name": "TAB_BAR",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_BAR_BUTTON": {
@@ -398,7 +349,6 @@
       "name": "TAB_BAR_BUTTON",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_CONTAINER": {
@@ -406,7 +356,6 @@
       "name": "TAB_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_BAR_LEFT_BUTTON": {
@@ -414,7 +363,6 @@
       "name": "TAB_BAR_LEFT_BUTTON",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_BAR_RIGHT_BUTTON": {
@@ -422,7 +370,6 @@
       "name": "TAB_BAR_RIGHT_BUTTON",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "PANEL": {
@@ -430,7 +377,6 @@
       "name": "PANEL",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_RIPPLE_CONTAINER": {
@@ -438,7 +384,6 @@
       "name": "TAB_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BOTTOM_LEFT": {
@@ -446,7 +391,6 @@
       "name": "BOTTOM_LEFT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BOTTOM_RIGHT": {
@@ -454,7 +398,6 @@
       "name": "BOTTOM_RIGHT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TOP_LEFT": {
@@ -462,7 +405,6 @@
       "name": "TOP_LEFT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TOP_RIGHT": {
@@ -470,7 +412,6 @@
       "name": "TOP_RIGHT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "UNALIGNED": {
@@ -478,7 +419,6 @@
       "name": "UNALIGNED",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "MENU_CONTAINER": {
@@ -486,7 +426,6 @@
       "name": "MENU_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ITEM": {
@@ -494,7 +433,6 @@
       "name": "ITEM",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ITEM_RIPPLE_CONTAINER": {
@@ -502,7 +440,6 @@
       "name": "ITEM_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "OUTLINE": {
@@ -510,7 +447,6 @@
       "name": "OUTLINE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "INDETERMINATE_CLASS": {
@@ -518,7 +454,6 @@
       "name": "INDETERMINATE_CLASS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RADIO_BTN": {
@@ -526,7 +461,6 @@
       "name": "RADIO_BTN",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RADIO_INNER_CIRCLE": {
@@ -534,7 +468,6 @@
       "name": "RADIO_INNER_CIRCLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RADIO_OUTER_CIRCLE": {
@@ -542,7 +475,6 @@
       "name": "RADIO_OUTER_CIRCLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RADIO_RIPPLE_CONTAINER": {
@@ -550,7 +482,6 @@
       "name": "RADIO_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE": {
@@ -558,7 +489,6 @@
       "name": "RIPPLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RIPPLE_CENTER": {
@@ -566,7 +496,6 @@
       "name": "RIPPLE_CENTER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BACKGROUND_FLEX": {
@@ -574,7 +503,6 @@
       "name": "BACKGROUND_FLEX",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BACKGROUND_LOWER": {
@@ -582,7 +510,6 @@
       "name": "BACKGROUND_LOWER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BACKGROUND_UPPER": {
@@ -590,7 +517,6 @@
       "name": "BACKGROUND_UPPER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SLIDER_CONTAINER": {
@@ -598,7 +524,6 @@
       "name": "SLIDER_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IE_CONTAINER": {
@@ -606,7 +531,6 @@
       "name": "IE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_CIRCLE": {
@@ -614,7 +538,6 @@
       "name": "SPINNER_CIRCLE",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_CIRCLE_CLIPPER": {
@@ -622,7 +545,6 @@
       "name": "SPINNER_CIRCLE_CLIPPER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_GAP_PATCH": {
@@ -630,7 +552,6 @@
       "name": "SPINNER_GAP_PATCH",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_LAYER": {
@@ -638,7 +559,6 @@
       "name": "SPINNER_LAYER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_LEFT": {
@@ -646,7 +566,6 @@
       "name": "SPINNER_LEFT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SPINNER_RIGHT": {
@@ -654,7 +573,6 @@
       "name": "SPINNER_RIGHT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SWITCH_FOCUS_HELPER": {
@@ -662,7 +580,6 @@
       "name": "SWITCH_FOCUS_HELPER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SWITCH_INPUT": {
@@ -670,7 +587,6 @@
       "name": "SWITCH_INPUT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SWITCH_RIPPLE_CONTAINER": {
@@ -678,7 +594,6 @@
       "name": "SWITCH_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "THUMB": {
@@ -686,7 +601,6 @@
       "name": "THUMB",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TRACK": {
@@ -694,7 +608,6 @@
       "name": "TRACK",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "PANEL_CLASS": {
@@ -702,7 +615,6 @@
       "name": "PANEL_CLASS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TABS_RIPPLE_CONTAINER": {
@@ -710,7 +622,6 @@
       "name": "TABS_RIPPLE_CONTAINER",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TAB_CLASS": {
@@ -718,7 +629,6 @@
       "name": "TAB_CLASS",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TEXTFIELD_INPUT": {
@@ -726,7 +636,6 @@
       "name": "TEXTFIELD_INPUT",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "LABEL": {
@@ -734,7 +643,6 @@
       "name": "LABEL",
       "moduleUrl": "asset:angular2_rbi/lib/src/directives/mdl_css_classes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

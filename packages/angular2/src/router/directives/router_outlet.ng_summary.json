@@ -1,32 +1,9 @@
 {
   "ngDeps": {
-    "1": "angular2.src.router.directives.router_outlet",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "PromiseWrapper",
-          "EventEmitter"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "StringMapWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isBlank",
-          "isPresent"
-        ],
         "5": false
       },
       {
@@ -34,19 +11,28 @@
         "2": [
           "Directive",
           "Attribute",
-          "DynamicComponentLoader",
+          "ComponentResolver",
+          "ComponentFactory",
           "ComponentRef",
           "ViewContainerRef",
-          "provide",
-          "ReflectiveInjector",
           "OnDestroy",
-          "Output"
+          "Output",
+          "MapInjector"
         ],
         "5": false
       },
       {
-        "1": "../router.dart",
-        "4": "routerMod",
+        "1": "package:angular2/src/facade/async.dart",
+        "2": [
+          "EventEmitter"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:collection/collection.dart",
+        "2": [
+          "MapEquality"
+        ],
         "5": false
       },
       {
@@ -55,18 +41,6 @@
           "ComponentInstruction",
           "RouteParams",
           "RouteData"
-        ],
-        "5": false
-      },
-      {
-        "1": "../lifecycle/lifecycle_annotations.dart",
-        "4": "hookMod",
-        "5": false
-      },
-      {
-        "1": "../lifecycle/route_lifecycle_reflector.dart",
-        "2": [
-          "hasLifecycleHook"
         ],
         "5": false
       },
@@ -80,6 +54,23 @@
           "CanDeactivate"
         ],
         "5": false
+      },
+      {
+        "1": "../lifecycle/lifecycle_annotations.dart",
+        "4": "hook_mod",
+        "5": false
+      },
+      {
+        "1": "../lifecycle/route_lifecycle_reflector.dart",
+        "2": [
+          "hasLifecycleHook"
+        ],
+        "5": false
+      },
+      {
+        "1": "../router.dart",
+        "4": "router_mod",
+        "5": false
       }
     ],
     "5": [
@@ -91,11 +82,11 @@
             "4": "_viewContainerRef"
           },
           {
-            "1": "DynamicComponentLoader",
+            "1": "ComponentResolver",
             "4": "_loader"
           },
           {
-            "1": "routerMod.Router",
+            "1": "router_mod.Router",
             "4": "_parentRouter"
           },
           {
@@ -139,8 +130,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -154,15 +143,13 @@
               "value": null,
               "identifier": {
                 "class": "Identifier",
-                "name": "DynamicComponentLoader",
+                "name": "ComponentResolver",
                 "moduleUrl": null,
                 "prefix": null,
                 "value": null
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -178,13 +165,11 @@
                 "class": "Identifier",
                 "name": "Router",
                 "moduleUrl": null,
-                "prefix": "routerMod",
+                "prefix": "router_mod",
                 "value": null
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -199,8 +184,6 @@
               "identifier": null,
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": true,
             "isSelf": false,
@@ -211,8 +194,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {
         "activateEvents": "activate"
       },

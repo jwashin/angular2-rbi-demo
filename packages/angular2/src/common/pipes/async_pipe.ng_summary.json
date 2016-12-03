@@ -1,27 +1,9 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.pipes.async_pipe",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isBlank",
-          "isPresent",
-          "isPromise"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "ObservableWrapper",
-          "Stream",
-          "EventEmitter"
-        ],
         "5": false
       },
       {
@@ -103,7 +85,28 @@
         "prefix": null,
         "isHost": false,
         "value": null,
-        "diDeps": []
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ChangeDetectorRef",
+                "moduleUrl": null,
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
       },
       "name": "async",
       "pure": false

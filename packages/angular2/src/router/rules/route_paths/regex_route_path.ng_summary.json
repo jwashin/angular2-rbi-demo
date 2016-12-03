@@ -1,21 +1,11 @@
 {
   "ngDeps": {
-    "1": "angular2.src.router.rules.route_paths.regex_route_path",
+    "1": "",
     "3": [
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "RegExpWrapper",
-          "RegExpMatcherWrapper",
-          "isBlank"
-        ],
-        "5": false
-      },
       {
         "1": "../../url_parser.dart",
         "2": [
-          "Url",
-          "RootUrl"
+          "Url"
         ],
         "5": false
       },

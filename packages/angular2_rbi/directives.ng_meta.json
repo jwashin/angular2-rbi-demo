@@ -340,71 +340,71 @@
     "6": "directives.dart",
     "7": [
       {
-        "1": "package:angular2/angular2.ngfactory.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "src/directives/material_button.ngfactory.dart",
+        "1": "src/directives/material_button.template.dart",
         "4": "i1"
       },
       {
-        "1": "src/directives/material_checkbox.ngfactory.dart",
+        "1": "src/directives/material_checkbox.template.dart",
         "4": "i2"
       },
       {
-        "1": "src/directives/material_data_table.ngfactory.dart",
+        "1": "src/directives/material_data_table.template.dart",
         "4": "i3"
       },
       {
-        "1": "src/directives/material_icon_toggle.ngfactory.dart",
+        "1": "src/directives/material_icon_toggle.template.dart",
         "4": "i4"
       },
       {
-        "1": "src/directives/material_layout.ngfactory.dart",
+        "1": "src/directives/material_layout.template.dart",
         "4": "i5"
       },
       {
-        "1": "src/directives/material_menu.ngfactory.dart",
+        "1": "src/directives/material_menu.template.dart",
         "4": "i6"
       },
       {
-        "1": "src/directives/material_progress.ngfactory.dart",
+        "1": "src/directives/material_progress.template.dart",
         "4": "i7"
       },
       {
-        "1": "src/directives/material_radio.ngfactory.dart",
+        "1": "src/directives/material_radio.template.dart",
         "4": "i8"
       },
       {
-        "1": "src/directives/material_tabs.ngfactory.dart",
+        "1": "src/directives/material_tabs.template.dart",
         "4": "i9"
       },
       {
-        "1": "src/directives/material_ripple.ngfactory.dart",
+        "1": "src/directives/material_ripple.template.dart",
         "4": "i10"
       },
       {
-        "1": "src/directives/material_slider.ngfactory.dart",
+        "1": "src/directives/material_slider.template.dart",
         "4": "i11"
       },
       {
-        "1": "src/directives/material_spinner.ngfactory.dart",
+        "1": "src/directives/material_spinner.template.dart",
         "4": "i12"
       },
       {
-        "1": "src/directives/material_switch.ngfactory.dart",
+        "1": "src/directives/material_switch.template.dart",
         "4": "i13"
       },
       {
-        "1": "src/directives/material_textfield.ngfactory.dart",
+        "1": "src/directives/material_textfield.template.dart",
         "4": "i14"
       },
       {
-        "1": "src/directives/material_tooltip.ngfactory.dart",
+        "1": "src/directives/material_tooltip.template.dart",
         "4": "i15"
       },
       {
-        "1": "src/directives/material_snackbar.ngfactory.dart",
+        "1": "src/directives/material_snackbar.template.dart",
         "4": "i16"
       }
     ]
@@ -435,8 +435,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -447,8 +445,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -488,8 +487,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -500,8 +497,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -541,8 +539,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -553,8 +549,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -594,8 +591,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -606,8 +601,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -647,8 +643,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -659,8 +653,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -700,8 +695,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -712,8 +705,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -753,8 +747,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -765,10 +757,14 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "progress": "progress",
         "buffer": "buffer"
+      },
+      "inputTypes": {
+        "progress": " dynamic",
+        "buffer": " dynamic"
       },
       "outputs": {},
       "hostListeners": {},
@@ -808,8 +804,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -820,8 +814,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -861,8 +856,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -873,8 +866,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -914,8 +908,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -926,12 +918,18 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "min": "min",
         "max": "max",
         "value": "value",
         "step": "step"
+      },
+      "inputTypes": {
+        "min": " dynamic",
+        "max": " dynamic",
+        "value": " dynamic",
+        "step": " dynamic"
       },
       "outputs": {
         "valueChange": "valueChange"
@@ -974,8 +972,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -986,8 +982,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -1026,8 +1023,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -1038,8 +1033,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -1078,8 +1074,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -1090,8 +1084,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -1131,8 +1126,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -1143,8 +1136,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -1184,8 +1178,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -1196,8 +1188,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -1237,8 +1230,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -1249,8 +1240,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -1289,8 +1281,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -1301,9 +1291,12 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "badge": "data-badge"
+      },
+      "inputTypes": {
+        "badge": " dynamic"
       },
       "outputs": {},
       "hostListeners": {},

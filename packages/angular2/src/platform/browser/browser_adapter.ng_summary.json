@@ -1,9 +1,14 @@
 {
   "ngDeps": {
-    "1": "angular.core.facade.dom",
+    "1": "browser_adapter",
     "3": [
       {
         "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "dart:js_util",
+        "4": "js_util",
         "5": false
       },
       {
@@ -14,27 +19,18 @@
         "5": false
       },
       {
-        "1": "generic_browser_adapter.dart",
-        "2": [
-          "GenericBrowserDomAdapter"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/browser.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isBlank",
-          "isPresent"
-        ],
+        "1": "package:js/js.dart",
         "5": false
       },
       {
-        "1": "dart:js",
-        "4": "js",
+        "1": "generic_browser_adapter.dart",
+        "2": [
+          "GenericBrowserDomAdapter"
+        ],
         "5": false
       }
     ],
@@ -44,6 +40,13 @@
     "_IdentitySanitizer": {
       "class": "Identifier",
       "name": "_IdentitySanitizer",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ngCreateDocument": {
+      "class": "Identifier",
+      "name": "ngCreateDocument",
       "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
       "prefix": null,
       "value": null

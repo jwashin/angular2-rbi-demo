@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.linker.component_resolver",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
@@ -14,11 +14,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/reflection/reflection.dart",
         "2": [
-          "Type",
-          "isBlank",
-          "stringify"
+          "reflector"
         ],
         "5": false
       },
@@ -26,20 +24,6 @@
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
           "BaseException"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "PromiseWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflection.dart",
-        "2": [
-          "reflector"
         ],
         "5": false
       },
@@ -59,6 +43,9 @@
             "1": "Injectable",
             "4": false
           }
+        ],
+        "6": [
+          "ComponentResolver"
         ]
       }
     ],
@@ -68,13 +55,6 @@
     "ComponentResolver": {
       "class": "Identifier",
       "name": "ComponentResolver",
-      "moduleUrl": "asset:angular2/lib/src/core/linker/component_resolver.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_isComponentFactory": {
-      "class": "Identifier",
-      "name": "_isComponentFactory",
       "moduleUrl": "asset:angular2/lib/src/core/linker/component_resolver.dart",
       "prefix": null,
       "value": null

@@ -1,19 +1,25 @@
 {
   "ngDeps": {
-    "1": "angular2.src.router.utils",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/linker/component_factory.dart",
         "2": [
-          "isPresent",
-          "isBlank"
+          "ComponentFactory"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/collection.dart",
+        "1": "package:angular2/src/core/reflection/reflection.dart",
         "2": [
-          "StringMapWrapper"
+          "reflector"
+        ],
+        "5": false
+      },
+      {
+        "1": "lifecycle/lifecycle_annotations_impl.dart",
+        "2": [
+          "CanActivate"
         ],
         "5": false
       }
@@ -21,12 +27,16 @@
     "6": "utils.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
+        "1": "package:angular2/src/core/linker/component_factory.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/collection.ngfactory.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "lifecycle/lifecycle_annotations_impl.template.dart",
+        "4": "i2"
       }
     ]
   },
@@ -41,6 +51,27 @@
     "normalizeString": {
       "class": "Identifier",
       "name": "normalizeString",
+      "moduleUrl": "asset:angular2/lib/src/router/utils.dart",
+      "prefix": null,
+      "value": null
+    },
+    "getComponentAnnotations": {
+      "class": "Identifier",
+      "name": "getComponentAnnotations",
+      "moduleUrl": "asset:angular2/lib/src/router/utils.dart",
+      "prefix": null,
+      "value": null
+    },
+    "getComponentType": {
+      "class": "Identifier",
+      "name": "getComponentType",
+      "moduleUrl": "asset:angular2/lib/src/router/utils.dart",
+      "prefix": null,
+      "value": null
+    },
+    "getCanActivateHook": {
+      "class": "Identifier",
+      "name": "getCanActivateHook",
       "moduleUrl": "asset:angular2/lib/src/router/utils.dart",
       "prefix": null,
       "value": null

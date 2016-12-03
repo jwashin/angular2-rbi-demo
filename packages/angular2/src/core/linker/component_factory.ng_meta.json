@@ -1,7 +1,11 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.linker.component_factory",
+    "1": "",
     "3": [
+      {
+        "1": "dart:html",
+        "5": false
+      },
       {
         "1": "package:angular2/src/core/di.dart",
         "2": [
@@ -10,18 +14,31 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/reflection/reflection.dart",
         "2": [
-          "Type",
-          "isPresent",
-          "isBlank"
+          "reflector"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/exceptions.dart",
+        "1": "../change_detection/change_detection.dart",
         "2": [
-          "unimplemented"
+          "ChangeDetectorRef"
+        ],
+        "5": false
+      },
+      {
+        "1": "view_container.dart",
+        "5": false
+      },
+      {
+        "1": "app_view.dart",
+        "5": false
+      },
+      {
+        "1": "app_view_utils.dart",
+        "2": [
+          "OnDestroyCallback"
         ],
         "5": false
       },
@@ -35,29 +52,7 @@
       {
         "1": "view_ref.dart",
         "2": [
-          "ViewRef",
-          "ViewRef_"
-        ],
-        "5": false
-      },
-      {
-        "1": "element.dart",
-        "2": [
-          "AppElement"
-        ],
-        "5": false
-      },
-      {
-        "1": "view_utils.dart",
-        "2": [
-          "ViewUtils"
-        ],
-        "5": false
-      },
-      {
-        "1": "../change_detection/change_detection.dart",
-        "2": [
-          "ChangeDetectorRef"
+          "ViewRef"
         ],
         "5": false
       }
@@ -65,40 +60,47 @@
     "6": "component_factory.dart",
     "7": [
       {
-        "1": "package:angular2/src/core/di.ngfactory.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ngfactory.dart",
+        "1": "../change_detection/change_detection.template.dart",
         "4": "i2"
       },
       {
-        "1": "element_ref.ngfactory.dart",
+        "1": "view_container.template.dart",
         "4": "i3"
       },
       {
-        "1": "view_ref.ngfactory.dart",
+        "1": "app_view.template.dart",
         "4": "i4"
       },
       {
-        "1": "element.ngfactory.dart",
+        "1": "app_view_utils.template.dart",
         "4": "i5"
       },
       {
-        "1": "view_utils.ngfactory.dart",
+        "1": "element_ref.template.dart",
         "4": "i6"
       },
       {
-        "1": "../change_detection/change_detection.ngfactory.dart",
+        "1": "view_ref.template.dart",
         "4": "i7"
       }
     ]
   },
   "type": {
+    "NgViewFactory": {
+      "class": "Identifier",
+      "name": "NgViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/component_factory.dart",
+      "prefix": null,
+      "value": null
+    },
     "ComponentRef": {
       "class": "Identifier",
       "name": "ComponentRef",
@@ -106,9 +108,9 @@
       "prefix": null,
       "value": null
     },
-    "ComponentRef_": {
+    "ComponentRefImpl": {
       "class": "Identifier",
-      "name": "ComponentRef_",
+      "name": "ComponentRefImpl",
       "moduleUrl": "asset:angular2/lib/src/core/linker/component_factory.dart",
       "prefix": null,
       "value": null

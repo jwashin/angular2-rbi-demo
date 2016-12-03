@@ -7,15 +7,6 @@
 
 
 /**
- * Kind of a source in the cache.
- */
-enum CacheSourceKind : byte {
-  library,
-
-  part
-}
-
-/**
  * Enum used to indicate the kind of a name in index.
  */
 enum IndexNameKind : byte {
@@ -147,7 +138,12 @@ enum IndexSyntheticElementKind : byte {
   /**
    * The synthetic `values` getter of an enum.
    */
-  enumValues
+  enumValues,
+
+  /**
+   * The containing unit itself.
+   */
+  unit
 }
 
 /**
@@ -279,10 +275,10 @@ enum UnlinkedConstOperation : byte {
   pushNull,
 
   /**
-   * Push the value of the constant constructor parameter with
-   * the name obtained from [UnlinkedConst.strings].
+   * Push the value of the function parameter with the name obtained from
+   * [UnlinkedConst.strings].
    */
-  pushConstructorParameter,
+  pushParameter,
 
   /**
    * Evaluate a (potentially qualified) identifier expression and push the
@@ -556,8 +552,11 @@ enum UnlinkedConstOperation : byte {
    * stack (where `m` is obtained from [UnlinkedConst.ints]) into a list (filled
    * from the end) and use them as positional arguments.  Use the lists of
    * positional and names arguments to invoke a method (or a function) with
-   * the reference from [UnlinkedConst.references].  Push the result of
-   * invocation value into the stack.
+   * the reference from [UnlinkedConst.references].  If `k` is nonzero (where
+   * `k` is obtained from [UnlinkedConst.ints]), obtain `k` type arguments from
+   * [UnlinkedConst.references] and use them as generic type arguments for the
+   * aforementioned method or function.  Push the result of the invocation onto
+   * the stack.
    *
    * In general `a.b` cannot not be distinguished between: `a` is a prefix and
    * `b` is a top-level function; or `a` is an object and `b` is the name of a
@@ -574,11 +573,14 @@ enum UnlinkedConstOperation : byte {
    * stack (where `m` is obtained from [UnlinkedConst.ints]) into a list (filled
    * from the end) and use them as positional arguments.  Use the lists of
    * positional and names arguments to invoke the method with the name from
-   * [UnlinkedConst.strings] of the target popped from the stack, and push the
-   * resulting value into the stack.
+   * [UnlinkedConst.strings] of the target popped from the stack.  If `k` is
+   * nonzero (where `k` is obtained from [UnlinkedConst.ints]), obtain `k` type
+   * arguments from [UnlinkedConst.references] and use them as generic type
+   * arguments for the aforementioned method.  Push the result of the
+   * invocation onto the stack.
    *
    * This operation should be used for invocation of a method invocation
-   * where `target` is know to be an object instance.
+   * where `target` is known to be an object instance.
    */
   invokeMethod,
 
@@ -609,7 +611,15 @@ enum UnlinkedConstOperation : byte {
   /**
    * Pop the top value from the stack and raise an exception with this value.
    */
-  throwException
+  throwException,
+
+  /**
+   * Obtain two values `n` and `m` from [UnlinkedConst.ints].  Then, starting at
+   * the executable element for the expression being evaluated, if n > 0, pop to
+   * the nth enclosing function element.  Then, push the mth local function of
+   * that element onto the stack.
+   */
+  pushLocalFunctionReference
 }
 
 /**
@@ -772,34 +782,6 @@ enum UnlinkedParamKind : byte {
 }
 
 /**
- * Information about a source that depends only on its content.
- */
-table CacheSourceContent {
-  /**
-   * The list of exported URIs, e.g. `dart:core`, or `foo/bar.dart`,
-   * or `package:foo/bar.dart`.  Empty if [kind] is [CacheSourceKind.part].
-   */
-  exportedUris:[string] (id: 2);
-
-  /**
-   * The list of explicitly imported URIs, e.g. `dart:core`, or `foo/bar.dart`,
-   * or `package:foo/bar.dart`.  Empty if [kind] is [CacheSourceKind.part].
-   */
-  importedUris:[string] (id: 1);
-
-  /**
-   * The kind of the source.
-   */
-  kind:CacheSourceKind (id: 0);
-
-  /**
-   * The list of part URIs, e.g. `foo/bar.dart`.  Empty if [kind] is
-   * [CacheSourceKind.part].
-   */
-  partUris:[string] (id: 3);
-}
-
-/**
  * Information about an element code range.
  */
 table CodeRange {
@@ -897,8 +879,7 @@ table EntityRef {
 
   /**
    * If this is an instantiation of a generic type or generic executable, the
-   * type arguments used to instantiate it.  Trailing type arguments of type
-   * `dynamic` are omitted.
+   * type arguments used to instantiate it (if any).
    */
   typeArguments:[EntityRef] (id: 1);
 }
@@ -1098,6 +1079,13 @@ table LinkedUnit {
   constCycles:[uint] (id: 2);
 
   /**
+   * List of slot ids (referring to [UnlinkedParam.inheritsCovariantSlot])
+   * corresponding to parameters that inherit `@covariant` behavior from a base
+   * class.
+   */
+  parametersInheritingCovariant:[uint] (id: 3);
+
+  /**
    * Information about the resolution of references within the compilation
    * unit.  Each element of [UnlinkedUnit.references] has a corresponding
    * element in this list (at the same index).  If this list has additional
@@ -1118,6 +1106,18 @@ table LinkedUnit {
  * Summary information about a package.
  */
 table PackageBundle {
+  /**
+   * MD5 hash of the non-informative fields of the [PackageBundle] (not
+   * including this one).  This can be used to identify when the API of a
+   * package may have changed.
+   */
+  apiSignature:string (id: 7);
+
+  /**
+   * Information about the packages this package depends on, if known.
+   */
+  dependencies:[PackageDependencyInfo] (id: 8);
+
   /**
    * Linked libraries.
    */
@@ -1159,6 +1159,46 @@ table PackageBundle {
 }
 
 /**
+ * Information about a single dependency of a summary package.
+ */
+table PackageDependencyInfo {
+  /**
+   * API signature of this dependency.
+   */
+  apiSignature:string (id: 0);
+
+  /**
+   * If this dependency summarizes any files whose URI takes the form
+   * "package:<package_name>/...", a list of all such package names, sorted
+   * lexicographically.  Otherwise empty.
+   */
+  includedPackageNames:[string] (id: 2);
+
+  /**
+   * Indicates whether this dependency summarizes any files whose URI takes the
+   * form "dart:...".
+   */
+  includesDartUris:bool (id: 4);
+
+  /**
+   * Indicates whether this dependency summarizes any files whose URI takes the
+   * form "file:...".
+   */
+  includesFileUris:bool (id: 3);
+
+  /**
+   * Relative path to the summary file for this dependency.  This is intended as
+   * a hint to help the analysis server locate summaries of dependencies.  We
+   * don't specify precisely what this path is relative to, but we expect it to
+   * be relative to a directory the analysis server can find (e.g. for projects
+   * built using Bazel, it would be relative to the "bazel-bin" directory).
+   *
+   * Absent if the path is not known.
+   */
+  summaryPath:string (id: 1);
+}
+
+/**
  * Index information about a package.
  */
 table PackageIndex {
@@ -1170,11 +1210,29 @@ table PackageIndex {
 
   /**
    * Each item of this list corresponds to a unique referenced element.  It is
-   * the offset of the element name relative to the beginning of the file.  The
-   * list is sorted in ascending order, so that the client can quickly check
-   * whether an element is referenced in this [PackageIndex].
+   * the identifier of the class member element name, or `null` if the element is
+   * a top-level element.  The list is sorted in ascending order, so that the
+   * client can quickly check whether an element is referenced in this
+   * [PackageIndex].
    */
-  elementOffsets:[uint] (id: 1);
+  elementNameClassMemberIds:[uint] (id: 7);
+
+  /**
+   * Each item of this list corresponds to a unique referenced element.  It is
+   * the identifier of the named parameter name, or `null` if the element is not
+   * a named parameter.  The list is sorted in ascending order, so that the
+   * client can quickly check whether an element is referenced in this
+   * [PackageIndex].
+   */
+  elementNameParameterIds:[uint] (id: 8);
+
+  /**
+   * Each item of this list corresponds to a unique referenced element.  It is
+   * the identifier of the top-level element name, or `null` if the element is
+   * the unit.  The list is sorted in ascending order, so that the client can
+   * quickly check whether an element is referenced in this [PackageIndex].
+   */
+  elementNameUnitMemberIds:[uint] (id: 1);
 
   /**
    * Each item of this list corresponds to a unique referenced element.  It is
@@ -1401,6 +1459,28 @@ table UnlinkedCombinator {
 }
 
 /**
+ * Unlinked summary information about a single import or export configuration.
+ */
+table UnlinkedConfiguration {
+  /**
+   * The name of the declared variable whose value is being used in the
+   * condition.
+   */
+  name:string (id: 0);
+
+  /**
+   * The URI of the implementation library to be used if the condition is true.
+   */
+  uri:string (id: 2);
+
+  /**
+   * The value to which the value of the declared variable will be compared,
+   * or `true` if the condition does not include an equality test.
+   */
+  value:string (id: 1);
+}
+
+/**
  * Unlinked summary information about a compile-time constant expression, or a
  * potentially constant expression.
  *
@@ -1460,6 +1540,13 @@ table UnlinkedConst {
  */
 table UnlinkedConstructorInitializer {
   /**
+   * If there are `m` [arguments] and `n` [argumentNames], then each argument
+   * from [arguments] with index `i` such that `n + i - m >= 0`, should be used
+   * with the name at `n + i - m`.
+   */
+  argumentNames:[string] (id: 4);
+
+  /**
    * If [kind] is `thisInvocation` or `superInvocation`, the arguments of the
    * invocation.  Otherwise empty.
    */
@@ -1492,13 +1579,13 @@ table UnlinkedDocumentationComment {
   /**
    * Length of the documentation comment (prior to replacing '\r\n' with '\n').
    */
-  length:uint (id: 0);
+  length:uint (id: 0, deprecated);
 
   /**
    * Offset of the beginning of the documentation comment relative to the
    * beginning of the file.
    */
-  offset:uint (id: 2);
+  offset:uint (id: 2, deprecated);
 
   /**
    * Text of the documentation comment, with '\r\n' replaced by '\n'.
@@ -1578,6 +1665,13 @@ table UnlinkedExecutable {
   annotations:[UnlinkedConst] (id: 6);
 
   /**
+   * If this executable's function body is declared using `=>`, the expression
+   * to the right of the `=>`.  May be omitted if neither type inference nor
+   * constant evaluation depends on the function body.
+   */
+  bodyExpr:UnlinkedConst (id: 29);
+
+  /**
    * Code range of the executable.
    */
   codeRange:CodeRange (id: 26);
@@ -1619,6 +1713,11 @@ table UnlinkedExecutable {
   isAbstract:bool (id: 10);
 
   /**
+   * Indicates whether the executable has body marked as being asynchronous.
+   */
+  isAsynchronous:bool (id: 27);
+
+  /**
    * Indicates whether the executable is declared using the `const` keyword.
    */
   isConst:bool (id: 12);
@@ -1632,6 +1731,11 @@ table UnlinkedExecutable {
    * Indicates whether the executable is declared using the `factory` keyword.
    */
   isFactory:bool (id: 8);
+
+  /**
+   * Indicates whether the executable has body marked as being a generator.
+   */
+  isGenerator:bool (id: 28);
 
   /**
    * Indicates whether the executable is a redirected constructor.
@@ -1775,9 +1879,15 @@ table UnlinkedExportNonPublic {
  */
 table UnlinkedExportPublic {
   /**
-   * Combinators contained in this import declaration.
+   * Combinators contained in this export declaration.
    */
   combinators:[UnlinkedCombinator] (id: 1);
+
+  /**
+   * Configurations used to control which library will actually be loaded at
+   * run-time.
+   */
+  configurations:[UnlinkedConfiguration] (id: 2);
 
   /**
    * URI used in the source code to reference the exported library.
@@ -1798,6 +1908,12 @@ table UnlinkedImport {
    * Combinators contained in this import declaration.
    */
   combinators:[UnlinkedCombinator] (id: 4);
+
+  /**
+   * Configurations used to control which library will actually be loaded at
+   * run-time.
+   */
+  configurations:[UnlinkedConfiguration] (id: 10);
 
   /**
    * Indicates whether the import declaration uses the `deferred` keyword.
@@ -1885,14 +2001,7 @@ table UnlinkedParam {
   /**
    * Code range of the parameter.
    */
-  codeRange:CodeRange (id: 14);
-
-  /**
-   * If the parameter has a default value, the constant expression in the
-   * default value.  Note that the presence of this expression does not mean
-   * that it is a valid, check [UnlinkedConst.isInvalid].
-   */
-  defaultValue:UnlinkedConst (id: 7);
+  codeRange:CodeRange (id: 7);
 
   /**
    * If the parameter has a default value, the source text of the constant
@@ -1912,6 +2021,16 @@ table UnlinkedParam {
    * field.
    */
   inferredTypeSlot:uint (id: 2);
+
+  /**
+   * If this is a parameter of an instance method, a nonzero slot id which is
+   * unique within this compilation unit.  If this id is found in
+   * [LinkedUnit.parametersInheritingCovariant], then this parameter inherits
+   * `@covariant` behavior from a base class.
+   *
+   * Otherwise, zero.
+   */
+  inheritsCovariantSlot:uint (id: 14);
 
   /**
    * The synthetic initializer function of the parameter.  Absent if the variable
@@ -2006,8 +2125,8 @@ table UnlinkedPublicName {
 
   /**
    * If this [UnlinkedPublicName] is a class, the list of members which can be
-   * referenced from constants or factory redirects - static constant fields,
-   * static methods, and constructors.  Otherwise empty.
+   * referenced statically - static fields, static methods, and constructors.
+   * Otherwise empty.
    *
    * Unnamed constructors are not included since they do not constitute a
    * separate name added to any namespace.
@@ -2225,6 +2344,11 @@ table UnlinkedUnit {
   libraryNameOffset:uint (id: 8);
 
   /**
+   * Offsets of the first character of each line in the source code.
+   */
+  lineStarts:[uint] (id: 17);
+
+  /**
    * Part declarations in the compilation unit.
    */
   parts:[UnlinkedPart] (id: 11);
@@ -2267,14 +2391,7 @@ table UnlinkedVariable {
   /**
    * Code range of the variable.
    */
-  codeRange:CodeRange (id: 14);
-
-  /**
-   * If [isConst] is true, and the variable has an initializer, the constant
-   * expression in the initializer.  Note that the presence of this expression
-   * does not mean that it is a valid, check [UnlinkedConst.isInvalid].
-   */
-  constExpr:UnlinkedConst (id: 5);
+  codeRange:CodeRange (id: 5);
 
   /**
    * Documentation comment for the variable, or `null` if there is no

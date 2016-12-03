@@ -1,15 +1,15 @@
 {
   "ngDeps": {
-    "1": "angular2.src.platform.browser.ruler",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/async.dart",
+        "1": "package:angular2/src/core/linker/element_ref.dart",
         "2": [
-          "PromiseWrapper"
+          "ElementRef"
         ],
         "5": false
       },
@@ -17,13 +17,6 @@
         "1": "package:angular2/src/platform/dom/dom_adapter.dart",
         "2": [
           "DomAdapter"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/element_ref.dart",
-        "2": [
-          "ElementRef"
         ],
         "5": false
       }

@@ -31,7 +31,7 @@
     "6": "material_ripple.dart",
     "7": [
       {
-        "1": "package:angular2_rbi/src/util/animation_frame.ngfactory.dart",
+        "1": "package:angular2_rbi/src/util/animation_frame.template.dart",
         "4": "i0"
       }
     ]

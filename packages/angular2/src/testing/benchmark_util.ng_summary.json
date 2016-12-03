@@ -1,14 +1,7 @@
 {
   "ngDeps": {
-    "1": "angular2.src.testing.benchmark_util",
+    "1": "",
     "3": [
-      {
-        "1": "package:angular2/src/platform/browser/browser_adapter.dart",
-        "2": [
-          "BrowserDomAdapter"
-        ],
-        "5": false
-      },
       {
         "1": "package:angular2/src/facade/browser.dart",
         "2": [
@@ -18,18 +11,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "NumberWrapper",
-          "isBlank"
+          "BaseException"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/exceptions.dart",
+        "1": "package:angular2/src/platform/browser/browser_adapter.dart",
         "2": [
-          "BaseException",
-          "WrappedException"
+          "BrowserDomAdapter"
         ],
         "5": false
       }

@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.forms.directives.ng_control_status",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/core.dart",
@@ -16,19 +16,20 @@
           "NgControl"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isBlank",
-          "isPresent"
-        ],
-        "5": false
       }
     ],
     "5": [
       {
         "1": "NgControlStatus",
+        "4": [
+          {
+            "1": "Deprecated",
+            "2": [
+              "\"Use listeners or variable binding on the control itself instead. \" \"This adds overhead for every form control whether the class is \" \"used or not.\""
+            ],
+            "4": false
+          }
+        ],
         "5": [
           {
             "1": "NgControl",
@@ -43,16 +44,12 @@
     "6": "ng_control_status.dart",
     "7": [
       {
-        "1": "package:angular2/core.ngfactory.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "ng_control.ngfactory.dart",
+        "1": "ng_control.template.dart",
         "4": "i1"
-      },
-      {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
-        "4": "i2"
       }
     ]
   },
@@ -82,8 +79,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": true,
@@ -94,8 +89,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {

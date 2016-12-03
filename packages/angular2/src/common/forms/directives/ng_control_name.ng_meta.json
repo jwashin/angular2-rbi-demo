@@ -1,24 +1,14 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.forms.directives.ng_control_name",
+    "1": "",
     "3": [
-      {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "EventEmitter",
-          "ObservableWrapper"
-        ],
-        "5": false
-      },
       {
         "1": "package:angular2/core.dart",
         "2": [
           "OnChanges",
           "OnDestroy",
           "SimpleChange",
-          "Query",
           "Directive",
-          "Host",
           "SkipSelf",
           "Provider",
           "Inject",
@@ -28,35 +18,9 @@
         "5": false
       },
       {
-        "1": "control_container.dart",
+        "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "ControlContainer"
-        ],
-        "5": false
-      },
-      {
-        "1": "ng_control.dart",
-        "2": [
-          "NgControl"
-        ],
-        "5": false
-      },
-      {
-        "1": "control_value_accessor.dart",
-        "2": [
-          "ControlValueAccessor",
-          "NG_VALUE_ACCESSOR"
-        ],
-        "5": false
-      },
-      {
-        "1": "shared.dart",
-        "2": [
-          "controlPath",
-          "composeValidators",
-          "composeAsyncValidators",
-          "isPropertyUpdated",
-          "selectValueAccessor"
+          "EventEmitter"
         ],
         "5": false
       },
@@ -76,6 +40,39 @@
         "5": false
       },
       {
+        "1": "control_container.dart",
+        "2": [
+          "ControlContainer"
+        ],
+        "5": false
+      },
+      {
+        "1": "control_value_accessor.dart",
+        "2": [
+          "ControlValueAccessor",
+          "NG_VALUE_ACCESSOR"
+        ],
+        "5": false
+      },
+      {
+        "1": "ng_control.dart",
+        "2": [
+          "NgControl"
+        ],
+        "5": false
+      },
+      {
+        "1": "shared.dart",
+        "2": [
+          "controlPath",
+          "composeValidators",
+          "composeAsyncValidators",
+          "isPropertyUpdated",
+          "selectValueAccessor"
+        ],
+        "5": false
+      },
+      {
         "1": "validators.dart",
         "2": [
           "ValidatorFn",
@@ -91,7 +88,6 @@
           {
             "1": "ControlContainer",
             "3": [
-              "const Host()",
               "const SkipSelf()"
             ],
             "4": "_parent"
@@ -136,39 +132,39 @@
     "6": "ng_control_name.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/async.ngfactory.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/core.ngfactory.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i1"
       },
       {
-        "1": "control_container.ngfactory.dart",
+        "1": "../model.template.dart",
         "4": "i2"
       },
       {
-        "1": "ng_control.ngfactory.dart",
+        "1": "../validators.template.dart",
         "4": "i3"
       },
       {
-        "1": "control_value_accessor.ngfactory.dart",
+        "1": "control_container.template.dart",
         "4": "i4"
       },
       {
-        "1": "shared.ngfactory.dart",
+        "1": "control_value_accessor.template.dart",
         "4": "i5"
       },
       {
-        "1": "../model.ngfactory.dart",
+        "1": "ng_control.template.dart",
         "4": "i6"
       },
       {
-        "1": "../validators.ngfactory.dart",
+        "1": "shared.template.dart",
         "4": "i7"
       },
       {
-        "1": "validators.ngfactory.dart",
+        "1": "validators.template.dart",
         "4": "i8"
       }
     ]
@@ -216,12 +212,10 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
-                  "isHost": true,
+                  "isHost": false,
                   "isSkipSelf": true,
                   "isOptional": false,
                   "isValue": false
@@ -238,8 +232,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": true,
@@ -260,8 +252,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": true,
@@ -282,8 +272,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": true,
@@ -298,6 +286,7 @@
           },
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         }
@@ -328,12 +317,10 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
-            "isHost": true,
+            "isHost": false,
             "isSkipSelf": true,
             "isOptional": false,
             "isValue": false
@@ -350,8 +337,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": true,
@@ -372,8 +357,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": true,
@@ -394,8 +377,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": true,
@@ -406,11 +387,12 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "name": "ngControl",
         "model": "ngModel"
       },
+      "inputTypes": {},
       "outputs": {
         "update": "ngModelChange"
       },
@@ -459,12 +441,10 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
-                  "isHost": true,
+                  "isHost": false,
                   "isSkipSelf": true,
                   "isOptional": false,
                   "isValue": false
@@ -481,8 +461,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": true,
@@ -503,8 +481,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": true,
@@ -525,8 +501,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": true,
@@ -541,6 +515,7 @@
           },
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         }

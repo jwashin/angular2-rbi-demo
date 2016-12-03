@@ -1,21 +1,25 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.forms.directives.radio_control_value_accessor",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/core.dart",
         "2": [
           "Directive",
           "ElementRef",
-          "Renderer",
-          "Self",
           "Provider",
-          "Attribute",
           "Input",
           "OnInit",
           "OnDestroy",
           "Injector",
           "Injectable"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
+        "2": [
+          "DOM"
         ],
         "5": false
       },
@@ -33,21 +37,6 @@
           "NgControl"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "looseIdentical",
-          "isPresent"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "ListWrapper"
-        ],
-        "5": false
       }
     ],
     "5": [
@@ -63,10 +52,6 @@
       {
         "1": "RadioControlValueAccessor",
         "5": [
-          {
-            "1": "Renderer",
-            "4": "_renderer"
-          },
           {
             "1": "ElementRef",
             "4": "_elementRef"
@@ -122,6 +107,7 @@
         },
         "useValue": null,
         "useFactory": null,
+        "useProperty": null,
         "multi": true,
         "deps": null
       }
@@ -160,28 +146,6 @@
               "value": null,
               "identifier": {
                 "class": "Identifier",
-                "name": "Renderer",
-                "moduleUrl": null,
-                "prefix": null,
-                "value": null
-              },
-              "identifierIsInstance": false
-            },
-            "query": null,
-            "viewQuery": null,
-            "value": null,
-            "isAttribute": false,
-            "isSelf": false,
-            "isHost": false,
-            "isSkipSelf": false,
-            "isOptional": false,
-            "isValue": false
-          },
-          {
-            "token": {
-              "value": null,
-              "identifier": {
-                "class": "Identifier",
                 "name": "ElementRef",
                 "moduleUrl": null,
                 "prefix": null,
@@ -189,8 +153,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -211,8 +173,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -233,8 +193,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -245,9 +203,12 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "name": "name"
+      },
+      "inputTypes": {
+        "name": " String"
       },
       "outputs": {},
       "hostListeners": {

@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.view_resolver",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/src/core/di.dart",
@@ -10,26 +10,24 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/metadata/view.dart",
+        "1": "package:angular2/src/core/metadata.dart",
         "2": [
-          "ViewMetadata"
+          "Component"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/metadata/directives.dart",
+        "1": "package:angular2/src/core/metadata.dart",
         "2": [
-          "ComponentMetadata"
+          "View"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/reflection/reflection.dart",
         "2": [
-          "Type",
-          "stringify",
-          "isBlank",
-          "isPresent"
+          "Reflector",
+          "reflector"
         ],
         "5": false
       },
@@ -41,23 +39,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/collection.dart",
+        "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "Map"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflector_reader.dart",
-        "2": [
-          "ReflectorReader"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflection.dart",
-        "2": [
-          "reflector"
+          "stringify"
         ],
         "5": false
       }
@@ -73,7 +57,7 @@
         ],
         "5": [
           {
-            "1": "ReflectorReader",
+            "1": "Reflector",
             "4": "_reflector"
           }
         ]
@@ -95,15 +79,13 @@
             "value": null,
             "identifier": {
               "class": "Identifier",
-              "name": "ReflectorReader",
+              "name": "Reflector",
               "moduleUrl": null,
               "prefix": null,
               "value": null
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,

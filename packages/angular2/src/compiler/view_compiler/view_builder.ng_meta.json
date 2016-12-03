@@ -1,28 +1,42 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.view_compiler.view_builder",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/change_detection/change_detection.dart",
         "2": [
-          "isPresent",
-          "isBlank",
-          "StringWrapper"
+          "ChangeDetectionStrategy",
+          "isDefaultChangeDetectionStrategy"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/collection.dart",
+        "1": "package:angular2/src/core/linker/view_type.dart",
         "2": [
-          "ListWrapper",
-          "StringMapWrapper",
-          "SetWrapper"
+          "ViewType"
         ],
         "5": false
       },
       {
-        "1": "../output/output_ast.dart",
-        "4": "o",
+        "1": "package:angular2/src/core/linker/app_view_utils.dart",
+        "2": [
+          "NAMESPACE_URIS"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/metadata/view.dart",
+        "2": [
+          "ViewEncapsulation"
+        ],
+        "5": false
+      },
+      {
+        "1": "../compile_metadata.dart",
+        "2": [
+          "CompileIdentifierMetadata",
+          "CompileDirectiveMetadata"
+        ],
         "5": false
       },
       {
@@ -34,38 +48,14 @@
         "5": false
       },
       {
-        "1": "constants.dart",
-        "2": [
-          "ViewConstructorVars",
-          "InjectMethodVars",
-          "DetectChangesVars",
-          "ViewTypeEnum",
-          "ViewEncapsulationEnum",
-          "ChangeDetectionStrategyEnum",
-          "ViewProperties"
-        ],
+        "1": "../output/output_ast.dart",
+        "4": "o",
         "5": false
       },
       {
-        "1": "package:angular2/src/core/change_detection/change_detection.dart",
+        "1": "../style_compiler.dart",
         "2": [
-          "ChangeDetectionStrategy",
-          "isDefaultChangeDetectionStrategy"
-        ],
-        "5": false
-      },
-      {
-        "1": "compile_view.dart",
-        "2": [
-          "CompileView"
-        ],
-        "5": false
-      },
-      {
-        "1": "compile_element.dart",
-        "2": [
-          "CompileElement",
-          "CompileNode"
+          "StylesCompileResult"
         ],
         "5": false
       },
@@ -86,41 +76,50 @@
           "TextAst",
           "DirectiveAst",
           "BoundDirectivePropertyAst",
-          "templateVisitAll",
-          "PropertyBindingType",
-          "ProviderAst"
+          "templateVisitAll"
         ],
         "5": false
       },
       {
-        "1": "util.dart",
+        "1": "compile_element.dart",
+        "2": [
+          "CompileElement",
+          "CompileNode"
+        ],
+        "5": false
+      },
+      {
+        "1": "compile_view.dart",
+        "2": [
+          "CompileView"
+        ],
+        "5": false
+      },
+      {
+        "1": "constants.dart",
+        "2": [
+          "ViewConstructorVars",
+          "InjectMethodVars",
+          "DetectChangesVars",
+          "ViewTypeEnum",
+          "ViewEncapsulationEnum",
+          "ChangeDetectionStrategyEnum",
+          "ViewProperties"
+        ],
+        "5": false
+      },
+      {
+        "1": "property_binder.dart",
+        "5": false
+      },
+      {
+        "1": "view_compiler_utils.dart",
         "2": [
           "getViewFactoryName",
           "createFlatArray",
-          "createDiTokenExpression"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_type.dart",
-        "2": [
-          "ViewType"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/metadata/view.dart",
-        "2": [
-          "ViewEncapsulation"
-        ],
-        "5": false
-      },
-      {
-        "1": "../compile_metadata.dart",
-        "2": [
-          "CompileIdentifierMetadata",
-          "CompileDirectiveMetadata",
-          "CompileTokenMetadata"
+          "createDiTokenExpression",
+          "createSetAttributeParams",
+          "TEMPLATE_COMMENT_TEXT"
         ],
         "5": false
       }
@@ -128,56 +127,60 @@
     "6": "view_builder.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
+        "1": "package:angular2/src/core/change_detection/change_detection.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/collection.ngfactory.dart",
+        "1": "package:angular2/src/core/linker/view_type.template.dart",
         "4": "i1"
       },
       {
-        "1": "../output/output_ast.ngfactory.dart",
+        "1": "package:angular2/src/core/linker/app_view_utils.template.dart",
         "4": "i2"
       },
       {
-        "1": "../identifiers.ngfactory.dart",
+        "1": "package:angular2/src/core/metadata/view.template.dart",
         "4": "i3"
       },
       {
-        "1": "constants.ngfactory.dart",
+        "1": "../compile_metadata.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/change_detection/change_detection.ngfactory.dart",
+        "1": "../identifiers.template.dart",
         "4": "i5"
       },
       {
-        "1": "compile_view.ngfactory.dart",
+        "1": "../output/output_ast.template.dart",
         "4": "i6"
       },
       {
-        "1": "compile_element.ngfactory.dart",
+        "1": "../style_compiler.template.dart",
         "4": "i7"
       },
       {
-        "1": "../template_ast.ngfactory.dart",
+        "1": "../template_ast.template.dart",
         "4": "i8"
       },
       {
-        "1": "util.ngfactory.dart",
+        "1": "compile_element.template.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/core/linker/view_type.ngfactory.dart",
+        "1": "compile_view.template.dart",
         "4": "i10"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.ngfactory.dart",
+        "1": "constants.template.dart",
         "4": "i11"
       },
       {
-        "1": "../compile_metadata.ngfactory.dart",
+        "1": "property_binder.template.dart",
         "4": "i12"
+      },
+      {
+        "1": "view_compiler_utils.template.dart",
+        "4": "i13"
       }
     ]
   },
@@ -206,20 +209,6 @@
     "ViewCompileDependency": {
       "class": "Identifier",
       "name": "ViewCompileDependency",
-      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
-      "prefix": null,
-      "value": null
-    },
-    "buildView": {
-      "class": "Identifier",
-      "name": "buildView",
-      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
-      "prefix": null,
-      "value": null
-    },
-    "finishView": {
-      "class": "Identifier",
-      "name": "finishView",
       "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
       "prefix": null,
       "value": null
@@ -259,13 +248,6 @@
       "prefix": null,
       "value": null
     },
-    "createViewTopLevelStmts": {
-      "class": "Identifier",
-      "name": "createViewTopLevelStmts",
-      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
-      "prefix": null,
-      "value": null
-    },
     "createStaticNodeDebugInfo": {
       "class": "Identifier",
       "name": "createStaticNodeDebugInfo",
@@ -276,6 +258,13 @@
     "createViewClass": {
       "class": "Identifier",
       "name": "createViewClass",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
+      "prefix": null,
+      "value": null
+    },
+    "createInputUpdateFunction": {
+      "class": "Identifier",
+      "name": "createInputUpdateFunction",
       "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
       "prefix": null,
       "value": null
@@ -318,6 +307,34 @@
     "getChangeDetectionMode": {
       "class": "Identifier",
       "name": "getChangeDetectionMode",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
+      "prefix": null,
+      "value": null
+    },
+    "detectHtmlElementFromTagName": {
+      "class": "Identifier",
+      "name": "detectHtmlElementFromTagName",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
+      "prefix": null,
+      "value": null
+    },
+    "writeInputUpdaters": {
+      "class": "Identifier",
+      "name": "writeInputUpdaters",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
+      "prefix": null,
+      "value": null
+    },
+    "writeInputUpdater": {
+      "class": "Identifier",
+      "name": "writeInputUpdater",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
+      "prefix": null,
+      "value": null
+    },
+    "buildUpdaterFunctionName": {
+      "class": "Identifier",
+      "name": "buildUpdaterFunctionName",
       "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
       "prefix": null,
       "value": null

@@ -1,17 +1,18 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.linker",
+    "1": "",
     "4": [
+      {
+        "1": "linker/component_factory.dart",
+        "2": [
+          "ComponentRef",
+          "ComponentFactory"
+        ]
+      },
       {
         "1": "linker/component_resolver.dart",
         "2": [
           "ComponentResolver"
-        ]
-      },
-      {
-        "1": "linker/query_list.dart",
-        "2": [
-          "QueryList"
         ]
       },
       {
@@ -27,16 +28,21 @@
         ]
       },
       {
-        "1": "linker/template_ref.dart",
+        "1": "linker/exceptions.dart",
         "2": [
-          "TemplateRef"
+          "ExpressionChangedAfterItHasBeenCheckedException"
         ]
       },
       {
-        "1": "linker/view_ref.dart",
+        "1": "linker/query_list.dart",
         "2": [
-          "EmbeddedViewRef",
-          "ViewRef"
+          "QueryList"
+        ]
+      },
+      {
+        "1": "linker/template_ref.dart",
+        "2": [
+          "TemplateRef"
         ]
       },
       {
@@ -46,16 +52,10 @@
         ]
       },
       {
-        "1": "linker/component_factory.dart",
+        "1": "linker/view_ref.dart",
         "2": [
-          "ComponentRef",
-          "ComponentFactory"
-        ]
-      },
-      {
-        "1": "linker/exceptions.dart",
-        "2": [
-          "ExpressionChangedAfterItHasBeenCheckedException"
+          "EmbeddedViewRef",
+          "ViewRef"
         ]
       }
     ],

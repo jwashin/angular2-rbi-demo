@@ -1,21 +1,26 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.pipe_resolver",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/src/core/di.dart",
         "2": [
-          "resolveForwardRef",
           "Injectable"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/metadata.dart",
         "2": [
-          "Type",
-          "isPresent",
-          "stringify"
+          "Pipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflection.dart",
+        "2": [
+          "Reflector",
+          "reflector"
         ],
         "5": false
       },
@@ -23,27 +28,6 @@
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
           "BaseException"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/metadata.dart",
-        "2": [
-          "PipeMetadata"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflector_reader.dart",
-        "2": [
-          "ReflectorReader"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflection.dart",
-        "2": [
-          "reflector"
         ],
         "5": false
       }
@@ -59,7 +43,7 @@
         ],
         "5": [
           {
-            "1": "ReflectorReader",
+            "1": "Reflector",
             "4": "_reflector"
           }
         ]
@@ -68,39 +52,24 @@
     "6": "pipe_resolver.dart",
     "7": [
       {
-        "1": "package:angular2/src/core/di.ngfactory.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
+        "1": "package:angular2/src/core/metadata.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ngfactory.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/metadata.ngfactory.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i3"
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflector_reader.ngfactory.dart",
-        "4": "i4"
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflection.ngfactory.dart",
-        "4": "i5"
       }
     ]
   },
   "type": {
-    "_isPipeMetadata": {
-      "class": "Identifier",
-      "name": "_isPipeMetadata",
-      "moduleUrl": "asset:angular2/lib/src/compiler/pipe_resolver.dart",
-      "prefix": null,
-      "value": null
-    },
     "PipeResolver": {
       "class": "Type",
       "name": "PipeResolver",
@@ -114,15 +83,13 @@
             "value": null,
             "identifier": {
               "class": "Identifier",
-              "name": "ReflectorReader",
-              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+              "name": "Reflector",
+              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
               "prefix": null,
               "value": null
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -132,6 +99,13 @@
           "isValue": false
         }
       ]
+    },
+    "_isPipeMetadata": {
+      "class": "Identifier",
+      "name": "_isPipeMetadata",
+      "moduleUrl": "asset:angular2/lib/src/compiler/pipe_resolver.dart",
+      "prefix": null,
+      "value": null
     }
   },
   "alias": {}

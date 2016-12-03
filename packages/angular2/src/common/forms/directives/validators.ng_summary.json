@@ -1,28 +1,17 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.forms.directives.validators",
+    "1": "",
     "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
       {
         "1": "package:angular2/core.dart",
         "2": [
           "Provider",
           "Attribute",
           "Directive"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "NumberWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "../validators.dart",
-        "2": [
-          "Validators",
-          "NG_VALIDATORS"
         ],
         "5": false
       },
@@ -34,8 +23,11 @@
         "5": false
       },
       {
-        "1": "../model.dart",
-        "4": "modelModule",
+        "1": "../validators.dart",
+        "2": [
+          "Validators",
+          "NG_VALIDATORS"
+        ],
         "5": false
       }
     ],
@@ -127,6 +119,7 @@
           "value": null
         },
         "useFactory": null,
+        "useProperty": null,
         "multi": true,
         "deps": null
       }
@@ -177,6 +170,7 @@
         },
         "useValue": null,
         "useFactory": null,
+        "useProperty": null,
         "multi": true,
         "deps": null
       }
@@ -213,6 +207,7 @@
         },
         "useValue": null,
         "useFactory": null,
+        "useProperty": null,
         "multi": true,
         "deps": null
       }
@@ -249,6 +244,7 @@
         },
         "useValue": null,
         "useFactory": null,
+        "useProperty": null,
         "multi": true,
         "deps": null
       }
@@ -274,8 +270,9 @@
         "value": null,
         "diDeps": []
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -314,8 +311,6 @@
               "identifier": null,
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": true,
             "isSelf": false,
@@ -326,8 +321,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -366,8 +362,6 @@
               "identifier": null,
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": true,
             "isSelf": false,
@@ -378,8 +372,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -418,8 +413,6 @@
               "identifier": null,
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": true,
             "isSelf": false,
@@ -430,8 +423,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},

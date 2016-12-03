@@ -1,13 +1,7 @@
 {
   "ngDeps": {
-    "1": "angular2.src.facade.facade",
+    "1": "",
     "4": [
-      {
-        "1": "lang.dart",
-        "2": [
-          "Type"
-        ]
-      },
       {
         "1": "async.dart",
         "2": [
@@ -16,15 +10,15 @@
         ]
       },
       {
-        "1": "exceptions.dart",
-        "2": [
-          "WrappedException"
-        ]
-      },
-      {
         "1": "exception_handler.dart",
         "2": [
           "ExceptionHandler"
+        ]
+      },
+      {
+        "1": "exceptions.dart",
+        "2": [
+          "WrappedException"
         ]
       }
     ],

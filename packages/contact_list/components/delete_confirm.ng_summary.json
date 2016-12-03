@@ -67,8 +67,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -89,8 +87,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -111,8 +107,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -123,8 +117,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -132,7 +127,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<div class=\"wide-card mdl-card mdl-shadow--4dp\"\n     [ngClass]=\"{'mdl-color--red-100':contact.contactType=='friend',\n                   'mdl-color--blue-100':contact.contactType=='family',\n                   'mdl-color--yellow-100':contact.contactType=='work'}\">\n  <div class=\"mdl-card__title\">\n    <h2 class=\"mdl-card__title-text\">\n      <i class=\"material-icons mdl-color-text--red\">warning</i>\n      Are you sure you want to delete\n      {{contact.first}} {{contact.last}}?</h2>\n  </div>\n  <div class=\"mdl-card__actions mdl-card--border\">\n    <button (click)=\"deleteItem(contact.uuid)\"\n            class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n      Really Delete\n    </button>\n        <button (click)=\"cancel()\"\n            class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n      Cancel\n    </button>\n\n  </div>\n</div>\n",
+        "template": "<div class=\"wide-card mdl-card mdl-shadow--4dp\"\n     [ngClass]=\"{'mdl-color--red-100':contact.contactType=='friend',\n                   'mdl-color--blue-100':contact.contactType=='family',\n                   'mdl-color--yellow-100':contact.contactType=='work'}\">\n  <div class=\"mdl-card__title\">\n    <h2 class=\"mdl-card__title-text\">\n      <i class=\"material-icons mdl-color-text--red\">warning</i>\n      Are you sure you want to delete\n      {{contact.first}} {{contact.last}}?</h2>\n  </div>\n  <div class=\"mdl-card__actions mdl-card--border\">\n    <button (click)=\"deleteItem(contact.uuid)\"\n            class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n      Really Delete\n    </button>\n    <button (click)=\"cancel()\"\n            class=\"mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect\">\n      Cancel\n    </button>\n\n  </div>\n</div>\n",
         "templateUrl": "asset:contact_list/lib/components/delete_confirm.html",
         "styles": [],
         "styleUrls": [],

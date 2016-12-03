@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.pipes.common_pipes",
+    "1": "",
     "3": [
       {
         "1": "async_pipe.dart",
@@ -10,16 +10,9 @@
         "5": false
       },
       {
-        "1": "uppercase_pipe.dart",
+        "1": "date_pipe.dart",
         "2": [
-          "UpperCasePipe"
-        ],
-        "5": false
-      },
-      {
-        "1": "lowercase_pipe.dart",
-        "2": [
-          "LowerCasePipe"
+          "DatePipe"
         ],
         "5": false
       },
@@ -31,16 +24,9 @@
         "5": false
       },
       {
-        "1": "slice_pipe.dart",
+        "1": "lowercase_pipe.dart",
         "2": [
-          "SlicePipe"
-        ],
-        "5": false
-      },
-      {
-        "1": "date_pipe.dart",
-        "2": [
-          "DatePipe"
+          "LowerCasePipe"
         ],
         "5": false
       },
@@ -61,16 +47,16 @@
         "5": false
       },
       {
-        "1": "i18n_plural_pipe.dart",
+        "1": "slice_pipe.dart",
         "2": [
-          "I18nPluralPipe"
+          "SlicePipe"
         ],
         "5": false
       },
       {
-        "1": "i18n_select_pipe.dart",
+        "1": "uppercase_pipe.dart",
         "2": [
-          "I18nSelectPipe"
+          "UpperCasePipe"
         ],
         "5": false
       }
@@ -78,44 +64,36 @@
     "6": "common_pipes.dart",
     "7": [
       {
-        "1": "async_pipe.ngfactory.dart",
+        "1": "async_pipe.template.dart",
         "4": "i0"
       },
       {
-        "1": "uppercase_pipe.ngfactory.dart",
+        "1": "date_pipe.template.dart",
         "4": "i1"
       },
       {
-        "1": "lowercase_pipe.ngfactory.dart",
+        "1": "json_pipe.template.dart",
         "4": "i2"
       },
       {
-        "1": "json_pipe.ngfactory.dart",
+        "1": "lowercase_pipe.template.dart",
         "4": "i3"
       },
       {
-        "1": "slice_pipe.ngfactory.dart",
+        "1": "number_pipe.template.dart",
         "4": "i4"
       },
       {
-        "1": "date_pipe.ngfactory.dart",
+        "1": "replace_pipe.template.dart",
         "4": "i5"
       },
       {
-        "1": "number_pipe.ngfactory.dart",
+        "1": "slice_pipe.template.dart",
         "4": "i6"
       },
       {
-        "1": "replace_pipe.ngfactory.dart",
+        "1": "uppercase_pipe.template.dart",
         "4": "i7"
-      },
-      {
-        "1": "i18n_plural_pipe.ngfactory.dart",
-        "4": "i8"
-      },
-      {
-        "1": "i18n_select_pipe.ngfactory.dart",
-        "4": "i9"
       }
     ]
   },
@@ -137,7 +115,28 @@
               "prefix": null,
               "isHost": false,
               "value": null,
-              "diDeps": []
+              "diDeps": [
+                {
+                  "token": {
+                    "value": null,
+                    "identifier": {
+                      "class": "Identifier",
+                      "name": "ChangeDetectorRef",
+                      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detector_ref.dart",
+                      "prefix": null,
+                      "value": null
+                    },
+                    "identifierIsInstance": false
+                  },
+                  "value": null,
+                  "isAttribute": false,
+                  "isSelf": false,
+                  "isHost": false,
+                  "isSkipSelf": false,
+                  "isOptional": false,
+                  "isValue": false
+                }
+              ]
             },
             "identifierIsInstance": false
           },
@@ -148,11 +147,33 @@
             "prefix": null,
             "isHost": false,
             "value": null,
-            "diDeps": []
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "ChangeDetectorRef",
+                    "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detector_ref.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
           },
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -183,6 +204,7 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -213,6 +235,7 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -243,6 +266,7 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -273,6 +297,7 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -303,6 +328,7 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -333,6 +359,7 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -363,6 +390,7 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -393,6 +421,7 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -423,66 +452,7 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
-          "multi": false,
-          "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Type",
-              "name": "I18nPluralPipe",
-              "moduleUrl": "asset:angular2/lib/src/common/pipes/i18n_plural_pipe.dart",
-              "prefix": null,
-              "isHost": false,
-              "value": null,
-              "diDeps": []
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": {
-            "class": "Type",
-            "name": "I18nPluralPipe",
-            "moduleUrl": "asset:angular2/lib/src/common/pipes/i18n_plural_pipe.dart",
-            "prefix": null,
-            "isHost": false,
-            "value": null,
-            "diDeps": []
-          },
-          "useExisting": null,
-          "useValue": null,
-          "useFactory": null,
-          "multi": false,
-          "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Type",
-              "name": "I18nSelectPipe",
-              "moduleUrl": "asset:angular2/lib/src/common/pipes/i18n_select_pipe.dart",
-              "prefix": null,
-              "isHost": false,
-              "value": null,
-              "diDeps": []
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": {
-            "class": "Type",
-            "name": "I18nSelectPipe",
-            "moduleUrl": "asset:angular2/lib/src/common/pipes/i18n_select_pipe.dart",
-            "prefix": null,
-            "isHost": false,
-            "value": null,
-            "diDeps": []
-          },
-          "useExisting": null,
-          "useValue": null,
-          "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         }
@@ -500,9 +470,7 @@
       "PercentPipe",
       "CurrencyPipe",
       "DatePipe",
-      "ReplacePipe",
-      "I18nPluralPipe",
-      "I18nSelectPipe"
+      "ReplacePipe"
     ]
   }
 }

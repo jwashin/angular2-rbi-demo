@@ -1,24 +1,9 @@
 {
   "ngDeps": {
-    "1": "angular2.src.router.rules.route_handlers.async_route_handler",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isPresent",
-          "Type"
-        ],
-        "5": false
-      },
-      {
-        "1": "route_handler.dart",
-        "2": [
-          "RouteHandler"
-        ],
         "5": false
       },
       {
@@ -28,21 +13,24 @@
           "BLANK_ROUTE_DATA"
         ],
         "5": false
+      },
+      {
+        "1": "route_handler.dart",
+        "2": [
+          "RouteHandler"
+        ],
+        "5": false
       }
     ],
     "6": "async_route_handler.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
+        "1": "../../instruction.template.dart",
         "4": "i0"
       },
       {
-        "1": "route_handler.ngfactory.dart",
+        "1": "route_handler.template.dart",
         "4": "i1"
-      },
-      {
-        "1": "../../instruction.ngfactory.dart",
-        "4": "i2"
       }
     ]
   },

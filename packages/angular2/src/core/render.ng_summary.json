@@ -1,12 +1,11 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.render",
+    "1": "",
     "4": [
       {
         "1": "render/api.dart",
         "2": [
           "RootRenderer",
-          "Renderer",
           "RenderComponentType"
         ]
       }

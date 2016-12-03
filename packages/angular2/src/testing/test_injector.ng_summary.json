@@ -1,12 +1,11 @@
 {
   "ngDeps": {
-    "1": "angular2.src.testing.test_injector",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/core.dart",
         "2": [
           "ReflectiveInjector",
-          "Provider",
           "PLATFORM_INITIALIZER"
         ],
         "5": false
@@ -14,48 +13,9 @@
       {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "BaseException",
-          "ExceptionHandler"
+          "BaseException"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "ListWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "FunctionWrapper",
-          "isPresent",
-          "Type"
-        ],
-        "5": false
-      },
-      {
-        "1": "async.dart",
-        "2": [
-          "async"
-        ],
-        "5": false
-      },
-      {
-        "1": "async_test_completer.dart",
-        "2": [
-          "AsyncTestCompleter"
-        ],
-        "5": false
-      }
-    ],
-    "4": [
-      {
-        "1": "async.dart",
-        "2": [
-          "async"
-        ]
       }
     ],
     "6": "test_injector.dart"
@@ -113,6 +73,27 @@
     "injectAsync": {
       "class": "Identifier",
       "name": "injectAsync",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "value": null
+    },
+    "async": {
+      "class": "Identifier",
+      "name": "async",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "value": null
+    },
+    "emptyArray": {
+      "class": "Identifier",
+      "name": "emptyArray",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "value": null
+    },
+    "FunctionWithParamTokens": {
+      "class": "Identifier",
+      "name": "FunctionWithParamTokens",
       "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
       "prefix": null,
       "value": null

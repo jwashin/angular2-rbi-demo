@@ -1,25 +1,23 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.output.interpretive_view",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isPresent"
-        ],
+        "1": "package:angular2/src/core/linker/view_container.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view.dart",
-        "2": [
-          "AppView"
-        ],
+        "1": "package:angular2/src/core/linker/app_view.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/element.dart",
+        "1": "package:angular2/src/debug/debug_app_view.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/debug/debug_context.dart",
         "2": [
-          "AppElement"
+          "StaticNodeDebugInfo"
         ],
         "5": false
       },
@@ -31,35 +29,35 @@
         "5": false
       },
       {
-        "1": "output_interpreter.dart",
-        "2": [
-          "InstanceFactory",
-          "DynamicInstance"
-        ],
+        "1": "dynamic_instance.dart",
         "5": false
       }
     ],
     "6": "interpretive_view.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
+        "1": "package:angular2/src/core/linker/view_container.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/linker/view.ngfactory.dart",
+        "1": "package:angular2/src/core/linker/app_view.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/linker/element.ngfactory.dart",
+        "1": "package:angular2/src/debug/debug_app_view.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ngfactory.dart",
+        "1": "package:angular2/src/debug/debug_context.template.dart",
         "4": "i3"
       },
       {
-        "1": "output_interpreter.ngfactory.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "dynamic_instance.template.dart",
+        "4": "i5"
       }
     ]
   },

@@ -1,7 +1,12 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.application_tokens",
+    "1": "",
     "3": [
+      {
+        "1": "dart:math",
+        "4": "math",
+        "5": false
+      },
       {
         "1": "package:angular2/src/core/di.dart",
         "2": [
@@ -9,25 +14,13 @@
           "Provider"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "Math",
-          "StringWrapper"
-        ],
-        "5": false
       }
     ],
     "6": "application_tokens.dart",
     "7": [
       {
-        "1": "package:angular2/src/core/di.ngfactory.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
-      },
-      {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
-        "4": "i1"
       }
     ]
   },
@@ -63,11 +56,12 @@
           "useValue": null,
           "useFactory": {
             "class": "Identifier",
-            "name": "_appIdRandomProviderFactory",
+            "name": "appIdRandomProviderFactory",
             "moduleUrl": "asset:angular2/lib/src/core/application_tokens.dart",
             "prefix": null,
             "value": null
           },
+          "useProperty": null,
           "multi": false,
           "deps": []
         }
@@ -94,9 +88,9 @@
       "prefix": null,
       "value": null
     },
-    "_appIdRandomProviderFactory": {
+    "appIdRandomProviderFactory": {
       "class": "Identifier",
-      "name": "_appIdRandomProviderFactory",
+      "name": "appIdRandomProviderFactory",
       "moduleUrl": "asset:angular2/lib/src/core/application_tokens.dart",
       "prefix": null,
       "value": null

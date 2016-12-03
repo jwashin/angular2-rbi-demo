@@ -1,21 +1,12 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.pipes.lowercase_pipe",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isString",
-          "isBlank"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/core.dart",
+        "1": "package:angular2/di.dart",
         "2": [
           "Injectable",
           "PipeTransform",
-          "WrappedValue",
           "Pipe"
         ],
         "5": false
@@ -67,7 +58,7 @@
         "diDeps": []
       },
       "name": "lowercase",
-      "pure": false
+      "pure": true
     }
   },
   "alias": {}

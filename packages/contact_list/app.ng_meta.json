@@ -97,35 +97,35 @@
     "6": "app.dart",
     "7": [
       {
-        "1": "package:angular2/angular2.ngfactory.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/router.ngfactory.dart",
+        "1": "package:angular2/router.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2_rbi/directives.ngfactory.dart",
+        "1": "package:angular2_rbi/directives.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:contact_list/services/contacts.ngfactory.dart",
+        "1": "package:contact_list/services/contacts.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:contact_list/components/contact_list.ngfactory.dart",
+        "1": "package:contact_list/components/contact_list.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:contact_list/components/json_export.ngfactory.dart",
+        "1": "package:contact_list/components/json_export.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:contact_list/components/delete_confirm.ngfactory.dart",
+        "1": "package:contact_list/components/delete_confirm.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:contact_list/components/edit_contact.ngfactory.dart",
+        "1": "package:contact_list/components/edit_contact.template.dart",
         "4": "i7"
       }
     ]
@@ -156,8 +156,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -178,8 +176,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -190,8 +186,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -233,8 +230,6 @@
                       },
                       "identifierIsInstance": false
                     },
-                    "query": null,
-                    "viewQuery": null,
                     "value": null,
                     "isAttribute": false,
                     "isSelf": false,

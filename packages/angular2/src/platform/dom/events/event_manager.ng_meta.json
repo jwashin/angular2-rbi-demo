@@ -1,15 +1,7 @@
 {
   "ngDeps": {
-    "1": "angular2.src.platform.dom.events.event_manager",
+    "1": "",
     "3": [
-      {
-        "1": "package:angular2/src/facade/exceptions.dart",
-        "2": [
-          "BaseException",
-          "WrappedException"
-        ],
-        "5": false
-      },
       {
         "1": "package:angular2/src/core/di.dart",
         "2": [
@@ -27,9 +19,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/collection.dart",
+        "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "ListWrapper"
+          "BaseException"
         ],
         "5": false
       }
@@ -62,20 +54,16 @@
     "6": "event_manager.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/exceptions.ngfactory.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ngfactory.dart",
+        "1": "package:angular2/src/core/zone/ng_zone.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/zone/ng_zone.ngfactory.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i2"
-      },
-      {
-        "1": "package:angular2/src/facade/collection.ngfactory.dart",
-        "4": "i3"
       }
     ]
   },
@@ -107,8 +95,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -129,8 +115,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,

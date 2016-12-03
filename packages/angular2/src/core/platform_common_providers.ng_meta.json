@@ -1,46 +1,11 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.platform_common_providers",
+    "1": "",
     "3": [
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "Type",
-          "isBlank",
-          "isPresent",
-          "assertionsEnabled"
-        ],
-        "5": false
-      },
       {
         "1": "package:angular2/src/core/di.dart",
         "2": [
-          "provide",
-          "Provider",
-          "Injector",
-          "OpaqueToken"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/console.dart",
-        "2": [
-          "Console"
-        ],
-        "5": false
-      },
-      {
-        "1": "reflection/reflection.dart",
-        "2": [
-          "Reflector",
-          "reflector"
-        ],
-        "5": false
-      },
-      {
-        "1": "reflection/reflector_reader.dart",
-        "2": [
-          "ReflectorReader"
+          "Provider"
         ],
         "5": false
       },
@@ -57,37 +22,33 @@
           "PLATFORM_CORE_PROVIDERS"
         ],
         "5": false
+      },
+      {
+        "1": "reflection/reflection.dart",
+        "2": [
+          "Reflector",
+          "reflector"
+        ],
+        "5": false
       }
     ],
     "6": "platform_common_providers.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ngfactory.dart",
+        "1": "package:angular2/src/core/testability/testability.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/console.ngfactory.dart",
+        "1": "application_ref.template.dart",
         "4": "i2"
       },
       {
-        "1": "reflection/reflection.ngfactory.dart",
+        "1": "reflection/reflection.template.dart",
         "4": "i3"
-      },
-      {
-        "1": "reflection/reflector_reader.ngfactory.dart",
-        "4": "i4"
-      },
-      {
-        "1": "package:angular2/src/core/testability/testability.ngfactory.dart",
-        "4": "i5"
-      },
-      {
-        "1": "application_ref.ngfactory.dart",
-        "4": "i6"
       }
     ]
   },
@@ -104,73 +65,28 @@
             "value": null,
             "identifier": {
               "class": "Type",
-              "name": "PlatformRef_",
+              "name": "PlatformRefImpl",
               "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
               "prefix": null,
               "isHost": false,
               "value": null,
-              "diDeps": [
-                {
-                  "token": {
-                    "value": null,
-                    "identifier": {
-                      "class": "Identifier",
-                      "name": "Injector",
-                      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
-                      "prefix": null,
-                      "value": null
-                    },
-                    "identifierIsInstance": false
-                  },
-                  "query": null,
-                  "viewQuery": null,
-                  "value": null,
-                  "isAttribute": false,
-                  "isSelf": false,
-                  "isHost": false,
-                  "isSkipSelf": false,
-                  "isOptional": false,
-                  "isValue": false
-                }
-              ]
+              "diDeps": []
             },
             "identifierIsInstance": false
           },
           "useClass": {
             "class": "Type",
-            "name": "PlatformRef_",
+            "name": "PlatformRefImpl",
             "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
             "prefix": null,
             "isHost": false,
             "value": null,
-            "diDeps": [
-              {
-                "token": {
-                  "value": null,
-                  "identifier": {
-                    "class": "Identifier",
-                    "name": "Injector",
-                    "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
-                    "prefix": null,
-                    "value": null
-                  },
-                  "identifierIsInstance": false
-                },
-                "query": null,
-                "viewQuery": null,
-                "value": null,
-                "isAttribute": false,
-                "isSelf": false,
-                "isHost": false,
-                "isSkipSelf": false,
-                "isOptional": false,
-                "isValue": false
-              }
-            ]
+            "diDeps": []
           },
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -192,40 +108,18 @@
             "value": null,
             "identifier": {
               "class": "Type",
-              "name": "PlatformRef_",
+              "name": "PlatformRefImpl",
               "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
               "prefix": null,
               "isHost": false,
               "value": null,
-              "diDeps": [
-                {
-                  "token": {
-                    "value": null,
-                    "identifier": {
-                      "class": "Identifier",
-                      "name": "Injector",
-                      "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
-                      "prefix": null,
-                      "value": null
-                    },
-                    "identifierIsInstance": false
-                  },
-                  "query": null,
-                  "viewQuery": null,
-                  "value": null,
-                  "isAttribute": false,
-                  "isSelf": false,
-                  "isHost": false,
-                  "isSkipSelf": false,
-                  "isOptional": false,
-                  "isValue": false
-                }
-              ]
+              "diDeps": []
             },
             "identifierIsInstance": false
           },
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -247,43 +141,14 @@
           "useValue": null,
           "useFactory": {
             "class": "Identifier",
-            "name": "_reflector",
+            "name": "reflectorFactory",
             "moduleUrl": "asset:angular2/lib/src/core/platform_common_providers.dart",
             "prefix": null,
             "value": null
           },
+          "useProperty": null,
           "multi": false,
           "deps": []
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "ReflectorReader",
-              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "Reflector",
-              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useValue": null,
-          "useFactory": null,
-          "multi": false,
-          "deps": null
         },
         {
           "class": "Provider",
@@ -312,44 +177,15 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
-          "multi": false,
-          "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Type",
-              "name": "Console",
-              "moduleUrl": "asset:angular2/lib/src/core/console.dart",
-              "prefix": null,
-              "isHost": false,
-              "value": null,
-              "diDeps": []
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": {
-            "class": "Type",
-            "name": "Console",
-            "moduleUrl": "asset:angular2/lib/src/core/console.dart",
-            "prefix": null,
-            "isHost": false,
-            "value": null,
-            "diDeps": []
-          },
-          "useExisting": null,
-          "useValue": null,
-          "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         }
       ]
     },
-    "_reflector": {
+    "reflectorFactory": {
       "class": "Identifier",
-      "name": "_reflector",
+      "name": "reflectorFactory",
       "moduleUrl": "asset:angular2/lib/src/core/platform_common_providers.dart",
       "prefix": null,
       "value": null

@@ -31,11 +31,11 @@
     "6": "material_menu.dart",
     "7": [
       {
-        "1": "material_ripple.ngfactory.dart",
+        "1": "material_ripple.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2_rbi/src/util/animation_frame.ngfactory.dart",
+        "1": "package:angular2_rbi/src/util/animation_frame.template.dart",
         "4": "i1"
       }
     ]

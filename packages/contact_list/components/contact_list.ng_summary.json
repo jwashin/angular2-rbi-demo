@@ -11,11 +11,11 @@
         "5": false
       },
       {
-        "1": "package:contact_list/services/contacts.dart",
+        "1": "package:angular2_rbi/directives.dart",
         "5": false
       },
       {
-        "1": "package:angular2_rbi/directives.dart",
+        "1": "package:contact_list/services/contacts.dart",
         "5": false
       }
     ],
@@ -74,8 +74,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -96,8 +94,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -118,8 +114,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -130,10 +124,11 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "filter": "filter"
       },
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},

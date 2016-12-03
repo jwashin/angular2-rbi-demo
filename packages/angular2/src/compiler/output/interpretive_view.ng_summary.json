@@ -1,25 +1,23 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.output.interpretive_view",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isPresent"
-        ],
+        "1": "package:angular2/src/core/linker/view_container.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view.dart",
-        "2": [
-          "AppView"
-        ],
+        "1": "package:angular2/src/core/linker/app_view.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/element.dart",
+        "1": "package:angular2/src/debug/debug_app_view.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/debug/debug_context.dart",
         "2": [
-          "AppElement"
+          "StaticNodeDebugInfo"
         ],
         "5": false
       },
@@ -31,11 +29,7 @@
         "5": false
       },
       {
-        "1": "output_interpreter.dart",
-        "2": [
-          "InstanceFactory",
-          "DynamicInstance"
-        ],
+        "1": "dynamic_instance.dart",
         "5": false
       }
     ],

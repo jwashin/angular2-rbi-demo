@@ -1,15 +1,7 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.linker.element_injector",
+    "1": "",
     "3": [
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isBlank",
-          "stringify"
-        ],
-        "5": false
-      },
       {
         "1": "package:angular2/src/core/di/injector.dart",
         "2": [
@@ -19,10 +11,7 @@
         "5": false
       },
       {
-        "1": "view.dart",
-        "2": [
-          "AppView"
-        ],
+        "1": "app_view.dart",
         "5": false
       }
     ],

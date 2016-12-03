@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.zone.ng_zone",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/src/facade/async.dart",
@@ -14,13 +14,6 @@
         "2": [
           "NgZoneImpl",
           "NgZoneError"
-        ],
-        "5": false
-      },
-      {
-        "1": "../../facade/exceptions.dart",
-        "2": [
-          "BaseException"
         ],
         "5": false
       }

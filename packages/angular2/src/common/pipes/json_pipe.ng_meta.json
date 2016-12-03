@@ -1,23 +1,20 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.pipes.json_pipe",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/di.dart",
         "2": [
-          "isBlank",
-          "isPresent",
-          "Json"
+          "Injectable",
+          "PipeTransform",
+          "Pipe"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/core.dart",
+        "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "Injectable",
-          "PipeTransform",
-          "WrappedValue",
-          "Pipe"
+          "Json"
         ],
         "5": false
       }
@@ -53,11 +50,11 @@
     "6": "json_pipe.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
+        "1": "package:angular2/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/core.ngfactory.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       }
     ]

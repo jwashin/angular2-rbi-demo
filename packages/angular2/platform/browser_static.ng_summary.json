@@ -7,24 +7,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "Type",
-          "isPresent",
-          "isBlank"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/browser_common.dart",
-        "2": [
-          "BROWSER_PROVIDERS",
-          "BROWSER_APP_COMMON_PROVIDERS",
-          "BROWSER_PLATFORM_MARKER"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/core.dart",
         "2": [
           "ComponentRef",
@@ -33,7 +15,38 @@
           "PlatformRef",
           "getPlatform",
           "createPlatform",
-          "assertPlatform"
+          "PLATFORM_INITIALIZER",
+          "MapInjector"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/application_ref.dart",
+        "2": [
+          "PlatformRefImpl"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflection.dart",
+        "2": [
+          "Reflector",
+          "reflector"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/testability/testability.dart",
+        "2": [
+          "TestabilityRegistry"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/platform/browser_common.dart",
+        "2": [
+          "BROWSER_APP_COMMON_PROVIDERS",
+          "createInitDomAdapter"
         ],
         "5": false
       }
@@ -46,11 +59,7 @@
         "1": "package:angular2/src/platform/browser_common.dart",
         "2": [
           "BROWSER_PROVIDERS",
-          "ELEMENT_PROBE_PROVIDERS",
-          "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
-          "inspectNativeElement",
           "BrowserDomAdapter",
-          "By",
           "Title",
           "enableDebugTools",
           "disableDebugTools"
@@ -65,7 +74,15 @@
       "name": "BROWSER_APP_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/platform/browser_static.dart",
       "prefix": null,
-      "value": null
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "BROWSER_APP_COMMON_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ]
     },
     "browserStaticPlatform": {
       "class": "Identifier",
@@ -82,5 +99,9 @@
       "value": null
     }
   },
-  "alias": {}
+  "alias": {
+    "BROWSER_APP_PROVIDERS": [
+      "BROWSER_APP_COMMON_PROVIDERS"
+    ]
+  }
 }

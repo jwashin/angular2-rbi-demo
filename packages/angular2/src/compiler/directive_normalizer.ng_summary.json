@@ -1,50 +1,9 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.directive_normalizer",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
-        "5": false
-      },
-      {
-        "1": "compile_metadata.dart",
-        "2": [
-          "CompileTypeMetadata",
-          "CompileDirectiveMetadata",
-          "CompileTemplateMetadata",
-          "CompileProviderMetadata",
-          "CompileTokenMetadata"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isPresent",
-          "isBlank",
-          "isArray"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/exceptions.dart",
-        "2": [
-          "BaseException"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "PromiseWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/compiler/xhr.dart",
-        "2": [
-          "XHR"
-        ],
         "5": false
       },
       {
@@ -55,10 +14,9 @@
         "5": false
       },
       {
-        "1": "style_url_resolver.dart",
+        "1": "package:angular2/src/compiler/xhr.dart",
         "2": [
-          "extractStyleUrls",
-          "isStyleUrlResolvable"
+          "XHR"
         ],
         "5": false
       },
@@ -77,18 +35,23 @@
         "5": false
       },
       {
-        "1": "html_ast.dart",
+        "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "HtmlAstVisitor",
-          "HtmlElementAst",
-          "HtmlTextAst",
-          "HtmlAttrAst",
-          "HtmlAst",
-          "HtmlCommentAst",
-          "HtmlExpansionAst",
-          "HtmlExpansionCaseAst",
-          "htmlVisitAll"
+          "BaseException"
         ],
+        "5": false
+      },
+      {
+        "1": "compile_metadata.dart",
+        "2": [
+          "CompileTypeMetadata",
+          "CompileDirectiveMetadata",
+          "CompileTemplateMetadata"
+        ],
+        "5": false
+      },
+      {
+        "1": "html_ast.dart",
         "5": false
       },
       {
@@ -99,10 +62,17 @@
         "5": false
       },
       {
+        "1": "style_url_resolver.dart",
+        "2": [
+          "extractStyleUrls",
+          "isStyleUrlResolvable"
+        ],
+        "5": false
+      },
+      {
         "1": "template_preparser.dart",
         "2": [
           "preparseElement",
-          "PreparsedElement",
           "PreparsedElementType"
         ],
         "5": false
@@ -156,8 +126,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -178,8 +146,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -200,8 +166,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,

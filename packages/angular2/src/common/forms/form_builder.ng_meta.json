@@ -1,41 +1,21 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.forms.form_builder",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/core.dart",
+        "1": "package:angular2/di.dart",
         "2": [
           "Injectable"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "StringMapWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isPresent",
-          "isArray",
-          "Type"
-        ],
+        "1": "directives/validators.dart",
         "5": false
       },
       {
         "1": "model.dart",
-        "4": "modelModule",
-        "5": false
-      },
-      {
-        "1": "directives/validators.dart",
-        "2": [
-          "ValidatorFn",
-          "AsyncValidatorFn"
-        ],
+        "4": "model_module",
         "5": false
       }
     ],
@@ -53,24 +33,16 @@
     "6": "form_builder.dart",
     "7": [
       {
-        "1": "package:angular2/core.ngfactory.dart",
+        "1": "package:angular2/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/collection.ngfactory.dart",
+        "1": "directives/validators.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
+        "1": "model.template.dart",
         "4": "i2"
-      },
-      {
-        "1": "model.ngfactory.dart",
-        "4": "i3"
-      },
-      {
-        "1": "directives/validators.ngfactory.dart",
-        "4": "i4"
       }
     ]
   },

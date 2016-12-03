@@ -1,25 +1,20 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.pipes.number_pipe",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/di.dart",
         "2": [
-          "isNumber",
-          "isPresent",
-          "isBlank",
-          "StringWrapper",
-          "NumberWrapper",
-          "RegExpWrapper",
-          "FunctionWrapper"
+          "Injectable",
+          "PipeTransform",
+          "Pipe"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "BaseException",
-          "WrappedException"
+          "BaseException"
         ],
         "5": false
       },
@@ -28,16 +23,6 @@
         "2": [
           "NumberFormatter",
           "NumberFormatStyle"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/core.dart",
-        "2": [
-          "Injectable",
-          "PipeTransform",
-          "WrappedValue",
-          "Pipe"
         ],
         "5": false
       },
@@ -150,7 +135,7 @@
         "diDeps": []
       },
       "name": "number",
-      "pure": false
+      "pure": true
     },
     "PercentPipe": {
       "class": "Pipe",
@@ -164,7 +149,7 @@
         "diDeps": []
       },
       "name": "percent",
-      "pure": false
+      "pure": true
     },
     "CurrencyPipe": {
       "class": "Pipe",
@@ -178,7 +163,7 @@
         "diDeps": []
       },
       "name": "currency",
-      "pure": false
+      "pure": true
     }
   },
   "alias": {}

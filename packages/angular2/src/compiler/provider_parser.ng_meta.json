@@ -1,44 +1,16 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.provider_parser",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "isPresent",
-          "isBlank",
-          "isArray"
+          "BaseException"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "ListWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "template_ast.dart",
-        "2": [
-          "TemplateAst",
-          "TemplateAstVisitor",
-          "NgContentAst",
-          "EmbeddedTemplateAst",
-          "ElementAst",
-          "ReferenceAst",
-          "BoundEventAst",
-          "BoundElementPropertyAst",
-          "AttrAst",
-          "BoundTextAst",
-          "TextAst",
-          "DirectiveAst",
-          "BoundDirectivePropertyAst",
-          "templateVisitAll",
-          "PropertyBindingType",
-          "ProviderAst",
-          "ProviderAstType"
-        ],
+        "1": "package:source_span/source_span.dart",
         "5": false
       },
       {
@@ -65,9 +37,18 @@
       {
         "1": "parse_util.dart",
         "2": [
-          "ParseSourceSpan",
-          "ParseError",
-          "ParseLocation"
+          "ParseError"
+        ],
+        "5": false
+      },
+      {
+        "1": "template_ast.dart",
+        "2": [
+          "ReferenceAst",
+          "AttrAst",
+          "DirectiveAst",
+          "ProviderAst",
+          "ProviderAstType"
         ],
         "5": false
       }
@@ -75,28 +56,24 @@
     "6": "provider_parser.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/collection.ngfactory.dart",
+        "1": "compile_metadata.template.dart",
         "4": "i1"
       },
       {
-        "1": "template_ast.ngfactory.dart",
+        "1": "identifiers.template.dart",
         "4": "i2"
       },
       {
-        "1": "compile_metadata.ngfactory.dart",
+        "1": "parse_util.template.dart",
         "4": "i3"
       },
       {
-        "1": "identifiers.ngfactory.dart",
+        "1": "template_ast.template.dart",
         "4": "i4"
-      },
-      {
-        "1": "parse_util.ngfactory.dart",
-        "4": "i5"
       }
     ]
   },
@@ -118,6 +95,13 @@
     "ProviderElementContext": {
       "class": "Identifier",
       "name": "ProviderElementContext",
+      "moduleUrl": "asset:angular2/lib/src/compiler/provider_parser.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AppProviderParser": {
+      "class": "Identifier",
+      "name": "AppProviderParser",
       "moduleUrl": "asset:angular2/lib/src/compiler/provider_parser.dart",
       "prefix": null,
       "value": null

@@ -1,7 +1,15 @@
 {
   "ngDeps": {
-    "1": "angular2.src.router.router_providers_common",
+    "1": "",
     "3": [
+      {
+        "1": "package:angular2/core.dart",
+        "2": [
+          "ApplicationRef",
+          "Provider"
+        ],
+        "5": false
+      },
       {
         "1": "package:angular2/platform/common.dart",
         "2": [
@@ -12,10 +20,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/router/router.dart",
+        "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "Router",
-          "RootRouter"
+          "BaseException"
         ],
         "5": false
       },
@@ -28,25 +35,10 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/router/router.dart",
         "2": [
-          "Type"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/core.dart",
-        "2": [
-          "ApplicationRef",
-          "OpaqueToken",
-          "Provider"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/exceptions.dart",
-        "2": [
-          "BaseException"
+          "Router",
+          "RootRouter"
         ],
         "5": false
       }
@@ -92,6 +84,7 @@
           "useExisting": null,
           "useValue": null,
           "useFactory": null,
+          "useProperty": null,
           "multi": false,
           "deps": null
         },
@@ -126,6 +119,7 @@
             "value": null,
             "diDeps": []
           },
+          "useProperty": null,
           "multi": false,
           "deps": [
             {
@@ -140,8 +134,6 @@
                 },
                 "identifierIsInstance": false
               },
-              "query": null,
-              "viewQuery": null,
               "value": null,
               "isAttribute": false,
               "isSelf": false,
@@ -162,8 +154,6 @@
                 },
                 "identifierIsInstance": false
               },
-              "query": null,
-              "viewQuery": null,
               "value": null,
               "isAttribute": false,
               "isSelf": false,
@@ -184,8 +174,6 @@
                 },
                 "identifierIsInstance": false
               },
-              "query": null,
-              "viewQuery": null,
               "value": null,
               "isAttribute": false,
               "isSelf": false,
@@ -206,8 +194,6 @@
                 },
                 "identifierIsInstance": false
               },
-              "query": null,
-              "viewQuery": null,
               "value": null,
               "isAttribute": false,
               "isSelf": false,
@@ -242,6 +228,7 @@
             "value": null,
             "diDeps": []
           },
+          "useProperty": null,
           "multi": false,
           "deps": [
             {
@@ -256,8 +243,6 @@
                 },
                 "identifierIsInstance": false
               },
-              "query": null,
-              "viewQuery": null,
               "value": null,
               "isAttribute": false,
               "isSelf": false,

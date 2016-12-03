@@ -1,22 +1,23 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.directive_resolver",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/src/core/di.dart",
         "2": [
-          "resolveForwardRef",
           "Injectable"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/metadata.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflection.dart",
         "2": [
-          "Type",
-          "isPresent",
-          "isBlank",
-          "stringify"
+          "Reflector",
+          "reflector"
         ],
         "5": false
       },
@@ -24,44 +25,6 @@
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
           "BaseException"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "ListWrapper",
-          "StringMapWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/metadata.dart",
-        "2": [
-          "DirectiveMetadata",
-          "ComponentMetadata",
-          "InputMetadata",
-          "OutputMetadata",
-          "HostBindingMetadata",
-          "HostListenerMetadata",
-          "ContentChildrenMetadata",
-          "ViewChildrenMetadata",
-          "ContentChildMetadata",
-          "ViewChildMetadata"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflection.dart",
-        "2": [
-          "reflector"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflector_reader.dart",
-        "2": [
-          "ReflectorReader"
         ],
         "5": false
       }
@@ -77,7 +40,7 @@
         ],
         "5": [
           {
-            "1": "ReflectorReader",
+            "1": "Reflector",
             "4": "_reflector"
           }
         ]
@@ -89,6 +52,13 @@
     "_isDirectiveMetadata": {
       "class": "Identifier",
       "name": "_isDirectiveMetadata",
+      "moduleUrl": "asset:angular2/lib/src/compiler/directive_resolver.dart",
+      "prefix": null,
+      "value": null
+    },
+    "NoDirectiveAnnotationError": {
+      "class": "Identifier",
+      "name": "NoDirectiveAnnotationError",
       "moduleUrl": "asset:angular2/lib/src/compiler/directive_resolver.dart",
       "prefix": null,
       "value": null
@@ -106,15 +76,13 @@
             "value": null,
             "identifier": {
               "class": "Identifier",
-              "name": "ReflectorReader",
+              "name": "Reflector",
               "moduleUrl": null,
               "prefix": null,
               "value": null
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,

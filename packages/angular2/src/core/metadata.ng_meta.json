@@ -1,38 +1,21 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.metadata",
+    "1": "",
     "3": [
-      {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "List"
-        ],
-        "5": false
-      },
       {
         "1": "package:angular2/src/core/change_detection/change_detection.dart",
         "5": false
       },
       {
-        "1": "./metadata/di.dart",
+        "1": "metadata/di.dart",
         "5": false
       },
       {
-        "1": "./metadata/directives.dart",
-        "5": false
-      },
-      {
-        "1": "./metadata/view.dart",
+        "1": "metadata/view.dart",
         "5": false
       }
     ],
     "4": [
-      {
-        "1": "./metadata/di.dart"
-      },
-      {
-        "1": "./metadata/directives.dart"
-      },
       {
         "1": "./metadata/view.dart",
         "3": [
@@ -40,7 +23,10 @@
         ]
       },
       {
-        "1": "./metadata/lifecycle_hooks.dart",
+        "1": "metadata/di.dart"
+      },
+      {
+        "1": "metadata/lifecycle_hooks.dart",
         "2": [
           "AfterContentInit",
           "AfterContentChecked",
@@ -56,28 +42,24 @@
     "6": "metadata.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/collection.ngfactory.dart",
+        "1": "package:angular2/src/core/change_detection/change_detection.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/change_detection/change_detection.ngfactory.dart",
+        "1": "metadata/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "./metadata/di.ngfactory.dart",
+        "1": "metadata/view.template.dart",
         "4": "i2"
       },
       {
-        "1": "./metadata/directives.ngfactory.dart",
+        "1": "./metadata/view.template.dart",
         "4": "i3"
       },
       {
-        "1": "./metadata/view.ngfactory.dart",
+        "1": "metadata/lifecycle_hooks.template.dart",
         "4": "i4"
-      },
-      {
-        "1": "./metadata/lifecycle_hooks.ngfactory.dart",
-        "4": "i5"
       }
     ]
   },
@@ -187,101 +169,17 @@
       "prefix": null,
       "value": null
     },
-    "AttributeMetadata": {
+    "Provides": {
       "class": "Identifier",
-      "name": "AttributeMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
+      "name": "Provides",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
       "value": null
     },
-    "QueryMetadata": {
+    "SkipAngularInitCheck": {
       "class": "Identifier",
-      "name": "QueryMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ContentChildrenMetadata": {
-      "class": "Identifier",
-      "name": "ContentChildrenMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ContentChildMetadata": {
-      "class": "Identifier",
-      "name": "ContentChildMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ViewQueryMetadata": {
-      "class": "Identifier",
-      "name": "ViewQueryMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ViewChildrenMetadata": {
-      "class": "Identifier",
-      "name": "ViewChildrenMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ViewChildMetadata": {
-      "class": "Identifier",
-      "name": "ViewChildMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "DirectiveMetadata": {
-      "class": "Identifier",
-      "name": "DirectiveMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ComponentMetadata": {
-      "class": "Identifier",
-      "name": "ComponentMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "PipeMetadata": {
-      "class": "Identifier",
-      "name": "PipeMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "InputMetadata": {
-      "class": "Identifier",
-      "name": "InputMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "OutputMetadata": {
-      "class": "Identifier",
-      "name": "OutputMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "HostBindingMetadata": {
-      "class": "Identifier",
-      "name": "HostBindingMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "HostListenerMetadata": {
-      "class": "Identifier",
-      "name": "HostListenerMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
+      "name": "SkipAngularInitCheck",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
       "value": null
     },
@@ -292,10 +190,59 @@
       "prefix": null,
       "value": null
     },
-    "ViewMetadata": {
+    "ProviderProperty": {
       "class": "Identifier",
-      "name": "ViewMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
+      "name": "ProviderProperty",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DependencyMetadata": {
+      "class": "Identifier",
+      "name": "DependencyMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Inject": {
+      "class": "Identifier",
+      "name": "Inject",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Injectable": {
+      "class": "Identifier",
+      "name": "Injectable",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Optional": {
+      "class": "Identifier",
+      "name": "Optional",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Self": {
+      "class": "Identifier",
+      "name": "Self",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "value": null
+    },
+    "SkipSelf": {
+      "class": "Identifier",
+      "name": "SkipSelf",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Host": {
+      "class": "Identifier",
+      "name": "Host",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
       "prefix": null,
       "value": null
     },

@@ -1,20 +1,14 @@
 {
   "ngDeps": {
-    "1": "angular.events",
+    "1": "",
     "3": [
       {
         "1": "dart:html",
         "5": false
       },
       {
-        "1": "./hammer_common.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/exceptions.dart",
-        "2": [
-          "BaseException"
-        ],
+        "1": "dart:js",
+        "4": "js",
         "5": false
       },
       {
@@ -27,8 +21,14 @@
         "5": false
       },
       {
-        "1": "dart:js",
-        "4": "js",
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "BaseException"
+        ],
+        "5": false
+      },
+      {
+        "1": "./hammer_common.dart",
         "5": false
       }
     ],
@@ -107,8 +107,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,

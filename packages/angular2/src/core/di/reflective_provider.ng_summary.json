@@ -1,26 +1,7 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.di.reflective_provider",
+    "1": "",
     "3": [
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "Type",
-          "isBlank",
-          "isPresent",
-          "isArray",
-          "isType"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "MapWrapper",
-          "ListWrapper"
-        ],
-        "5": false
-      },
       {
         "1": "package:angular2/src/core/reflection/reflection.dart",
         "2": [
@@ -29,22 +10,19 @@
         "5": false
       },
       {
-        "1": "reflective_key.dart",
-        "2": [
-          "ReflectiveKey"
-        ],
+        "1": "../metadata.dart",
         "5": false
       },
       {
-        "1": "metadata.dart",
+        "1": "decorators.dart",
+        "5": false
+      },
+      {
+        "1": "provider.dart",
         "2": [
-          "InjectMetadata",
-          "InjectableMetadata",
-          "OptionalMetadata",
-          "SelfMetadata",
-          "HostMetadata",
-          "SkipSelfMetadata",
-          "DependencyMetadata"
+          "Provider",
+          "provide",
+          "noValueProvided"
         ],
         "5": false
       },
@@ -58,35 +36,23 @@
         "5": false
       },
       {
-        "1": "forward_ref.dart",
-        "2": [
-          "resolveForwardRef"
-        ],
-        "5": false
-      },
-      {
-        "1": "provider.dart",
-        "2": [
-          "Provider",
-          "ProviderBuilder",
-          "provide"
-        ],
+        "1": "reflective_key.dart",
         "5": false
       }
     ],
     "6": "reflective_provider.dart"
   },
   "type": {
-    "_EMPTY_LIST": {
-      "class": "Identifier",
-      "name": "_EMPTY_LIST",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_provider.dart",
-      "prefix": null,
-      "value": []
-    },
     "ReflectiveDependency": {
       "class": "Identifier",
       "name": "ReflectiveDependency",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_provider.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_identityPostProcess": {
+      "class": "Identifier",
+      "name": "_identityPostProcess",
       "moduleUrl": "asset:angular2/lib/src/core/di/reflective_provider.dart",
       "prefix": null,
       "value": null
@@ -105,9 +71,9 @@
       "prefix": null,
       "value": null
     },
-    "ResolvedReflectiveProvider_": {
+    "ResolvedReflectiveProviderImpl": {
       "class": "Identifier",
-      "name": "ResolvedReflectiveProvider_",
+      "name": "ResolvedReflectiveProviderImpl",
       "moduleUrl": "asset:angular2/lib/src/core/di/reflective_provider.dart",
       "prefix": null,
       "value": null
@@ -183,7 +149,5 @@
       "value": null
     }
   },
-  "alias": {
-    "_EMPTY_LIST": []
-  }
+  "alias": {}
 }

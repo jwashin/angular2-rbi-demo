@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.src.router.directives.router_link",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/core.dart",
@@ -17,9 +17,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "../instruction.dart",
         "2": [
-          "isString"
+          "Instruction"
         ],
         "5": false
       },
@@ -27,13 +27,6 @@
         "1": "../router.dart",
         "2": [
           "Router"
-        ],
-        "5": false
-      },
-      {
-        "1": "../instruction.dart",
-        "2": [
-          "Instruction"
         ],
         "5": false
       }
@@ -81,8 +74,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -103,8 +94,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -115,11 +104,12 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "routeParams": "routerLink",
         "target": "target"
       },
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {
         "click": "onClick()"

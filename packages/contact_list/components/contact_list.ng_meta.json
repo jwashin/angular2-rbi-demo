@@ -11,11 +11,11 @@
         "5": false
       },
       {
-        "1": "package:contact_list/services/contacts.dart",
+        "1": "package:angular2_rbi/directives.dart",
         "5": false
       },
       {
-        "1": "package:angular2_rbi/directives.dart",
+        "1": "package:contact_list/services/contacts.dart",
         "5": false
       }
     ],
@@ -49,19 +49,19 @@
     "6": "contact_list.dart",
     "7": [
       {
-        "1": "package:angular2/angular2.ngfactory.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/router.ngfactory.dart",
+        "1": "package:angular2/router.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:contact_list/services/contacts.ngfactory.dart",
+        "1": "package:angular2_rbi/directives.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2_rbi/directives.ngfactory.dart",
+        "1": "package:contact_list/services/contacts.template.dart",
         "4": "i3"
       }
     ]
@@ -92,8 +92,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -114,8 +112,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -136,8 +132,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -148,10 +142,11 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "filter": "filter"
       },
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},

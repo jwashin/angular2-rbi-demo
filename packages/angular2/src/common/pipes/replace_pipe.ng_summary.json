@@ -1,21 +1,9 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.pipes.replace_pipe",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isBlank",
-          "isString",
-          "isNumber",
-          "isFunction",
-          "RegExpWrapper",
-          "StringWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/core.dart",
+        "1": "package:angular2/di.dart",
         "2": [
           "Injectable",
           "PipeTransform",
@@ -58,6 +46,13 @@
     "6": "replace_pipe.dart"
   },
   "type": {
+    "_Matcher": {
+      "class": "Identifier",
+      "name": "_Matcher",
+      "moduleUrl": "asset:angular2/lib/src/common/pipes/replace_pipe.dart",
+      "prefix": null,
+      "value": null
+    },
     "ReplacePipe": {
       "class": "Pipe",
       "type": {
@@ -70,7 +65,7 @@
         "diDeps": []
       },
       "name": "replace",
-      "pure": false
+      "pure": true
     }
   },
   "alias": {}

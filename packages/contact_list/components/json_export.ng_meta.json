@@ -3,15 +3,15 @@
     "1": "contact_list.components.json_export",
     "3": [
       {
+        "1": "dart:convert",
+        "5": false
+      },
+      {
         "1": "package:angular2/angular2.dart",
         "5": false
       },
       {
         "1": "package:contact_list/services/contacts.dart",
-        "5": false
-      },
-      {
-        "1": "dart:convert",
         "5": false
       }
     ],
@@ -29,11 +29,11 @@
     "6": "json_export.dart",
     "7": [
       {
-        "1": "package:angular2/angular2.ngfactory.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:contact_list/services/contacts.ngfactory.dart",
+        "1": "package:contact_list/services/contacts.template.dart",
         "4": "i1"
       }
     ]
@@ -64,8 +64,6 @@
               },
               "identifierIsInstance": false
             },
-            "query": null,
-            "viewQuery": null,
             "value": null,
             "isAttribute": false,
             "isSelf": false,
@@ -76,8 +74,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},

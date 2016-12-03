@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.zone",
+    "1": "",
     "4": [
       {
         "1": "zone/ng_zone.dart",
@@ -13,7 +13,7 @@
     "6": "zone.dart",
     "7": [
       {
-        "1": "zone/ng_zone.ngfactory.dart",
+        "1": "zone/ng_zone.template.dart",
         "4": "i0"
       }
     ]

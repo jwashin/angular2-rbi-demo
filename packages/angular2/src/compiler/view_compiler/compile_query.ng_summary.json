@@ -1,25 +1,13 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.view_compiler.compile_query",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "../compile_metadata.dart",
         "2": [
-          "isPresent",
-          "isBlank"
+          "CompileQueryMetadata",
+          "CompileTokenMap"
         ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "ListWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "../output/output_ast.dart",
-        "4": "o",
         "5": false
       },
       {
@@ -30,19 +18,8 @@
         "5": false
       },
       {
-        "1": "../compile_metadata.dart",
-        "2": [
-          "CompileQueryMetadata",
-          "CompileIdentifierMetadata",
-          "CompileTokenMap"
-        ],
-        "5": false
-      },
-      {
-        "1": "compile_view.dart",
-        "2": [
-          "CompileView"
-        ],
+        "1": "../output/output_ast.dart",
+        "4": "o",
         "5": false
       },
       {
@@ -60,7 +37,14 @@
         "5": false
       },
       {
-        "1": "util.dart",
+        "1": "compile_view.dart",
+        "2": [
+          "CompileView"
+        ],
+        "5": false
+      },
+      {
+        "1": "view_compiler_utils.dart",
         "2": [
           "getPropertyInView"
         ],

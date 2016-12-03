@@ -1,32 +1,71 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.runtime_metadata",
+    "1": "",
     "3": [
+      {
+        "1": "package:angular2/src/compiler/url_resolver.dart",
+        "2": [
+          "getUrlScheme"
+        ],
+        "5": false
+      },
       {
         "1": "package:angular2/src/core/di.dart",
         "2": [
-          "resolveForwardRef"
+          "Injectable",
+          "Inject",
+          "Optional"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/di/decorators.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/di/provider.dart",
         "2": [
-          "Type",
-          "isBlank",
-          "isPresent",
-          "isArray",
-          "stringify",
-          "isString",
-          "RegExpWrapper",
-          "StringWrapper"
+          "Provider"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/collection.dart",
+        "1": "package:angular2/src/core/di/reflective_provider.dart",
         "2": [
-          "StringMapWrapper"
+          "constructDependencies",
+          "ReflectiveDependency"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/metadata.dart",
+        "2": [
+          "View",
+          "Attribute",
+          "Query",
+          "Component"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/metadata/lifecycle_hooks.dart",
+        "2": [
+          "LIFECYCLE_HOOKS_VALUES"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/platform_directives_and_pipes.dart",
+        "2": [
+          "PLATFORM_DIRECTIVES",
+          "PLATFORM_PIPES"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflection.dart",
+        "2": [
+          "reflector"
         ],
         "5": false
       },
@@ -38,9 +77,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/di/reflective_exceptions.dart",
+        "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "NoAnnotationError"
+          "stringify"
         ],
         "5": false
       },
@@ -50,13 +89,18 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/metadata/directives.dart",
-        "4": "md",
+        "1": "compiler_utils.dart",
+        "2": [
+          "MODULE_SUFFIX",
+          "sanitizeIdentifier"
+        ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/metadata/di.dart",
-        "4": "dimd",
+        "1": "directive_lifecycle_reflector.dart",
+        "2": [
+          "hasLifecycleHook"
+        ],
         "5": false
       },
       {
@@ -77,106 +121,6 @@
         "1": "view_resolver.dart",
         "2": [
           "ViewResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/metadata/view.dart",
-        "2": [
-          "ViewMetadata"
-        ],
-        "5": false
-      },
-      {
-        "1": "directive_lifecycle_reflector.dart",
-        "2": [
-          "hasLifecycleHook"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/metadata/lifecycle_hooks.dart",
-        "2": [
-          "LifecycleHooks",
-          "LIFECYCLE_HOOKS_VALUES"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflection.dart",
-        "2": [
-          "reflector"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
-          "Injectable",
-          "Inject",
-          "Optional"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/platform_directives_and_pipes.dart",
-        "2": [
-          "PLATFORM_DIRECTIVES",
-          "PLATFORM_PIPES"
-        ],
-        "5": false
-      },
-      {
-        "1": "util.dart",
-        "2": [
-          "MODULE_SUFFIX",
-          "sanitizeIdentifier"
-        ],
-        "5": false
-      },
-      {
-        "1": "assertions.dart",
-        "2": [
-          "assertArrayOfStrings"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/compiler/url_resolver.dart",
-        "2": [
-          "getUrlScheme"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di/provider.dart",
-        "2": [
-          "Provider"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di/reflective_provider.dart",
-        "2": [
-          "constructDependencies",
-          "ReflectiveDependency"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di/metadata.dart",
-        "2": [
-          "OptionalMetadata",
-          "SelfMetadata",
-          "HostMetadata",
-          "SkipSelfMetadata"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflector_reader.dart",
-        "2": [
-          "ReflectorReader"
         ],
         "5": false
       }
@@ -220,10 +164,6 @@
               "const Inject(PLATFORM_PIPES)"
             ],
             "4": "_platformPipes"
-          },
-          {
-            "1": "ReflectorReader",
-            "4": "_reflector"
           }
         ]
       }
@@ -251,8 +191,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -273,8 +211,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -295,8 +231,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -317,8 +251,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -339,36 +271,12 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
           "isHost": false,
           "isSkipSelf": false,
           "isOptional": true,
-          "isValue": false
-        },
-        {
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "ReflectorReader",
-              "moduleUrl": null,
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "query": null,
-          "viewQuery": null,
-          "value": null,
-          "isAttribute": false,
-          "isSelf": false,
-          "isHost": false,
-          "isSkipSelf": false,
-          "isOptional": false,
           "isValue": false
         }
       ]

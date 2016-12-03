@@ -1,25 +1,20 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.pipes.number_pipe",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/di.dart",
         "2": [
-          "isNumber",
-          "isPresent",
-          "isBlank",
-          "StringWrapper",
-          "NumberWrapper",
-          "RegExpWrapper",
-          "FunctionWrapper"
+          "Injectable",
+          "PipeTransform",
+          "Pipe"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "BaseException",
-          "WrappedException"
+          "BaseException"
         ],
         "5": false
       },
@@ -28,16 +23,6 @@
         "2": [
           "NumberFormatter",
           "NumberFormatStyle"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/core.dart",
-        "2": [
-          "Injectable",
-          "PipeTransform",
-          "WrappedValue",
-          "Pipe"
         ],
         "5": false
       },
@@ -129,24 +114,20 @@
     "6": "number_pipe.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/lang.ngfactory.dart",
+        "1": "package:angular2/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ngfactory.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/intl.ngfactory.dart",
+        "1": "package:angular2/src/facade/intl.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/core.ngfactory.dart",
+        "1": "invalid_pipe_argument_exception.template.dart",
         "4": "i3"
-      },
-      {
-        "1": "invalid_pipe_argument_exception.ngfactory.dart",
-        "4": "i4"
       }
     ]
   },
@@ -172,7 +153,7 @@
         "diDeps": []
       },
       "name": "number",
-      "pure": false
+      "pure": true
     },
     "PercentPipe": {
       "class": "Pipe",
@@ -186,7 +167,7 @@
         "diDeps": []
       },
       "name": "percent",
-      "pure": false
+      "pure": true
     },
     "CurrencyPipe": {
       "class": "Pipe",
@@ -200,7 +181,7 @@
         "diDeps": []
       },
       "name": "currency",
-      "pure": false
+      "pure": true
     }
   },
   "alias": {}

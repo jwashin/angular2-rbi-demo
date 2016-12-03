@@ -1,0 +1,2 @@
+grind build-demo
+git push origin gh-pages

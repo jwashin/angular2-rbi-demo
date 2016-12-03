@@ -3,71 +3,71 @@
     <p *ngIf="uuid.isNotEmpty" class="mdl-card__title-text">Editing</p>
     <p *ngIf="uuid.isEmpty" class="mdl-card__title-text">New contact</p>
   </div>
-    <div class="mdl-card__supporting-text">
-      <div
-          class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" id="first"
-               [(ngModel)]="contact.first"
-               type="text" autofocus>
-        <label class="mdl-textfield__label" for="first">First
-          name</label>
-      </div>
-      <br>
-      <div
-          class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" id="last" [(ngModel)]="contact.last"
-               type="text">
-        <label class="mdl-textfield__label form-control" for="last">Last
-          name</label>
-      </div>
-      <br>
-      <div
-          class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" pattern="[0-9]*"
-               id="phone" [(ngModel)]="contact.phone"
-               type="text" maxlength="10">
-        <label class="mdl-textfield__label form-control"
-               for="phone">Phone</label>
-      </div>
-      <div>
-        <button id="family"
-                (click)="contact.contactType = 'family'"
-                [class.button-selected]="contact.contactType == 'family'"
-                class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect">
-          <i *ngIf="contact.contactType == 'family'"
-             class="material-icons align-left">check</i>
-          <i *ngIf="contact.contactType != 'family'"
-             class="material-icons align-left">clear</i>
-          Family
-        </button>
-        <br>
-
-        <button id="friend"
-                (click)="contact.contactType = 'friend'"
-                [class.button-selected]="contact.contactType == 'friend'"
-                class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect">
-          <i *ngIf="contact.contactType == 'friend'"
-             class="material-icons align-left">check</i>
-          <i *ngIf="contact.contactType != 'friend'"
-             class="material-icons align-left">clear</i>
-          Friend
-        </button>
-
-
-        <br>
-        <button id="work"
-                class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect"
-                [class.button-selected]="contact.contactType == 'work'"
-                (click)="contact.contactType = 'work'">
-          <i *ngIf="contact.contactType == 'work'"
-             class="material-icons align-left">check</i>
-          <i *ngIf="contact.contactType != 'work'"
-             class="material-icons align-left">clear</i>
-          Work
-        </button>
-
-      </div>
+  <div class="mdl-card__supporting-text">
+    <div
+        class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" id="first"
+             [(ngModel)]="contact.first"
+             type="text" autofocus>
+      <label class="mdl-textfield__label" for="first">First
+        name</label>
     </div>
+    <br>
+    <div
+        class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" id="last" [(ngModel)]="contact.last"
+             type="text">
+      <label class="mdl-textfield__label form-control" for="last">Last
+        name</label>
+    </div>
+    <br>
+    <div
+        class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+      <input class="mdl-textfield__input" pattern="[0-9]*"
+             id="phone" [(ngModel)]="contact.phone"
+             type="text" maxlength="10">
+      <label class="mdl-textfield__label form-control"
+             for="phone">Phone</label>
+    </div>
+    <div>
+      <button id="family"
+              (click)="contact.contactType = 'family'"
+              [class.button-selected]="contact.contactType == 'family'"
+              class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect">
+        <i *ngIf="contact.contactType == 'family'"
+           class="material-icons align-left">check</i>
+        <i *ngIf="contact.contactType != 'family'"
+           class="material-icons align-left">clear</i>
+        Family
+      </button>
+      <br>
+
+      <button id="friend"
+              (click)="contact.contactType = 'friend'"
+              [class.button-selected]="contact.contactType == 'friend'"
+              class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect">
+        <i *ngIf="contact.contactType == 'friend'"
+           class="material-icons align-left">check</i>
+        <i *ngIf="contact.contactType != 'friend'"
+           class="material-icons align-left">clear</i>
+        Friend
+      </button>
+
+
+      <br>
+      <button id="work"
+              class="mdl-button mdl-js-button mdl-button--raised contact-type-button mdl-js-ripple-effect"
+              [class.button-selected]="contact.contactType == 'work'"
+              (click)="contact.contactType = 'work'">
+        <i *ngIf="contact.contactType == 'work'"
+           class="material-icons align-left">check</i>
+        <i *ngIf="contact.contactType != 'work'"
+           class="material-icons align-left">clear</i>
+        Work
+      </button>
+
+    </div>
+  </div>
   <div class="mdl-card__actions mdl-card--border">
     <button (click)="saveItem()"
             class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">

@@ -1,0 +1,3 @@
+20161203 index.html uses css from MDL 1.2.1
+    demo compiled with angular2 v2.2.0
+    strong mode enabled in .analysis_options

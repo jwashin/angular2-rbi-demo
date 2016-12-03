@@ -2,8 +2,8 @@ library contact_list.components.contact_list;
 
 import 'package:angular2/angular2.dart';
 import 'package:angular2/router.dart';
-import 'package:contact_list/services/contacts.dart';
 import 'package:angular2_rbi/directives.dart';
+import 'package:contact_list/services/contacts.dart';
 
 @Component(
     selector: 'contact-list',
@@ -22,6 +22,7 @@ class ContactList {
     'work': 'work',
     'family': 'home'
   };
+
   ContactList(this._data, this._params, this._router) {
     if (_params.get('filter') != null) {
       filter = _params.get('filter');

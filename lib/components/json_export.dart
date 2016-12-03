@@ -1,8 +1,9 @@
 library contact_list.components.json_export;
 
+import 'dart:convert';
+
 import 'package:angular2/angular2.dart';
 import 'package:contact_list/services/contacts.dart';
-import 'dart:convert';
 
 @Component(
     selector: 'json-export',
